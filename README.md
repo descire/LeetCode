@@ -17,3 +17,4 @@
 | [『 257. Binary Tree Paths 』](https://leetcode.com/problems/binary-tree-paths/) | Easy | O(n) | O(n) | [点击查看代码](/tree/257/solution1.js) | 递归 |
 | [『 687. Longest Univalue Path 』](https://leetcode.com/problems/longest-univalue-path/) | Easy | O(n) | O(1) | [点击查看代码](/tree/687/solution2.js) | 递归 |
 | [『 617. Merge Two Binary Trees 』](https://leetcode.com/problems/merge-two-binary-trees/) | Easy | O(n) | O(n) | [点击查看代码](/tree/617/solution1.js) | 递归 |
+| [『 700. Search in a Binary Search Tree 』](https://leetcode.com/problems/search-in-a-binary-search-tree/) | Easy | O(n) | O(1) | [点击查看代码](/tree/700/solution1.js) | 递归 + BST特性 |
