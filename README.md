@@ -7,14 +7,15 @@
 
 | 题目 | 难度 | 时间复杂度 | 空间复杂度 | 代码 | 分析 |
 | :----- | :---: | :---: | :---: | :---: | :---: |
-| [『 413. Arithmetic Slices 』](https://leetcode.com/problems/arithmetic-slices/) | Medium | O(n) | O(1) | [点击查看代码](/dynamic-programming/413/solution2.js) | 暂无 |
+| [413. Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/) | Medium | O(n) | O(1) | [查看](/dynamic-programming/413/solution2.js) | 暂无 |
 
 ### Tree
 
 | 题目 | 难度 | 时间复杂度 | 空间复杂度 | 代码 | 分析 |
 | :----- | :---: | :---: | :---: | :---: | :---: |
-| [『 112. Path Sum 』](https://leetcode.com/problems/path-sum/) | Easy | O(n) | O(1) | [点击查看代码](/tree/112/solution1.js) | 递归 |
-| [『 257. Binary Tree Paths 』](https://leetcode.com/problems/binary-tree-paths/) | Easy | O(n) | O(n) | [点击查看代码](/tree/257/solution1.js) | 递归 |
-| [『 687. Longest Univalue Path 』](https://leetcode.com/problems/longest-univalue-path/) | Easy | O(n) | O(1) | [点击查看代码](/tree/687/solution2.js) | 递归 |
-| [『 617. Merge Two Binary Trees 』](https://leetcode.com/problems/merge-two-binary-trees/) | Easy | O(n) | O(n) | [点击查看代码](/tree/617/solution1.js) | 递归 |
-| [『 700. Search in a Binary Search Tree 』](https://leetcode.com/problems/search-in-a-binary-search-tree/) | Easy | O(n) | O(1) | [点击查看代码](/tree/700/solution1.js) | 递归 + BST特性 |
+| [112. Path Sum](https://leetcode.com/problems/path-sum/) | Easy | O(n) | O(1) | [查看](/tree/112/solution1.js) | 递归 |
+| [257. Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/) | Easy | O(n) | O(n) | [查看](/tree/257/solution1.js) | 递归 |
+| [687. Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/) | Easy | O(n) | O(1) | [查看](/tree/687/solution2.js) | 递归 |
+| [617. Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/) | Easy | O(n) | O(n) | [查看](/tree/617/solution1.js) | 递归 |
+| [700. Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/) | Easy | O(n) | O(1) | [查看](/tree/700/solution1.js) | 递归 + BST特性 |
+| [701. Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/) | Medium | O(n) | O(1) | [查看](/tree/700/solution1.js) | 递归 + BST特性 |
