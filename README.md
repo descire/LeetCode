@@ -21,3 +21,4 @@
 | [701. Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/) | Medium | O(n) | O(1) | [查看](/tree/700/solution1.js) | 递归 + BST特性 |
 | [654. Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/) | Medium | O(n^2) | O(n) | [查看](/tree/654/solution1.js) | 递归 |
 | [814. Binary Tree Pruning](https://leetcode.com/problems/binary-tree-pruning/) | Medium | O(n) | O(1) | [查看](/tree/814/solution1.js) | 递归 |
+| [894. All Possible Full Binary Trees](https://leetcode.com/problems/all-possible-full-binary-trees/) | Medium | -- | -- | [查看](/tree/894/solution2.js) | 递归 + 记忆化 |
