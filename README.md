@@ -5,6 +5,6 @@
 
 ### Dynamic Programming
 
-| 题目 | 难度 | 时间复杂度 | 空间复杂度 | 代码 | 分析过程 |
+| 题目 | 难度 | 时间复杂度 | 空间复杂度 | 代码 | 分析 |
 | :----- | :---: | :---: | :---: | :---: | :---: |
-| [『413. Arithmetic Slices』](https://leetcode.com/problems/arithmetic-slices/) | Medium | O(n) | O(1) | [点击查看代码](/dynamic-programming/413/solution2.js) | 暂无 |
+| [『 413. Arithmetic Slices 』](https://leetcode.com/problems/arithmetic-slices/) | Medium | O(n) | O(1) | [点击查看代码](/dynamic-programming/413/solution2.js) | 暂无 |
