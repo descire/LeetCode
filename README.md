@@ -19,3 +19,4 @@
 | [617. Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/) | Easy | O(n) | O(n) | [查看](/tree/617/solution1.js) | 递归 |
 | [700. Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/) | Easy | O(n) | O(1) | [查看](/tree/700/solution1.js) | 递归 + BST特性 |
 | [701. Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/) | Medium | O(n) | O(1) | [查看](/tree/700/solution1.js) | 递归 + BST特性 |
+| [654. Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/) | Medium | O(n^2) | O(n) | [查看](/tree/654/solution1.js) | 递归 |
