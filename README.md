@@ -51,3 +51,4 @@
 | [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | Medium | [查看](/tree/94/solution1.js) | 递归中序遍历 |
 | [865. Smallest Subtree with all the Deepest Nodes](https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/) | Medium | [查看](/tree/865/solution1.js) | 递归求解二叉树的高度 |
 | [508. Most Frequent Subtree Sum](https://leetcode.com/problems/most-frequent-subtree-sum/) | Medium | [查看](/tree/508/solution1.js) | 递归 |
+| [655. Print Binary Tree](https://leetcode.com/problems/print-binary-tree/) | Medium | [查看](/tree/655/solution1.js) | 准备写 |
