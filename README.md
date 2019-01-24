@@ -13,6 +13,7 @@
 
 | 题目 | 难度 | 时间复杂度 | 空间复杂度 | 代码 | 分析 |
 | :----- | :---: | :---: | :---: | :---: | :---: |
+| [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | Easy | -- | -- | [查看](/tree/104/solution1.js) | 递归 |
 | [110. Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) | Easy | -- | -- | [查看](/tree/110/solution1.js) | 递归 |
 | [111. Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/) | Easy | -- | -- | [查看](/tree/111/solution1.js) | 递归 |
 | [543. Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | Easy | -- | -- | [查看](/tree/543/solution1.js) | 递归 |
