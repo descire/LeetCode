@@ -66,3 +66,4 @@
 | [114. Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/) | Medium | [查看](/tree/114/solution1.js) | 递归 |
 | [103. Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) | Medium | [查看](/tree/103/solution1.js) | 层级遍历（队列） |
 | [662. Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/) | Medium | [查看](/tree/662/solution1.js) | 层级遍历（队列） |
+| [113. Path Sum II](https://leetcode.com/problems/path-sum-ii/) | Medium | [查看](/tree/113/solution1.js) | 递归 |
