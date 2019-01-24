@@ -53,3 +53,4 @@
 | [508. Most Frequent Subtree Sum](https://leetcode.com/problems/most-frequent-subtree-sum/) | Medium | [查看](/tree/508/solution1.js) | 递归 |
 | [655. Print Binary Tree](https://leetcode.com/problems/print-binary-tree/) | Medium | [查看](/tree/655/solution1.js) | 准备写 |
 | [144. Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) | Medium | [查看](/tree/144/solution1.js) | 递归前序遍历 |
+| [230. Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | Medium | [查看](/tree/230/solution1.js) | 递归 + BST特性 |
