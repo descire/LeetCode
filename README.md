@@ -45,3 +45,30 @@
 | [814. Binary Tree Pruning](https://leetcode.com/problems/binary-tree-pruning/) | Medium | [查看](/tree/814/solution1.js) | 递归 |
 | [894. All Possible Full Binary Trees](https://leetcode.com/problems/all-possible-full-binary-trees/) | Medium | [查看](/tree/894/solution2.js) | 递归 + 记忆化 |
 | [951. Flip Equivalent Binary Trees](https://leetcode.com/problems/flip-equivalent-binary-trees/) | Medium | [查看](/tree/951/solution1.js) | 递归 |
+| [513. Find Bottom Left Tree Value](https://leetcode.com/problems/find-bottom-left-tree-value/) | Medium | [查看](/tree/513/solution1.js) | 递归 + 层级遍历 |
+| [889. Construct Binary Tree from Preorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/) | Medium | [查看](/tree/889/solution1.js) | 准备写 |
+| [515. Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/) | Medium | [查看](/tree/515/solution1.js) | 层级遍历(队列) |
+| [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | Medium | [查看](/tree/94/solution1.js) | 递归中序遍历 |
+| [865. Smallest Subtree with all the Deepest Nodes](https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/) | Medium | [查看](/tree/865/solution1.js) | 递归求解二叉树的高度 |
+| [508. Most Frequent Subtree Sum](https://leetcode.com/problems/most-frequent-subtree-sum/) | Medium | [查看](/tree/508/solution1.js) | 递归 |
+| [655. Print Binary Tree](https://leetcode.com/problems/print-binary-tree/) | Medium | [查看](/tree/655/solution1.js) | 准备写 |
+| [144. Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) | Medium | [查看](/tree/144/solution1.js) | 递归前序遍历 |
+| [230. Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | Medium | [查看](/tree/230/solution1.js) | 递归 + BST特性 |
+| [623. Add One Row to Tree](https://leetcode.com/problems/add-one-row-to-tree/) | Medium | [查看](/tree/623/solution1.js) | 层级遍历（队列） |
+| [102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | Medium | [查看](/tree/102/solution1.js) | 层级遍历（队列） |
+| [199. Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) | Medium | [查看](/tree/199/solution1.js) | 层级遍历（递归） |
+| [958. Check Completeness of a Binary Tree](https://leetcode.com/problems/check-completeness-of-a-binary-tree/) | Medium | [查看](/tree/958/solution1.js) | -- |
+| [863. All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/) | Medium | [查看](/tree/863/solution1.js) | 无向图 + DFS |
+| [96. Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/) | Medium | [查看](/tree/96/solution1.js) | DP |
+| [652. Find Duplicate Subtrees](https://leetcode.com/problems/find-duplicate-subtrees/) | Medium | [查看](/tree/652/solution1.js) | 递归 |
+| [971. Flip Binary Tree To Match Preorder Traversal](https://leetcode.com/problems/flip-binary-tree-to-match-preorder-traversal/) | Medium | [查看](/tree/971/solution1.js) | 递归 |
+| [129. Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/) | Medium | [查看](/tree/129/solution1.js) | 递归 |
+| [114. Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/) | Medium | [查看](/tree/114/solution1.js) | 递归 |
+| [103. Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) | Medium | [查看](/tree/103/solution1.js) | 层级遍历（队列） |
+| [662. Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/) | Medium | [查看](/tree/662/solution1.js) | 层级遍历（队列） |
+| [113. Path Sum II](https://leetcode.com/problems/path-sum-ii/) | Medium | [查看](/tree/113/solution1.js) | 递归 |
+| [450. Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/) | Medium | [查看](/tree/450/solution1.js) | [分析](/tree/450/readme.md) |
+| [105. Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium | [查看](/tree/105/solution1.js) | 准备写 |
+| [106. Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/) | Medium | [查看](/tree/106/solution1.js) | 准备写 |
+| [236. Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | Medium | [查看](/tree/236/solution1.js) | 递归 |
+| [95. Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/) | Medium | [查看](/tree/95/solution1.js) | BST + 递归 + 组合 |
