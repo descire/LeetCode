@@ -13,6 +13,7 @@
 
 | 题目 | 难度 | 时间复杂度 | 空间复杂度 | 代码 | 分析 |
 | :----- | :---: | :---: | :---: | :---: | :---: |
+| [671. Second Minimum Node In a Binary Tree](https://leetcode.com/problems/second-minimum-node-in-a-binary-tree/) | Easy | -- | -- | [查看](/tree/671/solution1.js) | 递归 |
 | [100. Same Tree](https://leetcode.com/problems/same-tree/) | Easy | O(n) | O(1) | [查看](/tree/100/solution1.js) | 递归 |
 | [606. Construct String from Binary Tree](https://leetcode.com/problems/construct-string-from-binary-tree/) | Easy | O(n) | O(1) | [查看](/tree/606/solution1.js) | 递归 |
 | [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | Easy | O(n) | O(1) | [查看](/tree/226/solution1.js) | 递归 |
