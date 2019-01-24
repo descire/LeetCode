@@ -13,6 +13,7 @@
 
 | 题目 | 难度 | 时间复杂度 | 空间复杂度 | 代码 | 分析 |
 | :----- | :---: | :---: | :---: | :---: | :---: |
+| [653. Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/) | Easy | -- | -- | [查看](/tree/653/solution1.js) | 递归 |
 | [872. Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees/) | Easy | -- | -- | [查看](/tree/872/solution1.js) | 递归 |
 | [965. Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree/) | Easy | -- | -- | [查看](/tree/965/solution1.js) | 递归 |
 | [572. Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/) | Easy | -- | -- | [查看](/tree/572/solution1.js) | 递归 |
