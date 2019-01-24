@@ -23,4 +23,5 @@ const deleteNode = (root, key) => {
       return root.left ? root.left : root.right
     }
   }
+  return root
 }
