@@ -13,6 +13,7 @@
 
 | 题目 | 难度 | 时间复杂度 | 空间复杂度 | 代码 | 分析 |
 | :----- | :---: | :---: | :---: | :---: | :---: |
+| [965. Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree/) | Easy | -- | -- | [查看](/tree/965/solution1.js) | 递归 |
 | [572. Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/) | Easy | -- | -- | [查看](/tree/572/solution1.js) | 递归 |
 | [437. Path Sum III](https://leetcode.com/problems/path-sum-iii/) | Easy | -- | -- | [查看](/tree/437/solution1.js) | 递归 |
 | [101. Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) | Easy | -- | -- | [查看](/tree/101/solution1.js) | 递归 |
