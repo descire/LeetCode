@@ -46,3 +46,4 @@
 | [894. All Possible Full Binary Trees](https://leetcode.com/problems/all-possible-full-binary-trees/) | Medium | [查看](/tree/894/solution2.js) | 递归 + 记忆化 |
 | [951. Flip Equivalent Binary Trees](https://leetcode.com/problems/flip-equivalent-binary-trees/) | Medium | [查看](/tree/951/solution1.js) | 递归 |
 | [513. Find Bottom Left Tree Value](https://leetcode.com/problems/find-bottom-left-tree-value/) | Medium | [查看](/tree/513/solution1.js) | 递归 + 层级遍历 |
+| [889. Construct Binary Tree from Preorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/) | Medium | [查看](/tree/889/solution1.js) | 准备写 |
