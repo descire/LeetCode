@@ -13,6 +13,7 @@
 
 | 题目 | 难度 | 时间复杂度 | 空间复杂度 | 代码 | 分析 |
 | :----- | :---: | :---: | :---: | :---: | :---: |
+| [872. Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees/) | Easy | -- | -- | [查看](/tree/872/solution1.js) | 递归 |
 | [965. Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree/) | Easy | -- | -- | [查看](/tree/965/solution1.js) | 递归 |
 | [572. Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/) | Easy | -- | -- | [查看](/tree/572/solution1.js) | 递归 |
 | [437. Path Sum III](https://leetcode.com/problems/path-sum-iii/) | Easy | -- | -- | [查看](/tree/437/solution1.js) | 递归 |
