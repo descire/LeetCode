@@ -57,3 +57,4 @@
 | [623. Add One Row to Tree](https://leetcode.com/problems/add-one-row-to-tree/) | Medium | [查看](/tree/623/solution1.js) | 层级遍历（队列） |
 | [102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | Medium | [查看](/tree/102/solution1.js) | 层级遍历（队列） |
 | [199. Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) | Medium | [查看](/tree/199/solution1.js) | 层级遍历（递归） |
+| [958. Check Completeness of a Binary Tree](https://leetcode.com/problems/check-completeness-of-a-binary-tree/) | Medium | [查看](/tree/958/solution1.js) | -- |
