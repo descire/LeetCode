@@ -13,6 +13,7 @@
 
 | 题目 | 难度 | 时间复杂度 | 空间复杂度 | 代码 | 分析 |
 | :----- | :---: | :---: | :---: | :---: | :---: |
+| [543. Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | Easy | -- | -- | [查看](/tree/543/solution1.js) | 递归 |
 | [563. Binary Tree Tilt](https://leetcode.com/problems/binary-tree-tilt/) | Easy | -- | -- | [查看](/tree/563/solution1.js) | 递归 |
 | [107. Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/) | Easy | -- | -- | [查看](/tree/107/solution1.js) | 队列 |
 | [637. Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/) | Easy | -- | -- | [查看](/tree/637/solution1.js) | 递归 |
