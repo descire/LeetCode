@@ -13,6 +13,7 @@
 
 | 题目 | 难度 | 时间复杂度 | 空间复杂度 | 代码 | 分析 |
 | :----- | :---: | :---: | :---: | :---: | :---: |
+| [538. Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/) | Easy | -- | -- | [查看](/tree/538/solution1.js) | 递归 |
 | [669. Trim a Binary Search Tree](https://leetcode.com/problems/trim-a-binary-search-tree/) | Easy | -- | -- | [查看](/tree/669/solution1.js) | 递归 |
 | [897. Increasing Order Search Tree](https://leetcode.com/problems/increasing-order-search-tree/) | Easy | -- | -- | [查看](/tree/897/solution1.js) | 递归 |
 | [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | Easy | -- | -- | [查看](/tree/104/solution1.js) | 递归 |
