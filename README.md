@@ -62,3 +62,4 @@
 | [96. Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/) | Medium | [查看](/tree/96/solution1.js) | DP |
 | [652. Find Duplicate Subtrees](https://leetcode.com/problems/find-duplicate-subtrees/) | Medium | [查看](/tree/652/solution1.js) | 递归 |
 | [971. Flip Binary Tree To Match Preorder Traversal](https://leetcode.com/problems/flip-binary-tree-to-match-preorder-traversal/) | Medium | [查看](/tree/971/solution1.js) | 递归 |
+| [129. Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/) | Medium | [查看](/tree/129/solution1.js) | 递归 |
