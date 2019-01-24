@@ -54,3 +54,4 @@
 | [655. Print Binary Tree](https://leetcode.com/problems/print-binary-tree/) | Medium | [查看](/tree/655/solution1.js) | 准备写 |
 | [144. Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) | Medium | [查看](/tree/144/solution1.js) | 递归前序遍历 |
 | [230. Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | Medium | [查看](/tree/230/solution1.js) | 递归 + BST特性 |
+| [623. Add One Row to Tree](https://leetcode.com/problems/add-one-row-to-tree/) | Medium | [查看](/tree/623/solution1.js) | 分层遍历（队列） |
