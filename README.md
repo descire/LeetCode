@@ -13,6 +13,7 @@
 
 | 题目 | 难度 | 时间复杂度 | 空间复杂度 | 代码 | 分析 |
 | :----- | :---: | :---: | :---: | :---: | :---: |
+| [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | Easy | O(n) | O(1) | [查看](/tree/226/solution1.js) | 递归 |
 | [112. Path Sum](https://leetcode.com/problems/path-sum/) | Easy | O(n) | O(1) | [查看](/tree/112/solution1.js) | 递归 |
 | [257. Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/) | Easy | O(n) | O(n) | [查看](/tree/257/solution1.js) | 递归 |
 | [687. Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/) | Easy | O(n) | O(1) | [查看](/tree/687/solution2.js) | 递归 |
