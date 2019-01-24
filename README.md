@@ -48,3 +48,4 @@
 | [513. Find Bottom Left Tree Value](https://leetcode.com/problems/find-bottom-left-tree-value/) | Medium | [查看](/tree/513/solution1.js) | 递归 + 层级遍历 |
 | [889. Construct Binary Tree from Preorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/) | Medium | [查看](/tree/889/solution1.js) | 准备写 |
 | [515. Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/) | Medium | [查看](/tree/515/solution1.js) | 层级遍历(队列) |
+| [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | Medium | [查看](/tree/94/solution1.js) | 递归中序遍历 |
