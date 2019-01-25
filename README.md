@@ -73,3 +73,4 @@
 | [236. Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | Medium | [查看](/tree/236/solution1.js) | 递归 |
 | [95. Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/) | Medium | [查看](/tree/95/solution1.js) | BST + 递归 + 组合 |
 | [222. Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/) | Medium | [查看](/tree/222/solution1.js) | 递归 |
+| [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | Medium | [查看](/tree/98/solution1.js) | 递归 + BST特性 |
