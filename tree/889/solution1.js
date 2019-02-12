@@ -1,12 +1,20 @@
+/**
+ * https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/
+ * 
+ * 889. Construct Binary Tree from Preorder and Postorder Traversal
+ * 
+ * 【Medium】
+ * 
+ */
 const constructFromPrePost = (pre, post) => {
   if (pre.length === 0) {
     return null
   }
   // 拿出根节点
-  const x = pre.shift()
+  const rootValue = pre.shift()
   post.pop()
 
-  const root = new TreeNode(x)
+  const root = new TreeNode(rootValue)
 
   if (pre.length > 0) {
     // 左子树的根节点
