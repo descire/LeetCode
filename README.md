@@ -68,8 +68,8 @@
 | [113. Path Sum II](https://leetcode.com/problems/path-sum-ii/) | Medium | [查看](/tree/113/solution1.js) | 递归 |
 | [450. Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/) | Medium | [查看](/tree/450/solution1.js) | [解题思路](/tree/450/readme.md) |
 | [105. Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium | [查看](/tree/105/solution1.js) | [解题思路](/tree/105/readme.md) |
-| [106. Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/) | Medium | [查看](/tree/106/solution1.js) | [解题思路](/tree/106/readme.md) |
-| [889. Construct Binary Tree from Preorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/) | Medium | [查看](/tree/889/solution1.js) | [解题思路](/tree/889/readme.md) |
+| [106. Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/) | Medium | [查看](/tree/106/solution1.js) | [同105](/tree/105/readme.md) |
+| [889. Construct Binary Tree from Preorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/) | Medium | [查看](/tree/889/solution1.js) | [同105](/tree/105/readme.md) |
 | [236. Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | Medium | [查看](/tree/236/solution1.js) | 递归 |
 | [95. Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/) | Medium | [查看](/tree/95/solution1.js) | BST + 递归 + 组合 |
 | [222. Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/) | Medium | [查看](/tree/222/solution1.js) | 递归 |
