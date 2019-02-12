@@ -75,6 +75,6 @@
 | [222. Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/) | Medium | [查看](/tree/222/solution1.js) | 递归 |
 | [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | Medium | [查看](/tree/98/solution2.js) | 递归 + BST特性 |
 | [145. Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/) | Hard | [查看](/tree/145/solution1.js) | 递归 + 后序遍历 |
-| [99. Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/) | Hard | [查看](/tree/99/solution1.js) | 递归 + BST特性 |
+| [99. Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/) | Hard | [查看](/tree/99/solution1.js) | [解题思路](/tree/99/readme.md) |
 | [968. Binary Tree Cameras](https://leetcode.com/problems/binary-tree-cameras/) | Hard | [查看](/tree/968/solution1.js) | [解题思路](/tree/968/readme.md) |
 | [124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | Hard | [查看](/tree/124/solution1.js) | [解题思路](/tree/124/readme.md) |
