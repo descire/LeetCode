@@ -77,3 +77,4 @@
 | [145. Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/) | Hard | [查看](/tree/145/solution1.js) | 递归 + 后序遍历 |
 | [99. Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/) | Hard | [查看](/tree/99/solution1.js) | 递归 + BST特性 |
 | [968. Binary Tree Cameras](https://leetcode.com/problems/binary-tree-cameras/) | Hard | [查看](/tree/968/solution1.js) | [解题思路](/tree/968/readme.md) |
+| [124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | Hard | [查看](/tree/124/solution1.js) | [解题思路](/tree/124/readme.md) |
