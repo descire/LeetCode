@@ -5,9 +5,10 @@
 
 ### Dynamic Programming
 
-| 题目 | 难度 | 时间复杂度 | 空间复杂度 | 代码 | 分析 |
+| 题目 | 难度 | 代码 | 分析 |
 | :----- | :---: | :---: | :---: | :---: | :---: |
-| [413. Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/) | Medium | O(n) | O(1) | [查看](/dynamic-programming/413/solution2.js) | 暂无 |
+| [413. Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/) | Medium | [查看](/dynamic-programming/413/solution2.js) | 暂无 |
+| [980. Unique Paths III](https://leetcode.com/problems/unique-paths-iii/) | Hard | [查看](/dynamic-programming/980/solution1.js) | [解题思路](/dynamic-programming/980/readme.md) |
 
 ### Tree
 
