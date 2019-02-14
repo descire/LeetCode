@@ -11,6 +11,8 @@
 | [62. Unique Paths](https://leetcode.com/problems/unique-paths/) | Medium | [查看](/dynamic-programming/62/solution3.js) | [解题思路](/dynamic-programming/62/readme.md) |
 | [980. Unique Paths III](https://leetcode.com/problems/unique-paths-iii/) | Hard | [查看](/dynamic-programming/980/solution1.js) | [解题思路](/dynamic-programming/980/readme.md) |
 
+| [674. Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/) | Easy | [查看](/dynamic-programming/674/solution1.js) | [解题思路](/dynamic-programming/674/readme.md) |
+
 ### Tree
 
 | 题目 | 难度 | 代码 | 分析 |
