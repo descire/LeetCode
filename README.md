@@ -14,6 +14,7 @@
 | [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | Medium | [查看](/dynamic-programming/300/solution1.js) | [解题思路](/dynamic-programming/300/readme.md) |
 | [673. Number of Longest Increasing Subsequence](https://leetcode.com/problems/number-of-longest-increasing-subsequence/) | Medium | [查看](/dynamic-programming/673/solution1.js) | [解题思路](/dynamic-programming/673/readme.md) |
 | [198. House Robber](https://leetcode.com/problems/house-robber/) | Easy | [查看](/dynamic-programming/198/solution1.js) | [解题思路](/dynamic-programming/198/readme.md) |
+| [213. House Robber II](https://leetcode.com/problems/house-robber-ii/) | Medium | [查看](/dynamic-programming/213/solution1.js) | [解题思路](/dynamic-programming/213/readme.md) |
 
 ### Tree
 
