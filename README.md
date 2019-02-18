@@ -15,7 +15,11 @@
 | [673. Number of Longest Increasing Subsequence](https://leetcode.com/problems/number-of-longest-increasing-subsequence/) | Medium | [查看](/dynamic-programming/673/solution1.js) | [解题思路](/dynamic-programming/673/readme.md) |
 | [198. House Robber](https://leetcode.com/problems/house-robber/) | Easy | [查看](/dynamic-programming/198/solution1.js) | [解题思路](/dynamic-programming/198/readme.md) |
 | [213. House Robber II](https://leetcode.com/problems/house-robber-ii/) | Medium | [查看](/dynamic-programming/213/solution1.js) | [解题思路](/dynamic-programming/213/readme.md) |
-| [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Easy | [查看](/dynamic-programming/121/solution1.js) | [解题思路](/dynamic-programming/121/readme.md) |
+| [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Easy | [查看](/dynamic-programming/121/solution2.js) | [解题思路](/dynamic-programming/121/readme.md) |
+| [122. Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | Easy | [查看](/dynamic-programming/122/solution1.js) | [解题思路](/dynamic-programming/122/readme.md) |
+| [714. Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/) | Medium | [查看](/dynamic-programming/714/solution1.js) | [解题思路](/dynamic-programming/714/readme.md) |
+| [123. Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/) | Hard | [查看](/dynamic-programming/123/solution1.js) | [解题思路](/dynamic-programming/123/readme.md) |
+| [188. Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/) | Hard | [查看](/dynamic-programming/188/solution3.js) | [解题思路](/dynamic-programming/188/readme.md) |
 
 ### Tree
 
