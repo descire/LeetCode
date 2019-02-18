@@ -21,7 +21,8 @@
 | [123. Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/) | Hard | [查看](/dynamic-programming/123/solution1.js) | [解题思路](/dynamic-programming/123/readme.md) |
 | [188. Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/) | Hard | [查看](/dynamic-programming/188/solution3.js) | [解题思路](/dynamic-programming/188/readme.md) |
 | [746. Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/) | Easy | [查看](/dynamic-programming/746/solution1.js) | [解题思路](/dynamic-programming/746/readme.md) |
-| [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs//) | Easy | [查看](/dynamic-programming/70/solution1.js) | [解题思路](/dynamic-programming/70/readme.md) |
+| [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | Easy | [查看](/dynamic-programming/70/solution1.js) | [解题思路](/dynamic-programming/70/readme.md) |
+| [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | Easy | [查看](/dynamic-programming/53/solution1.js) | [解题思路](/dynamic-programming/53/readme.md) |
 
 ### Tree
 
