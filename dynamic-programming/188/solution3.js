@@ -18,24 +18,24 @@ const maxProfit = (k, prices) => {
   let dp = []
   
   // 初始状态
-  for (let i = 0; i < max; i++) {
+  for (let i = 0; i <= max; i++) {
     dp[i] = 0
   }
   for (let i = 1; i <= k; i++) {
     let maxDiff = Number.MIN_SAFE_INTEGER
-    let temp = [0]
-    for (let j = 1; j < max; j++) {
+    let temp = [0, 0]
+    for (let j = 2; j <= max; j++) {
       let max = temp[j - 1]
 
-      maxDiff = Math.max(maxDiff, dp[j - 1] - prices[j - 1])
+      maxDiff = Math.max(maxDiff, dp[j - 1] - prices[j - 2])
 
-      max = Math.max(max, prices[j] + maxDiff)
+      max = Math.max(max, prices[j - 1] + maxDiff)
 
       temp[j] = max
     }
     dp = temp
   }
-  return dp[max - 1]
+  return dp[max]
 
   function help (prices, max) {
     const hold = [-prices[0]]

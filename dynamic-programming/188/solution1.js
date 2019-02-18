@@ -15,7 +15,7 @@ const maxProfit = (k, prices) => {
   
   // 初始状态
   for (let i = 0; i <= k; i++) {
-    dp[i] = [0]
+    dp[i] = [0, 0]
     if (i === 0) {
       for (let j = 0; j <= max; j++) {
         dp[i][j] = 0
@@ -24,11 +24,11 @@ const maxProfit = (k, prices) => {
   }
 
   for (let i = 1; i <= k; i++) {
-    for (let j = 1; j <= max; j++) {
+    for (let j = 2; j <= max; j++) {
       let max = dp[i][j - 1]
 
-      for (let n = 0; n < j; n++) {
-        max = Math.max(max, prices[j - 1] - prices[n] + dp[i - 1][n])
+      for (let n = 1; n < j; n++) {
+        max = Math.max(max, prices[j - 1] - prices[n - 1] + dp[i - 1][n])
       }
 
       dp[i][j] = max
