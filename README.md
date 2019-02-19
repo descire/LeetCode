@@ -24,6 +24,7 @@
 | [746. Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/) | Easy | [查看](/dynamic-programming/746/solution1.js) | [解题思路](/dynamic-programming/746/readme.md) |
 | [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | Easy | [查看](/dynamic-programming/70/solution1.js) | [解题思路](/dynamic-programming/70/readme.md) |
 | [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | Easy | [查看](/dynamic-programming/53/solution1.js) | [解题思路](/dynamic-programming/53/readme.md) |
+| [983. Minimum Cost For Tickets](https://leetcode.com/problems/minimum-cost-for-tickets/) | Medium | [查看](/dynamic-programming/983/solution1.js) | [解题思路](/dynamic-programming/983/readme.md) |
 
 ### Tree
 
