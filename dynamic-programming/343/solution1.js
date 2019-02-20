@@ -19,6 +19,5 @@ const integerBreak = n => {
       }
     }
   }
-
   return dp[n]
 }
