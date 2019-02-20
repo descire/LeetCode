@@ -26,7 +26,7 @@
 | [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | Easy | [查看](/dynamic-programming/53/solution1.js) | [解题思路](/dynamic-programming/53/readme.md) |
 | [983. Minimum Cost For Tickets](https://leetcode.com/problems/minimum-cost-for-tickets/) | Medium | [查看](/dynamic-programming/983/solution1.js) | [解题思路](/dynamic-programming/983/readme.md) |
 | [638. Shopping Offers](https://leetcode.com/problems/shopping-offers/) | Medium | [查看](/dynamic-programming/638/solution1.js) | [解题思路](/dynamic-programming/638/readme.md) |
-
+| [343. Integer Break](https://leetcode.com/problems/integer-break/) | Medium | [动态规划](/dynamic-programming/638/solution1.js) [数学](/dynamic-programming/638/solution2.js) | [思路](/dynamic-programming/343/readme.md) |
 ### Tree
 
 | 题目 | 难度 | 代码 | 分析 |
