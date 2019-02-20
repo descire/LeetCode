@@ -27,6 +27,7 @@
 | [983. Minimum Cost For Tickets](https://leetcode.com/problems/minimum-cost-for-tickets/) | Medium | [查看](/dynamic-programming/983/solution1.js) | [解题思路](/dynamic-programming/983/readme.md) |
 | [638. Shopping Offers](https://leetcode.com/problems/shopping-offers/) | Medium | [递归思想](/dynamic-programming/638/solution1.js) | [思路](/dynamic-programming/638/readme.md) |
 | [343. Integer Break](https://leetcode.com/problems/integer-break/) | Medium | [动态规划](/dynamic-programming/343/solution1.js) [数学解法](/dynamic-programming/343/solution2.js) | [思路](/dynamic-programming/343/readme.md) |
+| [357. Count Numbers with Unique Digits](https://leetcode.com/problems/count-numbers-with-unique-digits/) | Medium | [数学解法](/dynamic-programming/357/solution1.js) | [思路](/dynamic-programming/357/readme.md) |
 ### Tree
 
 | 题目 | 难度 | 代码 | 分析 |
