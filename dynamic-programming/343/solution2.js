@@ -7,7 +7,7 @@
  * 
  */
 const integerBreak = n => {
-  const map = [0, 0, 1, 2, 4, 6, 9]
+  const map = [0, 0, 1, 2, 4]
 
   if (n === 2) {
     return 1
@@ -16,10 +16,10 @@ const integerBreak = n => {
     return 2
   }
   let ans = 1
-  while (n > 6) {
+  while (n > 4) {
     n -= 3
     ans *= 3
   }
 
-  return ans * map[n]
+  return ans * Math.max(map[n], n)
 }
