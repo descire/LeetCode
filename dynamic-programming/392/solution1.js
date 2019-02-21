@@ -7,6 +7,9 @@
  * Medium
  */
 const isSubsequence = (s, t) => {
+  if (s.length === 0) {
+    return true
+  }
   const l1 = s.length - 1
   const l2 = t.length - 1
 
@@ -35,11 +38,11 @@ const isSubsequence = (s, t) => {
     } else {
       e2--
     }
+
+    if (s1 > e1) {
+      return true
+    }
   }
 
-  if (s1 > e1) {
-    return true
-  } else {
-    return false
-  }
+  return false
 }
