@@ -30,6 +30,7 @@
 | [357. Count Numbers with Unique Digits](https://leetcode.com/problems/count-numbers-with-unique-digits/) | Medium | [排列](/dynamic-programming/357/solution1.js) | [思路](/dynamic-programming/357/readme.md) |
 | [486. Predict the Winner](https://leetcode.com/problems/predict-the-winner/) | Medium | [极大极小值算法](/dynamic-programming/486/solution2.js) | [思路](/dynamic-programming/486/readme.md) |
 | [392. Is Subsequence](https://leetcode.com/problems/is-subsequence/) | Medium | [左右扫描](/dynamic-programming/392/solution1.js) [尾递归](/dynamic-programming/392/solution2.js) | [思路](/dynamic-programming/392/readme.md) |
+| [650. 2 Keys Keyboard](https://leetcode.com/problems/2-keys-keyboard/) | Medium | [递归](/dynamic-programming/650/solution1.js) | [思路](/dynamic-programming/650/readme.md) |
 ### Tree
 
 | 题目 | 难度 | 代码 | 分析 |
