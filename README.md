@@ -33,6 +33,7 @@
 | [650. 2 Keys Keyboard](https://leetcode.com/problems/2-keys-keyboard/) | Medium | [递归](/dynamic-programming/650/solution1.js) | [思路](/dynamic-programming/650/readme.md) |
 | [516. Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/) | Medium | [动态规划](/dynamic-programming/516/solution2.js) | [思路](/dynamic-programming/516/readme.md) |
 | [873. Length of Longest Fibonacci Subsequence](https://leetcode.com/problems/length-of-longest-fibonacci-subsequence/) | Medium | [动态规划](/dynamic-programming/873/solution1.js) [Hashtable](/dynamic-programming/873/solution2.js) | [思路](/dynamic-programming/873/readme.md) |
+| [494. Target Sum](https://leetcode.com/problems/target-sum/) | Medium | [递归](/dynamic-programming/494/solution1.js) [动态规划](/dynamic-programming/494/solution2.js) | [思路](/dynamic-programming/494/readme.md) |
 ### Tree
 
 | 题目 | 难度 | 代码 | 分析 |
