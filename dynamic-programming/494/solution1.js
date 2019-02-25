@@ -8,9 +8,9 @@
 const findTargetSumWays = (nums, S) => {
   let ans = 0
   let max = nums.length - 1
-  help(0, S)
+  dfs(0, S)
   return ans
-  function help (startIndex, S) {
+  function dfs (startIndex, S) {
     if (startIndex === max) {
       if (S - nums[startIndex] === 0) {
         ans++
@@ -20,7 +20,7 @@ const findTargetSumWays = (nums, S) => {
       }
       return
     }
-    help(startIndex + 1, S - nums[startIndex])
-    help(startIndex + 1, S + nums[startIndex])
+    dfs(startIndex + 1, S - nums[startIndex])
+    dfs(startIndex + 1, S + nums[startIndex])
   }
 }
