@@ -7,7 +7,7 @@
 
 | 题目 | 难度 | 代码 | 分析 |
 | :----- | :---: | :---: | :---: |
-| [413. Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/) | Medium | [查看](/dynamic-programming/413/solution2.js) | 暂无 |
+| [413. Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/) | Medium | [动态规划](/dynamic-programming/413/solution2.js) | [思路](/dynamic-programming/413/readme.md) |
 | [62. Unique Paths](https://leetcode.com/problems/unique-paths/) | Medium | [查看](/dynamic-programming/62/solution3.js) | [解题思路](/dynamic-programming/62/readme.md) |
 | [63. Unique Paths II](https://leetcode.com/problems/unique-paths-ii/) | Medium | [查看](/dynamic-programming/63/solution2.js) | [解题思路](/dynamic-programming/63/readme.md) |
 | [980. Unique Paths III](https://leetcode.com/problems/unique-paths-iii/) | Hard | [查看](/dynamic-programming/980/solution1.js) | [解题思路](/dynamic-programming/980/readme.md) |
