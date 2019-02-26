@@ -8,23 +8,23 @@
 | 题目 | 难度 | 代码 | 分析 |
 | :----- | :---: | :---: | :---: |
 | [413. Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/) | Medium | [动态规划](/dynamic-programming/413/solution2.js) | [思路](/dynamic-programming/413/readme.md) |
-| [62. Unique Paths](https://leetcode.com/problems/unique-paths/) | Medium | [查看](/dynamic-programming/62/solution3.js) | [解题思路](/dynamic-programming/62/readme.md) |
-| [63. Unique Paths II](https://leetcode.com/problems/unique-paths-ii/) | Medium | [查看](/dynamic-programming/63/solution2.js) | [解题思路](/dynamic-programming/63/readme.md) |
-| [980. Unique Paths III](https://leetcode.com/problems/unique-paths-iii/) | Hard | [查看](/dynamic-programming/980/solution1.js) | [解题思路](/dynamic-programming/980/readme.md) |
-| [674. Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/) | Easy | [查看](/dynamic-programming/674/solution1.js) | [解题思路](/dynamic-programming/674/readme.md) |
-| [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | Medium | [查看](/dynamic-programming/300/solution1.js) | [解题思路](/dynamic-programming/300/readme.md) |
-| [673. Number of Longest Increasing Subsequence](https://leetcode.com/problems/number-of-longest-increasing-subsequence/) | Medium | [查看](/dynamic-programming/673/solution1.js) | [解题思路](/dynamic-programming/673/readme.md) |
-| [198. House Robber](https://leetcode.com/problems/house-robber/) | Easy | [查看](/dynamic-programming/198/solution1.js) | [解题思路](/dynamic-programming/198/readme.md) |
-| [213. House Robber II](https://leetcode.com/problems/house-robber-ii/) | Medium | [查看](/dynamic-programming/213/solution1.js) | [解题思路](/dynamic-programming/213/readme.md) |
-| [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Easy | [查看](/dynamic-programming/121/solution2.js) | [解题思路](/dynamic-programming/121/readme.md) |
-| [122. Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | Easy | [查看](/dynamic-programming/122/solution1.js) | [解题思路](/dynamic-programming/122/readme.md) |
-| [714. Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/) | Medium | [查看](/dynamic-programming/714/solution1.js) | [解题思路](/dynamic-programming/714/readme.md) |
-| [123. Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/) | Hard | [查看](/dynamic-programming/123/solution1.js) | [解题思路](/dynamic-programming/123/readme.md) |
-| [188. Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/) | Hard | [查看](/dynamic-programming/188/solution3.js) | [解题思路](/dynamic-programming/188/readme.md) |
-| [746. Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/) | Easy | [查看](/dynamic-programming/746/solution1.js) | [解题思路](/dynamic-programming/746/readme.md) |
-| [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | Easy | [查看](/dynamic-programming/70/solution1.js) | [解题思路](/dynamic-programming/70/readme.md) |
-| [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | Easy | [查看](/dynamic-programming/53/solution1.js) | [解题思路](/dynamic-programming/53/readme.md) |
-| [983. Minimum Cost For Tickets](https://leetcode.com/problems/minimum-cost-for-tickets/) | Medium | [查看](/dynamic-programming/983/solution1.js) | [解题思路](/dynamic-programming/983/readme.md) |
+| [62. Unique Paths](https://leetcode.com/problems/unique-paths/) | Medium | [DFS](/dynamic-programming/62/solution1.js) [动态规划](/dynamic-programming/62/solution3.js) | [思路](/dynamic-programming/62/readme.md) |
+| [63. Unique Paths II](https://leetcode.com/problems/unique-paths-ii/) | Medium | [动态规划](/dynamic-programming/63/solution2.js) | [思路](/dynamic-programming/63/readme.md) |
+| [980. Unique Paths III](https://leetcode.com/problems/unique-paths-iii/) | Hard | [DFS](/dynamic-programming/980/solution1.js) | [思路](/dynamic-programming/980/readme.md) |
+| [674. Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/) | Easy | [动态规划](/dynamic-programming/674/solution1.js) | [思路](/dynamic-programming/674/readme.md) |
+| [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | Medium | [动态规划](/dynamic-programming/300/solution1.js) | [思路](/dynamic-programming/300/readme.md) |
+| [673. Number of Longest Increasing Subsequence](https://leetcode.com/problems/number-of-longest-increasing-subsequence/) | Medium | [动态规划](/dynamic-programming/673/solution1.js) | [思路](/dynamic-programming/673/readme.md) |
+| [198. House Robber](https://leetcode.com/problems/house-robber/) | Easy | [动态规划](/dynamic-programming/198/solution1.js) | [思路](/dynamic-programming/198/readme.md) |
+| [213. House Robber II](https://leetcode.com/problems/house-robber-ii/) | Medium | [动态规划](/dynamic-programming/213/solution1.js) | [思路](/dynamic-programming/213/readme.md) |
+| [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Easy | [动态规划](/dynamic-programming/121/solution2.js) | [思路](/dynamic-programming/121/readme.md) |
+| [122. Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | Easy | [动态规划](/dynamic-programming/122/solution1.js) | [思路](/dynamic-programming/122/readme.md) |
+| [714. Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/) | Medium | [动态规划](/dynamic-programming/714/solution1.js) | [思路](/dynamic-programming/714/readme.md) |
+| [123. Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/) | Hard | [动态规划](/dynamic-programming/123/solution1.js) | [思路](/dynamic-programming/123/readme.md) |
+| [188. Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/) | Hard | [动态规划](/dynamic-programming/188/solution3.js) | [思路](/dynamic-programming/188/readme.md) |
+| [746. Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/) | Easy | [动态规划](/dynamic-programming/746/solution1.js) | [思路](/dynamic-programming/746/readme.md) |
+| [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | Easy | [动态规划](/dynamic-programming/70/solution1.js) | [思路](/dynamic-programming/70/readme.md) |
+| [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | Easy | [动态规划](/dynamic-programming/53/solution1.js) | [思路](/dynamic-programming/53/readme.md) |
+| [983. Minimum Cost For Tickets](https://leetcode.com/problems/minimum-cost-for-tickets/) | Medium | [动态规划](/dynamic-programming/983/solution1.js) | [思路](/dynamic-programming/983/readme.md) |
 | [638. Shopping Offers](https://leetcode.com/problems/shopping-offers/) | Medium | [递归思想](/dynamic-programming/638/solution1.js) | [思路](/dynamic-programming/638/readme.md) |
 | [343. Integer Break](https://leetcode.com/problems/integer-break/) | Medium | [动态规划](/dynamic-programming/343/solution1.js) [数学解法](/dynamic-programming/343/solution2.js) | [思路](/dynamic-programming/343/readme.md) |
 | [357. Count Numbers with Unique Digits](https://leetcode.com/problems/count-numbers-with-unique-digits/) | Medium | [排列](/dynamic-programming/357/solution1.js) | [思路](/dynamic-programming/357/readme.md) |
