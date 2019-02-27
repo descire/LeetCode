@@ -35,6 +35,7 @@
 | [873. Length of Longest Fibonacci Subsequence](https://leetcode.com/problems/length-of-longest-fibonacci-subsequence/) | Medium | [动态规划](/dynamic-programming/873/solution1.js) [Hashtable](/dynamic-programming/873/solution2.js) | [思路](/dynamic-programming/873/readme.md) |
 | [494. Target Sum](https://leetcode.com/problems/target-sum/) | Medium | [DFS](/dynamic-programming/494/solution1.js) [动态规划](/dynamic-programming/494/solution2.js) | [思路](/dynamic-programming/494/readme.md) |
 | [740. Delete and Earn](https://leetcode.com/problems/delete-and-earn/) | Medium | [动态规划](/dynamic-programming/740/solution1.js) | [思路](/dynamic-programming/740/readme.md) |
+| [718. Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/) | Medium | [动态规划](/dynamic-programming/718/solution1.js) | [思路](/dynamic-programming/718/readme.md) |
 ### Tree
 
 | 题目 | 难度 | 代码 | 分析 |
