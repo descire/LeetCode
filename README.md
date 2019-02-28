@@ -7,7 +7,6 @@
 
 | 题目 | 难度 | 代码 | 分析 |
 | :----- | :---: | :---: | :---: |
-| [413. Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/) | Medium | [动态规划](/dynamic-programming/413/solution2.js) | [思路](/dynamic-programming/413/readme.md) |
 | [62. Unique Paths](https://leetcode.com/problems/unique-paths/) | Medium | [DFS](/dynamic-programming/62/solution1.js) [动态规划](/dynamic-programming/62/solution3.js) | [思路](/dynamic-programming/62/readme.md) |
 | [63. Unique Paths II](https://leetcode.com/problems/unique-paths-ii/) | Medium | [动态规划](/dynamic-programming/63/solution2.js) | [思路](/dynamic-programming/63/readme.md) |
 | [980. Unique Paths III](https://leetcode.com/problems/unique-paths-iii/) | Hard | [DFS](/dynamic-programming/980/solution1.js) | [思路](/dynamic-programming/980/readme.md) |
@@ -36,6 +35,8 @@
 | [494. Target Sum](https://leetcode.com/problems/target-sum/) | Medium | [DFS](/dynamic-programming/494/solution1.js) [动态规划](/dynamic-programming/494/solution2.js) | [思路](/dynamic-programming/494/readme.md) |
 | [740. Delete and Earn](https://leetcode.com/problems/delete-and-earn/) | Medium | [动态规划](/dynamic-programming/740/solution1.js) | [思路](/dynamic-programming/740/readme.md) |
 | [718. Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/) | Medium | [动态规划](/dynamic-programming/718/solution1.js) | [思路](/dynamic-programming/718/readme.md) |
+| [413. Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/) | Medium | [动态规划](/dynamic-programming/413/solution2.js) | [思路](/dynamic-programming/413/readme.md) |
+| [446. Arithmetic Slices II - Subsequence](https://leetcode.com/problems/arithmetic-slices-ii-subsequence/) | Hard | [动态规划](/dynamic-programming/446/solution1.js) | [思路](/dynamic-programming/446/readme.md) |
 ### Tree
 
 | 题目 | 难度 | 代码 | 分析 |
