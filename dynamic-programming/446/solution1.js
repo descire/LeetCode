@@ -13,39 +13,20 @@ const numberOfArithmeticSlices = A => {
   }
 
   let ans = 0
-
-  const cache = {}
-
   const dp = new Array(max)
-
-  dp[0] = []
-  dp[1] = []
-
-  record(A[0], cache)
-  record(A[1], cache)
-
-  for (let i = 2; i < max; i++) {
+  dp[0] = {}
+  for (let i = 1; i < max; i++) {
     const item = A[i]
-    dp[i] = []
-    for (let j = i - 1; j >= 1; j--) {
+    dp[i] = {}
+    for (let j = 0; j < i; j++) {
       const pre = A[j]
       const diff = item - pre
-      const rest = pre - diff
+      dp[i][diff] = (dp[i][diff] || 0) + 1
+      if (dp[j][diff]) {
+        dp[i][diff] += dp[j][diff]
+        ans += dp[j][diff]
+      }
     }  
-    record(item, cache)
   }
-
-  for (let i = 0; i < dp.length; i++) {
-    const item = dp[i]
-    for (let j = 0; j < item.length; j++) {
-      ans += (item[j] || 0)
-    }
-  }
-
   return ans
-}
-
-function record (item, cache) {
-  cache[item] || (cache[item] = 0)
-  cache[item]++
 }
