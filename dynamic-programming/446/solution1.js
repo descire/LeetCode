@@ -13,18 +13,16 @@ const numberOfArithmeticSlices = A => {
   }
 
   let ans = 0
-  const dp = new Array(max)
-  dp[0] = {}
+  const dp = new Array(max).fill(0).map(() => new Map())
   for (let i = 1; i < max; i++) {
     const item = A[i]
-    dp[i] = {}
     for (let j = 0; j < i; j++) {
       const pre = A[j]
       const diff = item - pre
-      dp[i][diff] = (dp[i][diff] || 0) + 1
-      if (dp[j][diff]) {
-        dp[i][diff] += dp[j][diff]
-        ans += dp[j][diff]
+      dp[i].set(diff, (dp[i].get(diff) || 0) + 1)
+      if (dp[j].get(diff)) {
+        dp[i].set(diff, dp[i].get(diff) + dp[j].get(diff))
+        ans += dp[j].get(diff)
       }
     }  
   }
