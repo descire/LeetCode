@@ -6,7 +6,7 @@
  * 
  * Medium
  * 
- * DFS + hashmap
+ * DFS
  * 
  */
 var combinationSum = function(candidates, target) {
