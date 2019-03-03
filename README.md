@@ -40,6 +40,7 @@
 | [377. Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/) | Medium | [动态规划](/dynamic-programming/377/solution2.js) | [思路](/dynamic-programming/377/readme.md) |
 | [39. Combination Sum](https://leetcode.com/problems/combination-sum/) | Medium | [DFS + HashMap](/dynamic-programming/39/solution2.js) | [思路](/dynamic-programming/39/readme.md) |
 | [40. Combination Sum II](https://leetcode.com/problems/combination-sum-ii/) | Medium | [DFS + HashMap](/dynamic-programming/40/solution1.js) [DFS + sort](/dynamic-programming/40/solution2.js) | [思路](/dynamic-programming/40/readme.md) |
+| [216. Combination Sum III](https://leetcode.com/problems/combination-sum-iii/) | Medium | [DFS](/dynamic-programming/216/solution1.js) | [思路](/dynamic-programming/216/readme.md) |
 ### Tree
 
 | 题目 | 难度 | 代码 | 分析 |
