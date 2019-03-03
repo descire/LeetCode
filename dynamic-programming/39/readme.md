@@ -2,7 +2,7 @@
 
 ### 一、解题思路
 
-  &emsp;&mesp;本题要求列出所有组成目标值的具体方案，那么就很容易想到DFS搜索所有方案，并且通过HashMap去重解决问题：
+  &emsp;&emsp;本题要求列出所有组成目标值的具体方案，那么就很容易想到DFS搜索所有方案，并且通过HashMap去重解决问题：
 
 ```JavaScript
 const combinationSum = (candidates, target) => {
