@@ -6,30 +6,31 @@
  * 
  * Medium
  * 
- * DFS + HashMap 但是注意每个元素只能用一次
+ * DFS
  */
 const combinationSum2 = (candidates, target) => {
   const ans = []
-  const cache = new Map()
+  candidates.sort((a, b) => a - b)
 
   const dfs = (currentIndex, currentArray, sum) => {
     if (sum === 0) {
-      const a = currentArray.slice()
-      const key = a.sort().join()
-      if (!cache.get(key)) {
-        ans.push(a)
-        cache.set(key, true)
-      }
+      ans.push(currentArray.slice())
       return
     }
     if (sum < 0) {
       return
     }
+
+    let sameItem = null
     for (let i = currentIndex; i < candidates.length; i++) {
       const item = candidates[i]
+      if (i !== currentIndex && sameItem === item) {
+        continue
+      }
       currentArray.push(item)
       dfs(i + 1, currentArray, sum - item)
       currentArray.pop()
+      sameItem = item
     }
   }
 
