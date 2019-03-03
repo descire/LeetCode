@@ -38,7 +38,8 @@
 | [413. Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/) | Medium | [动态规划](/dynamic-programming/413/solution2.js) | [思路](/dynamic-programming/413/readme.md) |
 | [446. Arithmetic Slices II - Subsequence](https://leetcode.com/problems/arithmetic-slices-ii-subsequence/) | Hard | [动态规划](/dynamic-programming/446/solution1.js) | [思路](/dynamic-programming/446/readme.md) |
 | [377. Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/) | Medium | [动态规划](/dynamic-programming/377/solution2.js) | [思路](/dynamic-programming/377/readme.md) |
-| [39. Combination Sum](https://leetcode.com/problems/combination-sum/) | Medium | [DFS + HashMap](/dynamic-programming/39/solution1.js) | [思路](/dynamic-programming/39/readme.md) |
+| [39. Combination Sum](https://leetcode.com/problems/combination-sum/) | Medium | [DFS + HashMap](/dynamic-programming/39/solution2.js) | [思路](/dynamic-programming/39/readme.md) |
+| [40. Combination Sum II](https://leetcode.com/problems/combination-sum-ii/) | Medium | [DFS + HashMap](/dynamic-programming/40/solution1.js) | [思路](/dynamic-programming/40/readme.md) |
 ### Tree
 
 | 题目 | 难度 | 代码 | 分析 |
