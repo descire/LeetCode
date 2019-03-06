@@ -37,6 +37,8 @@ const canPartitionKSubsets = (nums, k) => {
           return true
         }
         cache[i] = false
+      } else {
+        break
       }
     }
     return false
