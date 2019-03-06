@@ -43,6 +43,7 @@
 | [216. Combination Sum III](https://leetcode.com/problems/combination-sum-iii/) | Medium | [DFS](/dynamic-programming/216/solution1.js) | [思路](/dynamic-programming/216/readme.md) |
 | [838. Push Dominoes](https://leetcode.com/problems/push-dominoes/) | Medium | [双指针 + 构造字符串](/dynamic-programming/838/solution1.js) | [思路](/dynamic-programming/838/readme.md) |
 | [688. Knight Probability in Chessboard](https://leetcode.com/problems/knight-probability-in-chessboard/) | Medium | [动态规划](/dynamic-programming/688/solution2.js) | [思路](/dynamic-programming/688/readme.md) |
+| [698. Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/) | Medium | [DFS](/dynamic-programming/698/solution1.js) | [思路](/dynamic-programming/698/readme.md) |
 ### Tree
 
 | 题目 | 难度 | 代码 | 分析 |
