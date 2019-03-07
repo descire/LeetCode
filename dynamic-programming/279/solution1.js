@@ -10,7 +10,7 @@ const numSquares = n => {
   dp[1] = 1
   for (let i = 2; i <= n; i++) {
     const s = Math.floor(Math.sqrt(i))
-    for (let j = i - 1; j >= 1; j--) {
+    for (let j = i - 1; j >= Math.floor(i / 2); j--) {
       if (Math.pow(s, 2) === i) {
         dp[i] = 1
       }
