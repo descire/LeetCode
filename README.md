@@ -46,6 +46,7 @@
 | [698. Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/) | Medium | [DFS](/dynamic-programming/698/solution1.js) | [思路](/dynamic-programming/698/readme.md) |
 | [279. Perfect Squares](https://leetcode.com/problems/perfect-squares/) | Medium | [动态规划](/dynamic-programming/279/solution2.js) | [思路](/dynamic-programming/279/readme.md) |
 | [416. Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | Medium | [0/1背包](/dynamic-programming/416/solution2.js) | [思路](/dynamic-programming/416/readme.md) |
+| [474. Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/) | Medium | [0/1背包](/dynamic-programming/474/solution1.js) | [思路](/dynamic-programming/474/readme.md) |
 
 ### Math
 
