@@ -51,6 +51,8 @@
 
 ### Math
 
+| 题目 | 难度 | 代码 | 分析 |
+| :----- | :---: | :---: | :---: |
 | [204. Count Primes](https://leetcode.com/problems/count-primes/) | Easy | [素数筛](/dynamic-programming/204/solution2.js) | [思路](/dynamic-programming/204/readme.md) |
 
 ### Tree
