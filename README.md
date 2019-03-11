@@ -60,8 +60,8 @@
 
 | 题目 | 难度 | 时间 | 空间 | 代码 | 分析 |
 | :----- | :---: | :---: | :---: | :---: | :---: |
-| [409. Longest Palindrome](https://leetcode.com/problems/longest-palindrome/) | Easy | 64ms(82.62%) | 35.6MB(68.75) | [Hashmap](/string/409/solution2.js) | [思路](/string/409/readme.md) |
-
+| [409. Longest Palindrome](https://leetcode.com/problems/longest-palindrome/) | Easy | 64ms(82.62%) | 35.6MB(68.75%) | [Hashmap](/string/409/solution1.js) | [思路](/string/409/readme.md) |
+| [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | Easy | 80ms(74.86%) | 38MB(58.16%) | [双指针](/string/125/solution1.js) | [思路](/string/125/readme.md) |
 
 
 ### Tree
