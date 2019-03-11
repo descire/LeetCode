@@ -54,7 +54,15 @@
 
 | 题目 | 难度 | 代码 | 分析 |
 | :----- | :---: | :---: | :---: |
-| [204. Count Primes](https://leetcode.com/problems/count-primes/) | Easy | [素数筛](/dynamic-programming/204/solution2.js) | [思路](/dynamic-programming/204/readme.md) |
+| [204. Count Primes](https://leetcode.com/problems/count-primes/) | Easy | [素数筛](/math/204/solution2.js) | [思路](/math/204/readme.md) |
+
+### String
+
+| 题目 | 难度 | 时间 | 空间 | 代码 | 分析 |
+| :----- | :---: | :---: | :---: | :---: | :---: |
+| [409. Longest Palindrome](https://leetcode.com/problems/longest-palindrome/) | Easy | 64ms(82.62%) | 35.6MB(68.75) | [Hashmap](/string/409/solution2.js) | [思路](/string/409/readme.md) |
+
+
 
 ### Tree
 
