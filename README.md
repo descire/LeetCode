@@ -63,6 +63,7 @@
 | [409. Longest Palindrome](https://leetcode.com/problems/longest-palindrome/) | Easy | 64ms(82.62%) | 35.6MB(68.75%) | [Hashmap](/string/409/solution1.js) | [思路](/string/409/readme.md) |
 | [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | Easy | 80ms(74.86%) | 38MB(58.16%) | [双指针](/string/125/solution1.js) | [思路](/string/125/readme.md) |
 | [680. Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/) | Easy | 92ms(95.36%) | 43.1 MB(34.78%) | [双指针](/string/680/solution1.js) | [思路](/string/680/readme.md) |
+| [131. Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/) | Medium | 76ms(92.39%) |  37.7 MB(100%) | [DFS](/string/131/solution1.js) | [思路](/string/131/readme.md) |
 
 
 ### Tree
