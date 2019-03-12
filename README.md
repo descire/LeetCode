@@ -64,6 +64,7 @@
 | [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | Easy | 80ms(74.86%) | 38MB(58.16%) | [双指针](/string/125/solution1.js) | [思路](/string/125/readme.md) |
 | [680. Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/) | Easy | 92ms(95.36%) | 43.1 MB(34.78%) | [双指针](/string/680/solution1.js) | [思路](/string/680/readme.md) |
 | [131. Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/) | Medium | 76ms(92.39%) |  37.7 MB(100%) | [DFS](/string/131/solution1.js) | [思路](/string/131/readme.md) |
+| [647. Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/) | Medium | 96ms(46.75%) |  59MB(15.00%) | [DFS](/string/647/solution1.js) | [思路](/string/647/readme.md) |
 
 
 ### Tree
