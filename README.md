@@ -51,6 +51,7 @@
 | [375. Guess Number Higher or Lower II](https://leetcode.com/problems/guess-number-higher-or-lower-ii/) | Medium | -- | -- | [动态规划](/dynamic-programming/375/solution1.js) | [思路](/dynamic-programming/375/readme.md) |
 | [376. Wiggle Subsequence](https://leetcode.com/problems/wiggle-subsequence/) | Medium | 56ms(73.91%) | 33.8MB(100%) | [动态规划](/dynamic-programming/376/solution1.js) | [思路](/dynamic-programming/376/readme.md) |
 | [967. Numbers With Same Consecutive Differences](https://leetcode.com/problems/numbers-with-same-consecutive-differences/) | Medium | 76ms(78.57%) | 36MB(33.33%) | [DFS](/dynamic-programming/967/solution1.js) | [思路](/dynamic-programming/967/readme.md) |
+| [264. Ugly Number II](https://leetcode.com/problems/ugly-number-ii/) | Medium | 76ms(91.87%) | 37MB(64.71%) | [动态规划](/dynamic-programming/264/solution2.js) | [思路](/dynamic-programming/264/readme.md) |
 
 ### Math
 
