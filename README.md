@@ -58,6 +58,7 @@
 | 题目 | 难度 | 代码 | 分析 |
 | :----- | :---: | :---: | :---: |
 | [204. Count Primes](https://leetcode.com/problems/count-primes/) | Easy | [素数筛](/math/204/solution2.js) | [思路](/math/204/readme.md) |
+| [263. Ugly Number](https://leetcode.com/problems/ugly-number/) | Easy | [取模运算](/math/263/solution1.js) | [思路](/math/263/readme.md) |
 
 ### String
 
