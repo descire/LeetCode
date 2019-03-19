@@ -53,6 +53,7 @@
 | [967. Numbers With Same Consecutive Differences](https://leetcode.com/problems/numbers-with-same-consecutive-differences/) | Medium | 76ms(78.57%) | 36MB(33.33%) | [DFS](/dynamic-programming/967/solution1.js) | [思路](/dynamic-programming/967/readme.md) |
 | [264. Ugly Number II](https://leetcode.com/problems/ugly-number-ii/) | Medium | 76ms(91.87%) | 37MB(64.71%) | [动态规划](/dynamic-programming/264/solution2.js) | [思路](/dynamic-programming/264/readme.md) |
 | [790. Domino and Tromino Tiling](https://leetcode.com/problems/domino-and-tromino-tiling/) | Medium | 64ms(66.67%) | 37.6MB(100%) | [动态规划](/dynamic-programming/790/solution1.js) | [思路](/dynamic-programming/790/readme.md) |
+| [139. Word Break](https://leetcode.com/problems/word-break/) | Medium | 68ms(74.53%) | 37.3MB(12.67%) | [动态规划](/dynamic-programming/139/solution2.js) | [思路](/dynamic-programming/139/readme.md) |
 
 ### Math
 
