@@ -55,6 +55,7 @@
 | [790. Domino and Tromino Tiling](https://leetcode.com/problems/domino-and-tromino-tiling/) | Medium | 64ms(66.67%) | 37.6MB(100%) | [动态规划](/dynamic-programming/790/solution1.js) | [思路](/dynamic-programming/790/readme.md) |
 | [139. Word Break](https://leetcode.com/problems/word-break/) | Medium | 68ms(74.53%) | 37.3MB(12.67%) | [动态规划](/dynamic-programming/139/solution2.js) | [思路](/dynamic-programming/139/readme.md) |
 | [368. Largest Divisible Subset](https://leetcode.com/problems/largest-divisible-subset/) | Medium | 104ms(58.97%) | 37.2MB(12.50%) | [动态规划](/dynamic-programming/368/solution1.js) | [思路](/dynamic-programming/368/readme.md) |
+| [221. Maximal Square](https://leetcode.com/problems/maximal-square/) | Medium | 76ms(92.02%) | 40.6MB(33.33%) | [动态规划](/dynamic-programming/221/solution2.js) | [思路](/dynamic-programming/221/readme.md) |
 
 ### Math
 
