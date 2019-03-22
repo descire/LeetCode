@@ -54,8 +54,8 @@
 | [264](https://leetcode.com/problems/ugly-number-ii/) | Medium | **76ms(91.87%)** | **37MB(64.71%)** | [动态规划](/dynamic-programming/264/solution2.js) | [思路](/dynamic-programming/264/readme.md) |
 | [790](https://leetcode.com/problems/domino-and-tromino-tiling/) | Medium | **64ms(66.67%)** | **37.6MB(100%)** | [动态规划](/dynamic-programming/790/solution1.js) | [思路](/dynamic-programming/790/readme.md) |
 | [368](https://leetcode.com/problems/largest-divisible-subset/) | Medium | **104ms(58.97%)** | **37.2MB(12.50%)** | [动态规划](/dynamic-programming/368/solution1.js) | [思路](/dynamic-programming/368/readme.md) |
-| [221. Maximal Square](https://leetcode.com/problems/maximal-square/) | Medium | **76ms(92.02%)** | **40.6MB(33.33%)** | [动态规划](/dynamic-programming/221/solution2.js) | [思路](/dynamic-programming/221/readme.md) |
-| [523. Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/) | Medium | **88ms(55.96%)** | **36MB(87.50%)** | [无技巧](/dynamic-programming/523/solution1.js) | [思路](/dynamic-programming/523/readme.md) |
+| [221](https://leetcode.com/problems/maximal-square/) | Medium | **76ms(92.02%)** | **40.6MB(33.33%)** | [动态规划](/dynamic-programming/221/solution2.js) | [思路](/dynamic-programming/221/readme.md) |
+| [523](https://leetcode.com/problems/continuous-subarray-sum/) | Medium | **88ms(55.96%)** | **36MB(87.50%)** | [无技巧](/dynamic-programming/523/solution1.js) | [思路](/dynamic-programming/523/readme.md) |
 
 ### Math
 
