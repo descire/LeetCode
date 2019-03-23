@@ -52,7 +52,7 @@
 | [376. Wiggle Subsequence](https://leetcode.com/problems/wiggle-subsequence/) | Medium | [动态规划](/dynamic-programming/376/solution1.js) | O(n) **73.91%** | [思路](/dynamic-programming/376/readme.md) |
 | [967. Numbers With Same Consecutive Differences](https://leetcode.com/problems/numbers-with-same-consecutive-differences/) | Medium | [DFS](/dynamic-programming/967/solution1.js) | O(2^9) **78.57%** | [思路](/dynamic-programming/967/readme.md) |
 | [264. Ugly Number II](https://leetcode.com/problems/ugly-number-ii/) | Medium | [动态规划](/dynamic-programming/264/solution2.js) | O(n) **91.87%** | [思路](/dynamic-programming/264/readme.md) |
-| [790. Domino and Tromino Tiling](https://leetcode.com/problems/domino-and-tromino-tiling/) | [动态规划](/dynamic-programming/790/solution1.js) | O(n) **66.67%** | [思路](/dynamic-programming/790/readme.md) |
+| [790. Domino and Tromino Tiling](https://leetcode.com/problems/domino-and-tromino-tiling/) | Medium | [动态规划](/dynamic-programming/790/solution1.js) | O(n) **66.67%** | [思路](/dynamic-programming/790/readme.md) |
 | [368. Largest Divisible Subset](https://leetcode.com/problems/largest-divisible-subset/) | Medium | [动态规划](/dynamic-programming/368/solution1.js) | O(n^2) **58.97%** | [思路](/dynamic-programming/368/readme.md) |
 | [221. Maximal Square](https://leetcode.com/problems/maximal-square/) | Medium | [动态规划](/dynamic-programming/221/solution2.js) | O(n^2) **92.02%** | [思路](/dynamic-programming/221/readme.md) |
 | [523. Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/) | Medium | [无技巧](/dynamic-programming/523/solution1.js) | O(n^2) **55.96%** | [思路](/dynamic-programming/523/readme.md) |
