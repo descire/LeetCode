@@ -5,57 +5,58 @@
 
 ### Dynamic Programming
 
-| 题目 | 难度 | 时间 | 空间 | 代码 | 分析 |
-| :----- | :---: | :---: | :---: | :---: | :---: |
-| [62](https://leetcode.com/problems/unique-paths/) | Medium | **56ms(95.24%)** | **33.8MB(65.67%)** | [DFS](/dynamic-programming/62/solution1.js) [动态规划](/dynamic-programming/62/solution3.js) | [思路](/dynamic-programming/62/readme.md) |
-| [63](https://leetcode.com/problems/unique-paths-ii/) | Medium | **60ms(97.65%)** | **35MB(95.12%)** | [动态规划](/dynamic-programming/63/solution2.js) | [思路](/dynamic-programming/63/readme.md) |
-| [980](https://leetcode.com/problems/unique-paths-iii/) | Hard | **60ms(99.31%)** | **34.4MB(80.00%)** | [DFS](/dynamic-programming/980/solution1.js) | [思路](/dynamic-programming/980/readme.md) |
-| [674](https://leetcode.com/problems/longest-continuous-increasing-subsequence/) | Easy | **60ms(92.75%)** | **35MB(76.92%)** | [动态规划](/dynamic-programming/674/solution1.js) | [思路](/dynamic-programming/674/readme.md) |
-| [300](https://leetcode.com/problems/longest-increasing-subsequence/) | Medium | **80MB(64.23%)** | **34.6MB(58.33%)** | [动态规划](/dynamic-programming/300/solution1.js) | [思路](/dynamic-programming/300/readme.md) |
-| [673](https://leetcode.com/problems/number-of-longest-increasing-subsequence/) | Medium | **80ms(88.10%)** | **35.3MB(75.00%)** | [动态规划](/dynamic-programming/673/solution1.js) | [思路](/dynamic-programming/673/readme.md) |
-| [198](https://leetcode.com/problems/house-robber/) | Easy | **56ms(88.73%)** | **33.8MB(21.43%)** | [动态规划](/dynamic-programming/198/solution1.js) | [思路](/dynamic-programming/198/readme.md) |
-| [213](https://leetcode.com/problems/house-robber-ii/) | Medium | **56ms(92.42%)** | **33.8MB(32.14%)** | [动态规划](/dynamic-programming/213/solution1.js) | [思路](/dynamic-programming/213/readme.md) |
-| [121](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Easy | **64ms(89.46)** | **37.4MB（5.36%）** | [动态规划](/dynamic-programming/121/solution2.js) | [思路](/dynamic-programming/121/readme.md) |
-| [122](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | Easy | **68ms(63.48%)** | **37.4MB(6.29%)** | [动态规划](/dynamic-programming/122/solution1.js) | [思路](/dynamic-programming/122/readme.md) |
-| [714](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/) | Medium | **104ms(66.67%)** | **57.3MB(12.50%)** | [动态规划](/dynamic-programming/714/solution1.js) | [思路](/dynamic-programming/714/readme.md) |
-| [123](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/) | Hard | **68ms(78.32%)** | **38.3MB(57.14%)** | [动态规划](/dynamic-programming/123/solution1.js) | [思路](/dynamic-programming/123/readme.md) |
-| [188](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/) | Hard | **72ms(80.49%)** | **37.5MB(50.00%)** | [动态规划](/dynamic-programming/188/solution3.js) | [思路](/dynamic-programming/188/readme.md) |
-| [746](https://leetcode.com/problems/min-cost-climbing-stairs/) | Easy | **68ms(70.79%)** | **35.6MB(27.27%)** | [动态规划](/dynamic-programming/746/solution1.js) | [思路](/dynamic-programming/746/readme.md) |
-| [70](https://leetcode.com/problems/climbing-stairs/) | Easy | **56ms(91.12%)** | **33.8MB(23.48%)** | [动态规划](/dynamic-programming/70/solution1.js) | [思路](/dynamic-programming/70/readme.md) |
-| [53](https://leetcode.com/problems/maximum-subarray/) | Easy | **64ms(84.96%)** | **36MB(7.39%)** | [动态规划](/dynamic-programming/53/solution1.js) | [思路](/dynamic-programming/53/readme.md) |
-| [983](https://leetcode.com/problems/minimum-cost-for-tickets/) | Medium | **60ms(100.00%)** | **35.1MB(38.89%)** | [动态规划](/dynamic-programming/983/solution1.js) | [思路](/dynamic-programming/983/readme.md) |
-| [638](https://leetcode.com/problems/shopping-offers/) | Medium | **88ms(31.25%)** | **37.2MB(50.00%)** | [递归思想](/dynamic-programming/638/solution1.js) | [思路](/dynamic-programming/638/readme.md) |
-| [343](https://leetcode.com/problems/integer-break/) | Medium | **53MB(96.55%)** | **33.7MB(88.89%)** | [动态规划](/dynamic-programming/343/solution1.js) [数学解法](/dynamic-programming/343/solution2.js) | [思路](/dynamic-programming/343/readme.md) |
-| [357](https://leetcode.com/problems/count-numbers-with-unique-digits/) | Medium | **56ms(90.63%)** | **33.8MB(100.00%)** | [排列](/dynamic-programming/357/solution1.js) | [思路](/dynamic-programming/357/readme.md) |
-| [486](https://leetcode.com/problems/predict-the-winner/) | Medium | **60ms(87.37%)** | **34.9MB(50.00%)** | [极大极小值算法](/dynamic-programming/486/solution2.js) | [思路](/dynamic-programming/486/readme.md) |
-| [392](https://leetcode.com/problems/is-subsequence/) | Medium | **64ms(98.10%)** | **37.8MB(90.32%)** | [左右扫描](/dynamic-programming/392/solution1.js) [尾递归](/dynamic-programming/392/solution2.js) | [思路](/dynamic-programming/392/readme.md) |
-| [650](https://leetcode.com/problems/2-keys-keyboard/) | Medium | **76ms(40.54%)** | **34.3MB(100.00%)** | [递归](/dynamic-programming/650/solution1.js) | [思路](/dynamic-programming/650/readme.md) |
-| [516](https://leetcode.com/problems/longest-palindromic-subsequence/) | Medium | **108ms(97.44%)** | **41.2MB(100.00%)** | [动态规划](/dynamic-programming/516/solution2.js) | [思路](/dynamic-programming/516/readme.md) |
-| [873](https://leetcode.com/problems/length-of-longest-fibonacci-subsequence/) | Medium | **196ms(74.51%)** | **37.6MB(50.00%)** | [动态规划](/dynamic-programming/873/solution1.js) [Hashtable](/dynamic-programming/873/solution2.js) | [思路](/dynamic-programming/873/readme.md) |
-| [494](https://leetcode.com/problems/target-sum/) | Medium | **128ms(86.50%)** | **42.24MB(15.38%)** | [DFS](/dynamic-programming/494/solution1.js) [动态规划](/dynamic-programming/494/solution2.js) | [思路](/dynamic-programming/494/readme.md) |
-| [740](https://leetcode.com/problems/delete-and-earn/) | Medium | **64ms(83.33%)** | **35.7MB(100.00%)** | [动态规划](/dynamic-programming/740/solution1.js) | [思路](/dynamic-programming/740/readme.md) |
-| [718](https://leetcode.com/problems/maximum-length-of-repeated-subarray/) | Medium | **396ms(48.48%)** | 115.9MB(30.00%) | [动态规划](/dynamic-programming/718/solution1.js) | [思路](/dynamic-programming/718/readme.md) |
-| [413](https://leetcode.com/problems/arithmetic-slices/) | Medium | **56ms(93.08%)** | **33.8MB(54.17%)** | [动态规划](/dynamic-programming/413/solution2.js) | [思路](/dynamic-programming/413/readme.md) |
-| [446](https://leetcode.com/problems/arithmetic-slices-ii-subsequence/) | Hard | -- | -- | [动态规划](/dynamic-programming/446/solution1.js) | [思路](/dynamic-programming/446/readme.md) |
-| [377](https://leetcode.com/problems/combination-sum-iv/) | Medium | -- | -- | [动态规划](/dynamic-programming/377/solution2.js) | [思路](/dynamic-programming/377/readme.md) |
-| [39](https://leetcode.com/problems/combination-sum/) | Medium | -- | -- | [DFS + HashMap](/dynamic-programming/39/solution2.js) | [思路](/dynamic-programming/39/readme.md) |
-| [40](https://leetcode.com/problems/combination-sum-ii/) | Medium | -- | -- | [DFS + HashMap](/dynamic-programming/40/solution1.js) [DFS + sort](/dynamic-programming/40/solution2.js) | [思路](/dynamic-programming/40/readme.md) |
-| [216](https://leetcode.com/problems/combination-sum-iii/) | Medium | -- | -- | [DFS](/dynamic-programming/216/solution1.js) | [思路](/dynamic-programming/216/readme.md) |
-| [838](https://leetcode.com/problems/push-dominoes/) | Medium | -- | -- | [双指针 + 构造字符串](/dynamic-programming/838/solution1.js) | [思路](/dynamic-programming/838/readme.md) |
-| [688](https://leetcode.com/problems/knight-probability-in-chessboard/) | Medium | -- | -- | [动态规划](/dynamic-programming/688/solution2.js) | [思路](/dynamic-programming/688/readme.md) |
-| [698](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/) | Medium | -- | -- | [DFS](/dynamic-programming/698/solution1.js) | [思路](/dynamic-programming/698/readme.md) |
-| [279](https://leetcode.com/problems/perfect-squares/) | Medium | -- | -- | [动态规划](/dynamic-programming/279/solution2.js) | [思路](/dynamic-programming/279/readme.md) |
-| [416](https://leetcode.com/problems/partition-equal-subset-sum/) | Medium | -- | -- | [0/1背包](/dynamic-programming/416/solution2.js) | [思路](/dynamic-programming/416/readme.md) |
-| [474](https://leetcode.com/problems/ones-and-zeroes/) | Medium | **460ms(45.83%)** | **129.8MB(50%)** | [0/1背包](/dynamic-programming/474/solution1.js) | [思路](/dynamic-programming/474/readme.md) |
-| [120](https://leetcode.com/problems/triangle/) | Medium | **80ms(13.83%)** | **35.1MB(37.50%)** | [动态规划](/dynamic-programming/120/solution1.js) | [思路](/dynamic-programming/120/readme.md) |
-| [375](https://leetcode.com/problems/guess-number-higher-or-lower-ii/) | Medium | **84ms(69.23%)** | **36.3MB(100.00%)** | [动态规划](/dynamic-programming/375/solution1.js) | [思路](/dynamic-programming/375/readme.md) |
-| [376](https://leetcode.com/problems/wiggle-subsequence/) | Medium | **56ms(73.91%)** | **33.8MB(100%)** | [动态规划](/dynamic-programming/376/solution1.js) | [思路](/dynamic-programming/376/readme.md) |
-| [967](https://leetcode.com/problems/numbers-with-same-consecutive-differences/) | Medium | **76ms(78.57%)** | **36MB(33.33%)** | [DFS](/dynamic-programming/967/solution1.js) | [思路](/dynamic-programming/967/readme.md) |
-| [264](https://leetcode.com/problems/ugly-number-ii/) | Medium | **76ms(91.87%)** | **37MB(64.71%)** | [动态规划](/dynamic-programming/264/solution2.js) | [思路](/dynamic-programming/264/readme.md) |
-| [790](https://leetcode.com/problems/domino-and-tromino-tiling/) | Medium | **64ms(66.67%)** | **37.6MB(100%)** | [动态规划](/dynamic-programming/790/solution1.js) | [思路](/dynamic-programming/790/readme.md) |
-| [368](https://leetcode.com/problems/largest-divisible-subset/) | Medium | **104ms(58.97%)** | **37.2MB(12.50%)** | [动态规划](/dynamic-programming/368/solution1.js) | [思路](/dynamic-programming/368/readme.md) |
-| [221](https://leetcode.com/problems/maximal-square/) | Medium | **76ms(92.02%)** | **40.6MB(33.33%)** | [动态规划](/dynamic-programming/221/solution2.js) | [思路](/dynamic-programming/221/readme.md) |
-| [523](https://leetcode.com/problems/continuous-subarray-sum/) | Medium | **88ms(55.96%)** | **36MB(87.50%)** | [无技巧](/dynamic-programming/523/solution1.js) | [思路](/dynamic-programming/523/readme.md) |
+| 题目 | 难度 | 代码 | 时间复杂度 | 分析 |
+| :----- | :---: | :---: | :---: | :---: |
+| [62. Unique Paths](https://leetcode.com/problems/unique-paths/) | Medium | [DFS](/dynamic-programming/62/solution1.js) [动态规划](/dynamic-programming/62/solution3.js) | O(n^2) **95.24%** | [思路](/dynamic-programming/62/readme.md) |
+| [63. Unique Paths II](https://leetcode.com/problems/unique-paths-ii/) | Medium | [动态规划](/dynamic-programming/63/solution2.js) | O(n^2) **97.65%** | [思路](/dynamic-programming/63/readme.md) |
+| [980. Unique Paths III](https://leetcode.com/problems/unique-paths-iii/) | Hard | [DFS](/dynamic-programming/980/solution1.js) | **99.31%** | [思路](/dynamic-programming/980/readme.md) |
+| [674. Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/) | Easy | [动态规划](/dynamic-programming/674/solution1.js) | O(n) **92.75%** | [思路](/dynamic-programming/674/readme.md) |
+| [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | Medium | [动态规划](/dynamic-programming/300/solution1.js) | O(n^2) **64.23%** | [思路](/dynamic-programming/300/readme.md) |
+| [673. Number of Longest Increasing Subsequence](https://leetcode.com/problems/number-of-longest-increasing-subsequence/) | Medium | [动态规划](/dynamic-programming/673/solution1.js) | O(n^2) **88.10%** | [思路](/dynamic-programming/673/readme.md) |
+| [198. House Robber](https://leetcode.com/problems/house-robber/) | Easy | [动态规划](/dynamic-programming/198/solution1.js) | O(n) **88.73%** | [思路](/dynamic-programming/198/readme.md) |
+| [213. House Robber II](https://leetcode.com/problems/house-robber-ii/) | Medium | [动态规划](/dynamic-programming/213/solution1.js) | O(2^n) **92.42%** | [思路](/dynamic-programming/213/readme.md) |
+| [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Easy | [动态规划](/dynamic-programming/121/solution2.js) | O(n) **89.46%** | [思路](/dynamic-programming/121/readme.md) |
+| [122. Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | Easy | [动态规划](/dynamic-programming/122/solution1.js) | O(n) **63.48%** | [思路](/dynamic-programming/122/readme.md) |
+| [714. Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/) | Medium | [动态规划](/dynamic-programming/714/solution1.js) | O(n) **66.67%** | [思路](/dynamic-programming/714/readme.md) |
+| [123. Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/) | Hard | [动态规划](/dynamic-programming/123/solution1.js) | O(n) **78.32%** | [思路](/dynamic-programming/123/readme.md) |
+| [188. Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/) | Hard | [动态规划](/dynamic-programming/188/solution3.js) | O(n^2) **80.49%** | [思路](/dynamic-programming/188/readme.md) |
+| [746. Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/) | Easy | [动态规划](/dynamic-programming/746/solution1.js) | O(n) **70.79%** | [思路](/dynamic-programming/746/readme.md) |
+| [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | Easy | [动态规划](/dynamic-programming/70/solution1.js) | O(n) **91.12%** | [思路](/dynamic-programming/70/readme.md) |
+| [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | Easy | [动态规划](/dynamic-programming/53/solution1.js) | O(n) **84.96%** | [思路](/dynamic-programming/53/readme.md) |
+| [983. Minimum Cost For Tickets](https://leetcode.com/problems/minimum-cost-for-tickets/) | Medium | [动态规划](/dynamic-programming/983/solution1.js) | O(n^2) **100.00%** | [思路](/dynamic-programming/983/readme.md) |
+| [638. Shopping Offers](https://leetcode.com/problems/shopping-offers/) | Medium | [递归思想](/dynamic-programming/638/solution1.js) | O(2^n) **31.25%** | [思路](/dynamic-programming/638/readme.md) |
+| [343. Integer Break](https://leetcode.com/problems/integer-break/) | Medium | [动态规划](/dynamic-programming/343/solution1.js) [数学解法](/dynamic-programming/343/solution2.js) | O(n) **96.55%** | [思路](/dynamic-programming/343/readme.md) |
+| [357. Count Numbers with Unique Digits](https://leetcode.com/problems/count-numbers-with-unique-digits/) | Medium | [排列](/dynamic-programming/357/solution1.js) | O(n) **90.63%** | [思路](/dynamic-programming/357/readme.md) |
+| [486. Predict the Winner](https://leetcode.com/problems/predict-the-winner/) | Medium | [极大极小值算法](/dynamic-programming/486/solution2.js) | O(n^2) **87.37%** | [思路](/dynamic-programming/486/readme.md) |
+| [392. Is Subsequence](https://leetcode.com/problems/is-subsequence/) | Medium | [左右扫描](/dynamic-programming/392/solution1.js) [尾递归](/dynamic-programming/392/solution2.js) | O(n) **98.10%** | [思路](/dynamic-programming/392/readme.md) |
+| [650. 2 Keys Keyboard](https://leetcode.com/problems/2-keys-keyboard/) | Medium ** | [递归](/dynamic-programming/650/solution1.js) | O(2^n) **40.54%** | [思路](/dynamic-programming/650/readme.md) |
+| [516. Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/) | Medium |  [动态规划](/dynamic-programming/516/solution2.js) | O(n^2) **97.44%** | [思路](/dynamic-programming/516/readme.md) |
+| [873. Length of Longest Fibonacci Subsequence](https://leetcode.com/problems/length-of-longest-fibonacci-subsequence/) | Medium | [动态规划](/dynamic-programming/873/solution1.js) [Hashtable](/dynamic-programming/873/solution2.js) | O(n^2) **74.51%** | [思路](/dynamic-programming/873/readme.md) |
+| [494. Target Sum](https://leetcode.com/problems/target-sum/) | Medium | [DFS](/dynamic-programming/494/solution1.js) [动态规划](/dynamic-programming/494/solution2.js) | O(n^2) **86.50%** | [思路](/dynamic-programming/494/readme.md) |
+| [740. Delete and Earn](https://leetcode.com/problems/delete-and-earn/) | Medium | [动态规划](/dynamic-programming/740/solution1.js) | O(n) **83.33%** | [思路](/dynamic-programming/740/readme.md) |
+| [718. Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/) | Medium | [动态规划](/dynamic-programming/718/solution1.js) | O(n^2) **48.48%** | [思路](/dynamic-programming/718/readme.md) |
+| [413. Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/) | Medium | [动态规划](/dynamic-programming/413/solution2.js) | O(n) **93.08%** | [思路](/dynamic-programming/413/readme.md) |
+| [446. Arithmetic Slices II - Subsequence](https://leetcode.com/problems/arithmetic-slices-ii-subsequence/) | Hard | [动态规划](/dynamic-programming/446/solution1.js) | O(n^2) | [思路](/dynamic-programming/446/readme.md) |
+| [377. Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/) | Medium | [动态规划](/dynamic-programming/377/solution2.js) | O(n^2) **100%** | [思路](/dynamic-programming/377/readme.md) |
+| [39. Combination Sum](https://leetcode.com/problems/combination-sum/) | Medium | [DFS + HashMap](/dynamic-programming/39/solution2.js) | O(2^n) **98.33%** | [思路](/dynamic-programming/39/readme.md) |
+| [40. Combination Sum II](https://leetcode.com/problems/combination-sum-ii/) | Medium | [DFS + HashMap](/dynamic-programming/40/solution1.js) [DFS + sort](/dynamic-programming/40/solution2.js) | O(2^n) **80.86%**| [思路](/dynamic-programming/40/readme.md) |
+| [216. Combination Sum III](https://leetcode.com/problems/combination-sum-iii/) | Medium | [DFS](/dynamic-programming/216/solution1.js) | O(2^n) **76.76%** | [思路](/dynamic-programming/216/readme.md) |
+| [838. Push Dominoes](https://leetcode.com/problems/push-dominoes/) | Medium | [双指针 + 构造字符串](/dynamic-programming/838/solution1.js) | O(n) **80.43%** | [思路](/dynamic-programming/838/readme.md) |
+| [688. Knight Probability in Chessboard](https://leetcode.com/problems/knight-probability-in-chessboard/) | Medium | [动态规划](/dynamic-programming/688/solution2.js) | O(n^3) **38.64%** | [思路](/dynamic-programming/688/readme.md) |
+| [698. Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/) | Medium | [DFS](/dynamic-programming/698/solution1.js) | O(2^n) **16.52%** | [思路](/dynamic-programming/698/readme.md) |
+| [279. Perfect Squares](https://leetcode.com/problems/perfect-squares/) | Medium | [动态规划](/dynamic-programming/279/solution2.js) | -- | [思路](/dynamic-programming/279/readme.md) |
+| [416. Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | Medium | [0/1背包](/dynamic-programming/416/solution2.js) | -- | [思路](/dynamic-programming/416/readme.md) |
+| [474. Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/) | Medium | [0/1背包](/dynamic-programming/474/solution1.js) | O(n^3) **45.83%** | [思路](/dynamic-programming/474/readme.md) |
+| [120. Triangle](https://leetcode.com/problems/triangle/) | Medium | [动态规划](/dynamic-programming/120/solution1.js) |  O(n^2) **13.83%** | [思路](/dynamic-programming/120/readme.md) |
+| [375. Guess Number Higher or Lower II](https://leetcode.com/problems/guess-number-higher-or-lower-ii/) | Medium | [动态规划](/dynamic-programming/375/solution1.js) | O(n ^ 2) **69.23%** | [思路](/dynamic-programming/375/readme.md) |
+| [376. Wiggle Subsequence](https://leetcode.com/problems/wiggle-subsequence/) | Medium | [动态规划](/dynamic-programming/376/solution1.js) | O(n) **73.91%** | [思路](/dynamic-programming/376/readme.md) |
+| [967. Numbers With Same Consecutive Differences](https://leetcode.com/problems/numbers-with-same-consecutive-differences/) | Medium | [DFS](/dynamic-programming/967/solution1.js) | O(2^9) **78.57%** | [思路](/dynamic-programming/967/readme.md) |
+| [264. Ugly Number II](https://leetcode.com/problems/ugly-number-ii/) | Medium | [动态规划](/dynamic-programming/264/solution2.js) | O(n) **91.87%** | [思路](/dynamic-programming/264/readme.md) |
+| [790. Domino and Tromino Tiling](https://leetcode.com/problems/domino-and-tromino-tiling/) | [动态规划](/dynamic-programming/790/solution1.js) | O(n) **66.67%** | [思路](/dynamic-programming/790/readme.md) |
+| [368. Largest Divisible Subset](https://leetcode.com/problems/largest-divisible-subset/) | Medium | [动态规划](/dynamic-programming/368/solution1.js) | O(n^2) **58.97%** | [思路](/dynamic-programming/368/readme.md) |
+| [221. Maximal Square](https://leetcode.com/problems/maximal-square/) | Medium | [动态规划](/dynamic-programming/221/solution2.js) | O(n^2) **92.02%** | [思路](/dynamic-programming/221/readme.md) |
+| [523. Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/) | Medium | [无技巧](/dynamic-programming/523/solution1.js) | O(n^2) **55.96%** | [思路](/dynamic-programming/523/readme.md) |
+| [152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) | Medium | [动态规划](/dynamic-programming/152/solution2.js) | O(n) **96.81%** | [思路](/dynamic-programming/152/readme.md) |
 
 ### Math
 
