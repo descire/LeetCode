@@ -61,20 +61,20 @@
 
 ### Math
 
-| 题目 | 难度 | 时间 | 空间 | 代码 | 分析 |
-| :----- | :---: | :---: | :---: | :---: | :---: |
-| [204. Count Primes](https://leetcode.com/problems/count-primes/) | Easy | -- | -- | [素数筛](/math/204/solution2.js) | [思路](/math/204/readme.md) |
-| [263. Ugly Number](https://leetcode.com/problems/ugly-number/) | Easy | 80ms(88.28%) | 35.8MB(6.52%) | [取模运算](/math/263/solution1.js) | [思路](/math/263/readme.md) |
+| 题目 | 难度 | 时间复杂度 | 代码 | 分析 |
+| :----- | :---: | :---: | :---: | :---: |
+| [204. Count Primes](https://leetcode.com/problems/count-primes/) | Easy | O(n) | [素数筛](/math/204/solution2.js) | [思路](/math/204/readme.md) |
+| [263. Ugly Number](https://leetcode.com/problems/ugly-number/) | Easy | -- | [取模运算](/math/263/solution1.js) | [思路](/math/263/readme.md) |
 
 ### String
 
-| 题目 | 难度 | 时间 | 空间 | 代码 | 分析 |
-| :----- | :---: | :---: | :---: | :---: | :---: |
-| [409. Longest Palindrome](https://leetcode.com/problems/longest-palindrome/) | Easy | 64ms(82.62%) | 35.6MB(68.75%) | [Hashmap](/string/409/solution1.js) | [思路](/string/409/readme.md) |
-| [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | Easy | 80ms(74.86%) | 38MB(58.16%) | [双指针](/string/125/solution1.js) | [思路](/string/125/readme.md) |
-| [680. Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/) | Easy | 92ms(95.36%) | 43.1 MB(34.78%) | [双指针](/string/680/solution1.js) | [思路](/string/680/readme.md) |
-| [131. Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/) | Medium | 76ms(92.39%) |  37.7 MB(100%) | [DFS](/string/131/solution1.js) | [思路](/string/131/readme.md) |
-| [647. Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/) | Medium | 96ms(46.75%) |  59MB(15.00%) | [DFS](/string/647/solution1.js) | [思路](/string/647/readme.md) |
+| 题目 | 难度 | 时间复杂度 | 代码 | 分析 |
+| :----- | :---: | :---: | :---: | :---: |
+| [409. Longest Palindrome](https://leetcode.com/problems/longest-palindrome/) | Easy | O(n) | [Hashmap](/string/409/solution1.js) | [思路](/string/409/readme.md) |
+| [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | Easy | O(n) | [双指针](/string/125/solution1.js) | [思路](/string/125/readme.md) |
+| [680. Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/) | Easy | O(2^n) | [双指针](/string/680/solution1.js) | [思路](/string/680/readme.md) |
+| [131. Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/) | Medium | O(2^n) | [DFS](/string/131/solution1.js) | [思路](/string/131/readme.md) |
+| [647. Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/) | Medium | O(2^n) | [DFS](/string/647/solution1.js) | [思路](/string/647/readme.md) |
 
 
 ### Tree
