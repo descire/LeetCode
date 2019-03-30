@@ -11,6 +11,7 @@
 | [832. Flipping an Image](https://leetcode.com/problems/flipping-an-image/) | Easy | [队列](/array/832/solution1.js) | O(n) | -- |
 | [561. Array Partition I](https://leetcode.com/problems/array-partition-i/) | Easy | [代码](/array/561/solution1.js) | O(n) | -- |
 | [999. Available Captures for Rook](https://leetcode.com/problems/available-captures-for-rook/) | Easy | [代码](/array/999/solution1.js) | O(n^2) | -- |
+| [1002. Find Common Characters](https://leetcode.com/problems/find-common-characters/) | Easy | [集合](/array/1002/solution1.js) | -- | -- |
 
 ### Dynamic Programming
 
