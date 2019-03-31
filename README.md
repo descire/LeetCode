@@ -14,6 +14,7 @@
 | [1002. Find Common Characters](https://leetcode.com/problems/find-common-characters/) | Easy | [集合](/array/1002/solution1.js) | -- | -- |
 | [509. Fibonacci Number](https://leetcode.com/problems/fibonacci-number/) | Easy | [递推](/array/509/solution1.js) | O(n) | -- |
 | [985. Sum of Even Numbers After Queries](https://leetcode.com/problems/sum-of-even-numbers-after-queries/) | Easy | [偶数](/array/985/solution1.js) | O(n) | -- |
+| [867. Transpose Matrix](https://leetcode.com/problems/transpose-matrix/) | Easy | [双重循环](/array/867/solution1.js) | O(n^2) | -- |
 
 ### Dynamic Programming
 
