@@ -15,6 +15,7 @@
 | [509. Fibonacci Number](https://leetcode.com/problems/fibonacci-number/) | Easy | [递推](/array/509/solution1.js) | O(n) | -- |
 | [985. Sum of Even Numbers After Queries](https://leetcode.com/problems/sum-of-even-numbers-after-queries/) | Easy | [偶数](/array/985/solution1.js) | O(n) | -- |
 | [867. Transpose Matrix](https://leetcode.com/problems/transpose-matrix/) | Easy | [双重循环](/array/867/solution1.js) | O(n^2) | -- |
+| [766. Toeplitz Matrix](https://leetcode.com/problems/toeplitz-matrix/) | Easy | [双重循环](/array/766/solution1.js) | O(n^2) | -- |
 
 ### Dynamic Programming
 
