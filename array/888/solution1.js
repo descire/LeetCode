@@ -13,10 +13,11 @@ const fairCandySwap = (A, B) => {
     return []
   }
   const diff = (sum1 - sum2) / 2
+  const cache = new Set(B)
   for (let i = 0; i < A.length; i++) {
     const x = A[i]
     const y = x - diff
-    if (B.includes(y)) {
+    if (cache.has(y)) {
       return [x, y]
     }
   }
