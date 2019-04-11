@@ -18,6 +18,7 @@
 | [766. Toeplitz Matrix](https://leetcode.com/problems/toeplitz-matrix/) | Easy | [双重循环](/array/766/solution1.js) | O(n^2) | -- |
 | [566. Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/) | Easy | [双重循环](/array/566/solution1.js) | O(n^2) | -- |
 | [888. Fair Candy Swap](https://leetcode.com/problems/fair-candy-swap/) | Easy | [hashmap](/array/888/solution1.js) | O(n) | -- |
+| [485. Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones//) | Easy | [动态规划](/array/485/solution1.js) | O(n) | -- |
 
 ### Dynamic Programming
 
