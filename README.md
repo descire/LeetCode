@@ -21,6 +21,7 @@
 | [485. Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones//) | Easy | [动态规划](/array/485/solution1.js) | O(n) | -- |
 | [896. Monotonic Array](https://leetcode.com/problems/monotonic-array/) | Easy | [记录状态](/array/896/solution1.js) | O(n) | -- |
 | [283. Move Zeroes](https://leetcode.com/problems/move-zeroes/) | Easy | [数组]](/array/283/solution1.js) | O(n) | -- |
+| [448. Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | Easy | [数组空位]](/array/448/solution1.js) | O(n) | -- |
 
 ### Dynamic Programming
 
