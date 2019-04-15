@@ -20,9 +20,10 @@
 | [888. Fair Candy Swap](https://leetcode.com/problems/fair-candy-swap/) | Easy | [hashmap](/array/888/solution1.js) | O(n) | -- |
 | [485. Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones//) | Easy | [动态规划](/array/485/solution1.js) | O(n) | -- |
 | [896. Monotonic Array](https://leetcode.com/problems/monotonic-array/) | Easy | [记录状态](/array/896/solution1.js) | O(n) | -- |
-| [283. Move Zeroes](https://leetcode.com/problems/move-zeroes/) | Easy | [数组]](/array/283/solution1.js) | O(n) | -- |
-| [448. Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | Easy | [数组空位]](/array/448/solution1.js) | O(n) | -- |
-| [169. Majority Element](https://leetcode.com/problems/majority-element/) | Easy | [hashmap]](/array/169/solution1.js) | O(n) | -- |
+| [283. Move Zeroes](https://leetcode.com/problems/move-zeroes/) | Easy | [数组](/array/283/solution1.js) | O(n) | -- |
+| [448. Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | Easy | [数组空位](/array/448/solution1.js) | O(n) | -- |
+| [169. Majority Element](https://leetcode.com/problems/majority-element/) | Easy | [hashmap](/array/169/solution1.js) | O(n) | -- |
+| [229. Majority Element II](https://leetcode.com/problems/majority-element-ii/) | Medium | [hashmap](/array/229/solution1.js) | O(n) | -- |
 ### Dynamic Programming
 
 | 题目 | 难度 | 代码 | 时间复杂度 | 分析 |
