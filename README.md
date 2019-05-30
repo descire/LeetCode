@@ -24,7 +24,8 @@
 | [448. Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | Easy | [数组空位](/array/448/solution1.js) | O(n) | -- |
 | [169. Majority Element](https://leetcode.com/problems/majority-element/) | Easy | [hashmap](/array/169/solution1.js) | O(n) | -- |
 | [229. Majority Element II](https://leetcode.com/problems/majority-element-ii/) | Medium | [hashmap](/array/229/solution1.js) | O(n) | -- |
-| [1051. Height Checker](https://leetcode.com/problems/height-checker/) | Medium | [sort](/array/1051/solution1.js) | O(nlogn) | -- |
+| [1051. Height Checker](https://leetcode.com/problems/height-checker/) | Easy | [sort](/array/1051/solution1.js) | O(nlogn) | -- |
+| [1013. Partition Array Into Three Parts With Equal Sum](https://leetcode.com/problems/partition-array-into-three-parts-with-equal-sum/) | Easy | [Math](/array/1013/solution1.js) | O(n) | -- |
 ### Dynamic Programming
 
 | 题目 | 难度 | 代码 | 时间复杂度 | 分析 |
