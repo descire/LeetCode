@@ -26,6 +26,7 @@
 | [229. Majority Element II](https://leetcode.com/problems/majority-element-ii/) | Medium | [hashmap](/array/229/solution1.js) | O(n) | -- |
 | [1051. Height Checker](https://leetcode.com/problems/height-checker/) | Easy | [sort](/array/1051/solution1.js) | O(nlogn) | -- |
 | [1013. Partition Array Into Three Parts With Equal Sum](https://leetcode.com/problems/partition-array-into-three-parts-with-equal-sum/) | Easy | [Math](/array/1013/solution1.js) | O(n) | -- |
+| [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | Easy | [Set](/array/217/solution1.js) | O(n) | -- |
 ### Dynamic Programming
 
 | 题目 | 难度 | 代码 | 时间复杂度 | 分析 |
