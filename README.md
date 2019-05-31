@@ -33,6 +33,7 @@
 | [268. Missing Number](https://leetcode.com/problems/missing-number/) | Easy | [Math](/array/268/solution1.js) | O(n) | -- |
 | [830. Positions of Large Groups](https://leetcode.com/problems/positions-of-large-groups/) | Easy | [--](/array/830/solution1.js) | O(n) | -- |
 | [1018. Binary Prefix Divisible By 5](https://leetcode.com/problems/binary-prefix-divisible-by-5/) | Easy | [Math](/array/1018/solution1.js) | O(n) | -- |
+| [118. Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | Easy | [--](/array/118/solution1.js) | O(n^2) | -- |
 ### Dynamic Programming
 
 | 题目 | 难度 | 代码 | 时间复杂度 | 分析 |
