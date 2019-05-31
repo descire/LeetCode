@@ -30,7 +30,8 @@
 | [697. Degree of an Array](https://leetcode.com/problems/degree-of-an-array/) | Easy | [Map](/array/697/solution1.js) | O(n) | -- |
 | [717. 1-bit and 2-bit Characters](https://leetcode.com/problems/1-bit-and-2-bit-characters/) | Easy | [--](/array/717/solution1.js) | O(n) | -- |
 | [661. Image Smoother](https://leetcode.com/problems/image-smoother/) | Easy | [--](/array/661/solution1.js) | O(n^2) | -- |
-| [268. Missing Number](https://leetcode.com/problems/missing-number/) | Easy | [--](/array/268/solution1.js) | O(n^2) | -- |
+| [268. Missing Number](https://leetcode.com/problems/missing-number/) | Easy | [Math](/array/268/solution1.js) | O(n) | -- |
+| [830. Positions of Large Groups](https://leetcode.com/problems/positions-of-large-groups/) | Easy | [--](/array/830/solution1.js) | O(n) | -- |
 ### Dynamic Programming
 
 | 题目 | 难度 | 代码 | 时间复杂度 | 分析 |
