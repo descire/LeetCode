@@ -29,6 +29,7 @@
 | [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | Easy | [Set](/array/217/solution1.js) | O(n) | -- |
 | [697. Degree of an Array](https://leetcode.com/problems/degree-of-an-array/) | Easy | [Map](/array/697/solution1.js) | O(n) | -- |
 | [717. 1-bit and 2-bit Characters](https://leetcode.com/problems/1-bit-and-2-bit-characters/) | Easy | [--](/array/717/solution1.js) | O(n) | -- |
+| [661. Image Smoother](https://leetcode.com/problems/image-smoother/) | Easy | [--](/array/661/solution1.js) | O(n^2) | -- |
 ### Dynamic Programming
 
 | 题目 | 难度 | 代码 | 时间复杂度 | 分析 |
