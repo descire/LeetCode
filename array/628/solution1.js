@@ -4,6 +4,9 @@
  * 628. Maximum Product of Three Numbers
  * 
  * Easy
+ * 
+ * 104ms 59.86%
+ * 38.3mb 33.96%
  */
 const maximumProduct = nums => {
 
