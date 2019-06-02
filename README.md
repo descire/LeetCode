@@ -35,6 +35,7 @@
 | [1018. Binary Prefix Divisible By 5](https://leetcode.com/problems/binary-prefix-divisible-by-5/) | Easy | [Math](/array/1018/solution1.js) | O(n) | -- |
 | [118. Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | Easy | [--](/array/118/solution1.js) | O(n^2) | -- |
 | [628. Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/) | Easy | [排序](/array/628/solution1.js) | O(nlogn) | -- |
+| [1010. Pairs of Songs With Total Durations Divisible by 60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/) | Easy | [HashMap](/array/1010/solution2.js) | O(n) | -- |
 
 ### Dynamic Programming
 
