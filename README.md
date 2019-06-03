@@ -37,6 +37,7 @@
 | [628. Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/) | Easy | [排序](/array/628/solution1.js) | O(nlogn) | -- |
 | [1010. Pairs of Songs With Total Durations Divisible by 60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/) | Easy | [HashMap](/array/1010/solution2.js) | O(n) | -- |
 | [989. Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/) | Easy | [Math](/array/989/solution1.js) | O(n) | -- |
+| [119. Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/) | Easy | [杨辉三角](/array/119/solution1.js) | O(n^2) | -- |
 
 ### Dynamic Programming
 
