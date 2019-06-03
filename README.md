@@ -38,6 +38,7 @@
 | [1010. Pairs of Songs With Total Durations Divisible by 60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/) | Easy | [HashMap](/array/1010/solution2.js) | O(n) | -- |
 | [989. Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/) | Easy | [Math](/array/989/solution1.js) | O(n) | -- |
 | [119. Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/) | Easy | [杨辉三角](/array/119/solution1.js) | O(n^2) | -- |
+| [724. Find Pivot Index](https://leetcode.com/problems/find-pivot-index/) | Easy | [--](/array/724/solution1.js) | O(n) | -- |
 
 ### Dynamic Programming
 
