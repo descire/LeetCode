@@ -42,6 +42,7 @@
 | [849. Maximize Distance to Closest Person](https://leetcode.com/problems/maximize-distance-to-closest-person/) | Easy | [--](/array/849/solution1.js) | O(n) | -- |
 | [747. Largest Number At Least Twice of Others](https://leetcode.com/problems/largest-number-at-least-twice-of-others/) | Easy | [极值](/array/747/solution1.js) | O(n) | -- |
 | [643. Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/) | Easy | [DP](/array/643/solution1.js) | O(n) | -- |
+| [840. Magic Squares In Grid](https://leetcode.com/problems/magic-squares-in-grid/) | Easy | [--](/array/840/solution1.js) | O(n^2) | -- |
 
 ### Dynamic Programming
 
