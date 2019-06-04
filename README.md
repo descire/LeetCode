@@ -45,6 +45,7 @@
 | [840. Magic Squares In Grid](https://leetcode.com/problems/magic-squares-in-grid/) | Easy | [--](/array/840/solution1.js) | O(n^2) | -- |
 | [219. Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/) | Easy | [HashMap](/array/219/solution2.js) | O(n) | -- |
 | [605. Can Place Flowers](https://leetcode.com/problems/can-place-flowers/) | Easy | [--](/array/605/solution1.js) | O(n) | -- |
+| [189. Rotate Array](https://leetcode.com/problems/rotate-array/) | Easy | [栈与队列](/array/189/solution1.js) | O(n) | -- |
 
 ### Dynamic Programming
 
