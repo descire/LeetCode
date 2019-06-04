@@ -47,6 +47,7 @@
 | [605. Can Place Flowers](https://leetcode.com/problems/can-place-flowers/) | Easy | [--](/array/605/solution1.js) | O(n) | -- |
 | [189. Rotate Array](https://leetcode.com/problems/rotate-array/) | Easy | [栈与队列](/array/189/solution1.js) | O(n) | -- |
 | [532. K-diff Pairs in an Array](https://leetcode.com/problems/k-diff-pairs-in-an-array/) | Easy | [Map与Set](/array/532/solution1.js) | O(n) | -- |
+| [414. Third Maximum Number](https://leetcode.com/problems/third-maximum-number/) | Easy | [Set](/array/414/solution1.js) | O(n) | -- |
 
 ### Dynamic Programming
 
