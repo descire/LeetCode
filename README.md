@@ -50,6 +50,7 @@
 | [414. Third Maximum Number](https://leetcode.com/problems/third-maximum-number/) | Easy | [Set](/array/414/solution1.js) | O(n) | -- |
 | [665. Non-decreasing Array](https://leetcode.com/problems/non-decreasing-array/) | Easy | [--](/array/665/solution1.js) | O(n) | -- |
 | [950. Reveal Cards In Increasing Order](https://leetcode.com/problems/reveal-cards-in-increasing-order/) | Medium | [队列与栈](/array/950/solution1.js) | O(n) | -- |
+| [969. Pancake Sorting](https://leetcode.com/problems/pancake-sorting/) | Medium | [排序](/array/969/solution1.js) | O(n^2) | -- |
 
 ### Dynamic Programming
 
