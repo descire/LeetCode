@@ -17,13 +17,13 @@ const maxAreaOfIsland = grid => {
       if (item === 0) {
         continue
       }
-      ans = Math.max(dfs(grid, i, j), ans)
+      ans = Math.max(bfs(grid, i, j), ans)
     }
   }
   return ans
 }
 
-function dfs(grid, curRow, curCol) {
+function bfs(grid, curRow, curCol) {
   if (!grid[curRow] || !grid[curRow][curCol] || grid[curRow][curCol] === 0) {
     return 0
   }
