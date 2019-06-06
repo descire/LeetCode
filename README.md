@@ -54,6 +54,7 @@
 | [442. Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/) | Medium | [Map](/array/442/solution1.js) | O(n) | -- |
 | [695. Max Area of Island](https://leetcode.com/problems/max-area-of-island/) | Medium | [BFS](/array/695/solution1.js) | O(n^2) | -- |
 | [238. Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | Medium | [BFS](/array/238/solution1.js) | O(n) | -- |
+| [78. Subsets](https://leetcode.com/problems/subsets/) | Medium | [全组合](/array/78/solution2.js) | O(n^2) | -- |
 
 ### Dynamic Programming
 
