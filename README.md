@@ -57,6 +57,7 @@
 | [78. Subsets](https://leetcode.com/problems/subsets/) | Medium | [全组合](/array/78/solution2.js) | O(n^2) | -- |
 | [90. Subsets II](https://leetcode.com/problems/subsets-ii/) | Medium | [全组合无重复项](/array/90/solution1.js) | O(n^2) | -- |
 | [1011. Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/) | Medium | [二分查找](/array/1011/solution1.js) | O(n^2) | -- |
+| [565. Array Nesting](https://leetcode.com/problems/array-nesting/) | Medium | [Set](/array/565/solution1.js) | O(n) | -- |
 
 ### Dynamic Programming
 
