@@ -59,6 +59,7 @@
 | [1011. Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/) | Medium | [二分查找](/array/1011/solution1.js) | O(n^2) | -- |
 | [565. Array Nesting](https://leetcode.com/problems/array-nesting/) | Medium | [Set](/array/565/solution1.js) | O(n) | -- |
 | [835. Image Overlap](https://leetcode.com/problems/image-overlap/) | Medium | [--](/array/835/solution1.js) | O(n^4) | -- |
+| [495. Teemo Attacking](https://leetcode.com/problems/teemo-attacking/) | Medium | [--](/array/495/solution1.js) | O(n) | -- |
 
 ### Dynamic Programming
 
