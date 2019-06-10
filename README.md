@@ -1,6 +1,12 @@
 # LeetCode
 
-> 刷着刷着，竟然成了兴趣爱好 ττ
+> 
+
+### Binary Search
+
+| 题目 | 难度 | 代码 | beats Runtime | beats Memory |
+| :----- | :---: | :---: | :---: | :---: |
+| [852. Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/) | Easy | [解题代码](/Binary-Search/852/solution2.js) | **98.70%** | **72.89%** |
 
 ### Array
 
