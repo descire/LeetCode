@@ -9,6 +9,7 @@
 | [852. Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/) | Easy | [解题代码](/Binary-Search/852/solution2.js) | **98.70%** | **72.89%** | O(log n)|
 | [744. Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/) | Easy | [解题代码](/Binary-Search/744/solution1.js) | **100.00%** | **72.67%** | O(log n)|
 | [367. Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/) | Easy | [解题代码](/Binary-Search/744/solution1.js) | **99.67%** | **79.73%** | O(log n)|
+| [441. Arranging Coins](https://leetcode.com/problems/arranging-coins/) | Easy | [解题代码](/Binary-Search/441/solution1.js) | **100.00%** | **90.18%** | O(log n)|
 
 ### Array
 
