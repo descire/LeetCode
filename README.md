@@ -12,6 +12,7 @@
 
 | 题目 | 难度 | 代码 | 时间复杂度 | 分析 |
 | :----- | :---: | :---: | :---: | :---: |
+| [349. Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) | Easy | [Set](/array/349/solution1.js) | O(n) | -- |
 | [977. Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) | Easy | [代码](/array/977/solution1.js) | -- | -- |
 | [905. Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/) | Easy | [队列和栈](/array/905/solution1.js) | O(n) | -- |
 | [832. Flipping an Image](https://leetcode.com/problems/flipping-an-image/) | Easy | [队列](/array/832/solution1.js) | O(n) | -- |
