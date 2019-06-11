@@ -2,7 +2,7 @@
 
 > 
 
-### Binary Search
+### Binary Search（二分查找法）
 
 | 题目 | 难度 | 代码 | beats Runtime | beats Memory | 时间复杂度 |
 | :----- | :---: | :---: | :---: | :---: | :--: |
@@ -12,6 +12,11 @@
 | [441. Arranging Coins](https://leetcode.com/problems/arranging-coins/) | Easy | [解题代码](/Binary-Search/441/solution1.js) | **100.00%** | **90.18%** | O(log n)|
 | [475. Heaters](https://leetcode.com/problems/heaters/) | Easy | [解题代码](/Binary-Search/441/solution1.js) | **90.01%** | **74.45%** | O(nlog n)|
 | [69. Sqrt(x)](https://leetcode.com/problems/sqrtx/) | Easy | [解题代码](/Binary-Search/441/solution1.js) | **96.10%** | **47.66%** | O(log n)|
+
+### Small Skill（一些小技巧）
+| 题目 | 难度 | 代码 | beats Runtime | beats Memory | 时间复杂度 |
+| :----- | :---: | :---: | :---: | :---: | :--: |
+| [454. 4Sum II](https://leetcode.com/problems/4sum-ii/submissions/) | Medium | [解题代码](/Small-Skill/454/solution2.js) | **99.33%** | **98.28%** | O(n^2)|
 
 ### Array
 
