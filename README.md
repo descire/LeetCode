@@ -11,6 +11,7 @@
 | [367. Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/) | Easy | [解题代码](/Binary-Search/744/solution1.js) | **99.67%** | **79.73%** | O(log n)|
 | [441. Arranging Coins](https://leetcode.com/problems/arranging-coins/) | Easy | [解题代码](/Binary-Search/441/solution1.js) | **100.00%** | **90.18%** | O(log n)|
 | [475. Heaters](https://leetcode.com/problems/heaters/) | Easy | [解题代码](/Binary-Search/441/solution1.js) | **90.01%** | **74.45%** | O(nlog n)|
+| [69. Sqrt(x)](https://leetcode.com/problems/sqrtx/) | Easy | [解题代码](/Binary-Search/441/solution1.js) | **96.10%** | **47.66%** | O(log n)|
 
 ### Array
 
