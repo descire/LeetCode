@@ -1,6 +1,6 @@
 # LeetCode
 
-> 
+> JavaScript 刷 LeetCode 不丢人 😂
 
 ### Binary Search（二分查找法）
 
