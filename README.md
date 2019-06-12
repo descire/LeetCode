@@ -12,6 +12,7 @@
 | [441. Arranging Coins](https://leetcode.com/problems/arranging-coins/) | Easy | [解题代码](/Binary-Search/441/solution1.js) | **100.00%** | **90.18%** | O(log n)|
 | [475. Heaters](https://leetcode.com/problems/heaters/) | Easy | [解题代码](/Binary-Search/441/solution1.js) | **90.01%** | **74.45%** | O(nlog n)|
 | [69. Sqrt(x)](https://leetcode.com/problems/sqrtx/) | Easy | [解题代码](/Binary-Search/441/solution1.js) | **96.10%** | **47.66%** | O(log n)|
+| [378. Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/) | Medium | [解题代码](/Binary-Search/378/solution2.js) | **97.86%** | **73.13%** | O(nlog n)|
 
 ### Small Skill（一些小技巧）
 | 题目 | 难度 | 代码 | beats Runtime | beats Memory | 时间复杂度 |
