@@ -14,6 +14,7 @@
 | [69. Sqrt(x)](https://leetcode.com/problems/sqrtx/) | Easy | [解题代码](/Binary-Search/441/solution1.js) | **96.10%** | **47.66%** | O(log n)|
 | [378. Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/) | Medium | [解题代码](/Binary-Search/378/solution2.js) | **97.86%** | **73.13%** | O(nlog n)|
 | [875. Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) | Medium | [解题代码](/Binary-Search/875/solution2.js) | **91.82%** | **71.83%** | O(nlog n)|
+| [436. Find Right Interval](https://leetcode.com/problems/find-right-interval/) | Medium | [解题代码](/Binary-Search/436/solution2.js) | **100.00%** | **60.00%** | O(nlog n)|
 
 ### Small Skill（利用一些小技巧思路处理的问题）
 | 题目 | 难度 | 代码 | beats Runtime | beats Memory | 时间复杂度 |
