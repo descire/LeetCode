@@ -17,6 +17,7 @@
 | 题目 | 难度 | 代码 | beats Runtime | beats Memory | 时间复杂度 |
 | :----- | :---: | :---: | :---: | :---: | :--: |
 | [454. 4Sum II](https://leetcode.com/problems/4sum-ii/submissions/) | Medium | [解题代码](/Small-Skill/454/solution2.js) | **99.33%** | **98.28%** | O(n^2)|
+| [287. Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) | Medium | [解题代码](/Small-Skill/287/solution1.js) | **93.47%** | **37.72%** | O(n)|
 
 ### Array
 
