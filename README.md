@@ -27,6 +27,11 @@
 | [392. Is Subsequence](https://leetcode.com/problems/is-subsequence/) | Medium | [解题代码](/String/392/solution2.js) | **96.43%** | **89.12%** | O(n)|
 
 
+### Other （被标签高估的题目）
+| 题目 | 难度 | 代码 | beats Runtime | beats Memory | 时间复杂度 |
+| :----- | :---: | :---: | :---: | :---: | :--: |
+| [153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | Medium | [解题代码](/Other/153/solution1.js) | **94.11%** | **71.58%** | O(n)|
+
 ### Array
 
 | 题目 | 难度 | 代码 | 时间复杂度 | 分析 |
