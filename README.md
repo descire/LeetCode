@@ -22,6 +22,7 @@
 | :----- | :---: | :---: | :---: | :---: | :--: |
 | [454. 4Sum II](https://leetcode.com/problems/4sum-ii/submissions/) | Medium | [解题代码](/Small-Skill/454/solution2.js) | **99.33%** | **98.28%** | O(n^2)|
 | [287. Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) | Medium | [解题代码](/Small-Skill/287/solution1.js) | **93.47%** | **37.72%** | O(n)|
+| [240. Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/) | Medium | [解题代码](/Small-Skill/240/solution2.js) | **94.61%** | **37.71%** | O(n)|
 
 ### String （字符串相关）
 | 题目 | 难度 | 代码 | beats Runtime | beats Memory | 时间复杂度 |
