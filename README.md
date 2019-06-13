@@ -1,6 +1,6 @@
 # LeetCode
 
-> 
+> JavaScript 刷 LeetCode 不丢人 😂
 
 ### Binary Search（二分查找法）
 
@@ -13,12 +13,25 @@
 | [475. Heaters](https://leetcode.com/problems/heaters/) | Easy | [解题代码](/Binary-Search/441/solution1.js) | **90.01%** | **74.45%** | O(nlog n)|
 | [69. Sqrt(x)](https://leetcode.com/problems/sqrtx/) | Easy | [解题代码](/Binary-Search/441/solution1.js) | **96.10%** | **47.66%** | O(log n)|
 | [378. Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/) | Medium | [解题代码](/Binary-Search/378/solution2.js) | **97.86%** | **73.13%** | O(nlog n)|
+| [875. Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) | Medium | [解题代码](/Binary-Search/875/solution2.js) | **91.82%** | **71.83%** | O(nlog n)|
+| [436. Find Right Interval](https://leetcode.com/problems/find-right-interval/) | Medium | [解题代码](/Binary-Search/436/solution2.js) | **100.00%** | **60.00%** | O(nlog n)|
 
-### Small Skill（一些小技巧）
+### Small Skill（利用一些小技巧思路处理的问题）
 | 题目 | 难度 | 代码 | beats Runtime | beats Memory | 时间复杂度 |
 | :----- | :---: | :---: | :---: | :---: | :--: |
 | [454. 4Sum II](https://leetcode.com/problems/4sum-ii/submissions/) | Medium | [解题代码](/Small-Skill/454/solution2.js) | **99.33%** | **98.28%** | O(n^2)|
 | [287. Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) | Medium | [解题代码](/Small-Skill/287/solution1.js) | **93.47%** | **37.72%** | O(n)|
+
+### String （字符串相关）
+| 题目 | 难度 | 代码 | beats Runtime | beats Memory | 时间复杂度 |
+| :----- | :---: | :---: | :---: | :---: | :--: |
+| [392. Is Subsequence](https://leetcode.com/problems/is-subsequence/) | Medium | [解题代码](/String/392/solution2.js) | **96.43%** | **89.12%** | O(n)|
+
+
+### Other （被标签高估的题目）
+| 题目 | 难度 | 代码 | beats Runtime | beats Memory | 时间复杂度 |
+| :----- | :---: | :---: | :---: | :---: | :--: |
+| [153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | Medium | [解题代码](/Other/153/solution1.js) | **94.11%** | **71.58%** | O(n)|
 
 ### Array
 
