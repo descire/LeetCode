@@ -17,6 +17,7 @@
 | [436. Find Right Interval](https://leetcode.com/problems/find-right-interval/) | Medium | [解题代码](/Binary-Search/436/solution2.js) | **100.00%** | **60.00%** | O(nlog n)|
 | [162. Find Peak Element](https://leetcode.com/problems/find-peak-element/) | Medium | [解题代码](/Binary-Search/162/solution2.js) | **90.60%** | **55.70%** | O(log n)|
 | [658. Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/) | Medium | [解题代码](/Binary-Search/658/solution1.js) | **96.82%** | **59.55%** | O(log n)|
+| [275. H-Index II](https://leetcode.com/problems/h-index-ii/) | Medium | [解题代码](/Binary-Search/275/solution1.js) | **97.30%** | **45.71%** | O(log n)|
 
 ### Small Skill（利用一些小技巧思路处理的问题）
 | 题目 | 难度 | 代码 | beats Runtime | beats Memory | 时间复杂度 |
