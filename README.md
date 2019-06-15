@@ -19,6 +19,7 @@
 | [658. Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/) | Medium | [解题代码](/Binary-Search/658/solution1.js) | **96.82%** | **59.55%** | O(log n)|
 | [275. H-Index II](https://leetcode.com/problems/h-index-ii/) | Medium | [解题代码](/Binary-Search/275/solution1.js) | **97.30%** | **45.71%** | O(log n)|
 | [209. Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) | Medium | [解题代码](/Binary-Search/209/solution2.js) | **96.06%** | **17.26%** | O(nlog n)|
+| [74. Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | Medium | [解题代码](/Binary-Search/74/solution1.js) | **94.68%** | **52.73%** | O(nlog n)|
 
 ### Small Skill（利用一些小技巧思路处理的问题）
 | 题目 | 难度 | 代码 | beats Runtime | beats Memory | 时间复杂度 |
