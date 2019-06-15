@@ -21,6 +21,7 @@
 | [209. Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) | Medium | [解题代码](/Binary-Search/209/solution2.js) | **96.06%** | **17.26%** | O(nlog n)|
 | [74. Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | Medium | [解题代码](/Binary-Search/74/solution1.js) | **94.68%** | **52.73%** | O(nlog n)|
 | [34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | Medium | [解题代码](/Binary-Search/34/solution1.js) | **94.28%** | **62.38%** | O(log n)|
+| [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | Medium | [解题代码](/Binary-Search/33/solution1.js) | **98.15%** | **90.53%** | O(log n)|
 
 ### Small Skill（利用一些小技巧思路处理的问题）
 | 题目 | 难度 | 代码 | beats Runtime | beats Memory | 时间复杂度 |
