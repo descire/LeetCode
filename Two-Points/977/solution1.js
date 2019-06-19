@@ -15,6 +15,9 @@
  * 
  * 负数 非负数 
  * O(n)
+ * 
+ * 100ms 99.39%
+ * 41.7mb 99.46%
  */
 const sortedSquares = A => {
   const result = []
