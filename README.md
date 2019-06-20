@@ -31,6 +31,7 @@
 | [977. Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) | Easy | [解题代码](/Two-Points/977/solution1.js) | **99.39%** | **99.46%** | O(n)|
 | [344. Reverse String](https://leetcode.com/problems/reverse-string/) | Easy | [解题代码](/Two-Points/344/solution1.js) | **98.36%** | **79.72%** | O(n)|
 | [349. Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) | Easy | [解题代码](/Two-Points/349/solution1.js) | **99.34%** | **57.93%** | O(n)|
+| [283. Move Zeroes](https://leetcode.com/problems/move-zeroes/) | Easy | [解题代码](/Two-Points/283/solution2.js) | **92.57%** | **25.27%** | O(n)|
 
 ### Small Skill（利用一些小技巧思路处理的问题）
 | 题目 | 难度 | 代码 | beats Runtime | beats Memory | 时间复杂度 |
