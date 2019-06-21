@@ -33,6 +33,7 @@
 | [349. 两个数组的交集](https://leetcode-cn.com/problems/intersection-of-two-arrays/) | Easy | [解题代码](/Two-Points/349/solution1.js) | **99.34%** | **57.93%** | O(n)|
 | [283. 移动零](https://leetcode-cn.com/problems/move-zeroes/) | Easy | [解题代码](/Two-Points/283/solution2.js) | **92.57%** | **25.27%** | O(n)|
 | [27. 移除元素](https://leetcode-cn.com/problems/remove-element/) | Easy | [解题代码](/Two-Points/27/solution1.js) | **97.20%** | **33.05%** | O(n)|
+| [167. 两数之和 II - 输入有序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/) | Easy | [解题代码](/Two-Points/167/solution1.js) | **91.86%** | **57.10%** | O(n)|
 
 ### Small Skill（利用一些小技巧思路处理的问题）
 | 题目 | 难度 | 代码 | beats Runtime | beats Memory | 时间复杂度 |
