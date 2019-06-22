@@ -42,6 +42,7 @@
 | [925. 长按键入](https://leetcode-cn.com/problems/long-pressed-name/) | Easy | [解题代码](/Two-Points/925/solution1.js) | **100.00%** | **42.24%** | O(n)|
 | [141. 环形链表](https://leetcode-cn.com/problems/linked-list-cycle/) | Easy | [解题代码](/Two-Points/141/solution2.js) | **97.17%** | **20.77%** | O(n)|
 | [125. 验证回文串](https://leetcode-cn.com/problems/valid-palindrome/) | Easy | [解题代码](/Two-Points/125/solution1.js) | **96.73%** | **44.65%** | O(n)|
+| [28. 实现strStr()](https://leetcode-cn.com/problems/implement-strstr/) | Easy | [解题代码](/Two-Points/28/solution3.js) | **95.96%** | **37.78%** | O(n)|
 
 ### Small Skill（利用一些小技巧思路处理的问题）
 | 题目 | 难度 | 代码 | beats Runtime | beats Memory | 时间复杂度 |
