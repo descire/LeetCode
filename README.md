@@ -41,6 +41,7 @@
 | [350. 两个数组的交集 II](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/) | Easy | [解题代码](/Two-Points/350/solution1.js) | **97.54%** | **13.56%** | O(n)|
 | [925. 长按键入](https://leetcode-cn.com/problems/long-pressed-name/) | Easy | [解题代码](/Two-Points/925/solution1.js) | **100.00%** | **42.24%** | O(n)|
 | [141. 环形链表](https://leetcode-cn.com/problems/linked-list-cycle/) | Easy | [解题代码](/Two-Points/141/solution2.js) | **97.17%** | **20.77%** | O(n)|
+| [125. 验证回文串](https://leetcode-cn.com/problems/valid-palindrome/) | Easy | [解题代码](/Two-Points/125/solution1.js) | **96.73%** | **44.65%** | O(n)|
 
 ### Small Skill（利用一些小技巧思路处理的问题）
 | 题目 | 难度 | 代码 | beats Runtime | beats Memory | 时间复杂度 |
