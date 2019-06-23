@@ -44,6 +44,7 @@
 | [125. 验证回文串](https://leetcode-cn.com/problems/valid-palindrome/) | Easy | [解题代码](/Two-Points/125/solution1.js) | **96.73%** | **44.65%** | O(n)|
 | [28. 实现strStr()](https://leetcode-cn.com/problems/implement-strstr/) | Easy | [解题代码](/Two-Points/28/solution3.js) | **95.96%** | **37.78%** | O(n / m)|
 | [234. 回文链表](https://leetcode-cn.com/problems/palindrome-linked-list/) | Easy | [解题代码](/Two-Points/234/solution1.js) | **96.51%** | **37.67%** | O(n / m)|
+| [532. 数组中的K-diff数对](https://leetcode-cn.com/problems/k-diff-pairs-in-an-array/) | Easy | [解题代码](/Two-Points/532/solution2.js) | **99.12%** | **25.00%** | O(n)|
 
 ### Small Skill（利用一些小技巧思路处理的问题）
 | 题目 | 难度 | 代码 | beats Runtime | beats Memory | 时间复杂度 |
