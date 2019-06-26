@@ -1,4 +1,4 @@
-# 一只前端的 LeetCode 之旅 -- 二分搜索算法（Easy篇）
+# 前端工程师的 LeetCode 之旅 -- 二分搜索算法（Easy篇）
 
 ### 一、二分搜索算法
  
@@ -86,5 +86,5 @@ while (start < end) {
   &emsp;&emsp;如果本文对您有所帮助，可以点赞或者关注来鼓励博主。
 
 
-- [一只前端的 LeetCode 之旅](https://github.com/15751165579/LeetCode)
+- [前端工程师的 LeetCode 之旅](https://github.com/15751165579/LeetCode)
 
