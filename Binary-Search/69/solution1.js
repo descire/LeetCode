@@ -9,24 +9,20 @@
  * 35.7mb 47.66%
  */
 const mySqrt = x => {
-  if (x === 1) {
-    return 1
-  }
-  let first = 1
-  let last = x
+  let start = 1
+  let end = x
 
-  while (first < last) {
-    const mid = Math.floor(first + (last - first) / 2)
-    const target = mid * mid
-    if (target === x) {
-      return mid
-    }
-    if (target > x) {
-      last = mid
+  while (start < end) {
+    const mid = Math.floor(start + (end - start) / 2)
+    const middle = mid * mid
+    if (x > middle) {
+      start = mid + 1
     } else {
-      first = mid + 1
+      end = mid
     }
   }
-
-  return first - 1
+  if (start ** 2 === x) {
+    return start
+  }  
+  return start - 1
 }
