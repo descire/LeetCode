@@ -9,25 +9,18 @@
  * 33.8mb 79.73%
  */
 const isPerfectSquare = num => {
-  // 边界情况
-  if (num === 1) {
-    return true
-  }
-  let first = 1
-  let last = num
+  let start = 1
+  let end = num
 
-  while (first < last) {
-    const mid = Math.floor(first + (last - first) / 2)
-    const ret = mid * mid
-    if (ret === num) {
-      return true
-    }
-    if (ret > num) {
-      last = mid
+  while (start < end) {
+    const mid = Math.floor(start + (end - start) / 2)
+    const middle = mid * mid
+    if (num > middle) {
+      start = mid + 1
     } else {
-      first = mid + 1
+      end = mid
     }
   }
 
-  return false
+  return start ** 2 === num
 }

@@ -12,25 +12,20 @@
  */
 
 const arrangeCoins = n => {
-  // 边界情况
-  if (n === 0) {
-    return 0
-  }
-  if (n === 1) {
-    return 1
-  }
-  let first = 0
-  let last = n
-  let ret = 0
-  while (first < last) {
-    const mid = Math.floor(first + (last - first) / 2)
+  let start = 0
+  let end = n
+  while (start < end) {
+    const mid = Math.floor(start + (end - start) / 2)
     const target = (mid + 1) * mid / 2
-    if (target > n) {
-      last = mid
+    if (n > target) {
+      start = mid + 1
     } else {
-      first = mid + 1
+      end = mid
     }
   }
 
-  return first - 1
+  if ((start + 1) * start / 2 > n) {
+    return start - 1
+  }
+  return start
 }

@@ -1,11 +1,10 @@
 /**
- * https://leetcode.com/problems/heaters/
  * 
  * 475. Heaters
  * 
  * Easy
  * 
- * 112ms 90.01%
+ * 184ms 100.00%
  * 39mb 74.45%
  */
 const findRadius = (houses, heaters) => {
@@ -16,14 +15,15 @@ const findRadius = (houses, heaters) => {
 
   for (let i = 0, max = houses.length; i < max; i++) {
     const house = houses[i]
-    const first = binarySearch(heaters, 0, len - 1, house)
+    const targetPos = binarySearch(heaters, 0, len - 1, house)
     let closestDistance = Number.MAX_SAFE_INTEGER
-    if (first === undefined) {
+    if (heaters[targetPos] === house) {
       ans = Math.max(ans, 0)
       continue
     }
-    const pre = heaters[first - 1]
-    const cur = heaters[first]
+    // 比较前一个 和 后一个 得到最小值
+    const pre = heaters[targetPos - 1]
+    const cur = heaters[targetPos]
     if (pre !== undefined) {
       closestDistance = Math.min(closestDistance, Math.abs(house - pre))
     }
@@ -35,18 +35,15 @@ const findRadius = (houses, heaters) => {
   return ans
 }
 
-function binarySearch(array, first, last, target) {
-  while (first < last) {
-    const mid = Math.floor(first + (last - first) / 2)
-    const t = array[mid]
-    if (t === target) {
-      return undefined
-    }
-    if (t > target) {
-      last = mid
+function binarySearch(array, start, end, target) {
+  while (start < end) {
+    const mid = Math.floor(start + (end - start) / 2)
+    const middle = array[mid]
+    if (target > middle) {
+      start = mid + 1
     } else {
-      first = mid + 1
+      end = mid
     }
   }
-  return first
+  return start
 }

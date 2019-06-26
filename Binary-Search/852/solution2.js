@@ -12,15 +12,15 @@ const peakIndexInMountainArray = A => {
   return binarySearch(A, 0, A.length - 1)
 }
 
-function binarySearch(array, first, end) {
-  while (first < end - 1) {
-    const mid = Math.floor(first + (end - first) / 2) // 数组下标注意整数
+function binarySearch(array, start, end) {
+  while (start < end) {
+    const mid = Math.floor(start + (end - start) / 2)
     if (array[mid + 1] > array[mid]) {
-      first = mid
+      start = mid + 1
     } else {
       end = mid
     }
   }
 
-  return (array[first] > array[end] ? first : end)
+  return start
 }
