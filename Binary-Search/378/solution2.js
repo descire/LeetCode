@@ -11,19 +11,20 @@
  */
 const kthSmallest = (matrix, k) => {
   const len = matrix.length
-  let first = matrix[0][0]
-  let last = matrix[len - 1][len - 1]
+  let start = matrix[0][0]
+  let end = matrix[len - 1][len - 1]
 
-  while (first < last) {
-    const mid = Math.floor(first + (last - first) / 2)
-    let count = searchSmallerCount(matrix, mid)
-    if (count < k) {
-      first = mid + 1
+  while (start < end) {
+    const mid = Math.floor(start + (end - start) / 2)
+    // 计算中间值
+    let middle = searchSmallerCount(matrix, mid)
+    if (k > middle) {
+      start = mid + 1
     } else {
-      last = mid
+      end = mid
     }
   }
-  return first
+  return start
 }
 
 function searchSmallerCount(matrix, target) {
