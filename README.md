@@ -14,7 +14,7 @@
 | [441. 排列硬币](https://leetcode-cn.com/problems/arranging-coins/) | Easy | [解题代码](/Binary-Search/441/solution1.js) | **100.00%** | **90.18%** | O(log n)|
 | [475. 供暖器](https://leetcode-cn.com/problems/heaters/) | Easy | [解题代码](/Binary-Search/441/solution1.js) | **90.01%** | **74.45%** | O(nlog m)|
 | [69. x 的平方根](https://leetcode-cn.com/problems/sqrtx/) | Easy | [解题代码](/Binary-Search/441/solution1.js) | **96.10%** | **47.66%** | O(log n)|
-| [378. Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/) | Medium | [解题代码](/Binary-Search/378/solution2.js) | **97.86%** | **73.13%** | O(nlog n)|
+| [378. 有序矩阵中第K小的元素](https://leetcode-cn.com/problems/kth-smallest-element-in-a-sorted-matrix/) | Medium | [解题代码](/Binary-Search/378/solution2.js) | **97.86%** | **73.13%** | O(nlog n)|
 | [875. Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) | Medium | [解题代码](/Binary-Search/875/solution2.js) | **91.82%** | **71.83%** | O(nlog n)|
 | [436. Find Right Interval](https://leetcode.com/problems/find-right-interval/) | Medium | [解题代码](/Binary-Search/436/solution2.js) | **100.00%** | **60.00%** | O(nlog n)|
 | [162. Find Peak Element](https://leetcode.com/problems/find-peak-element/) | Medium | [解题代码](/Binary-Search/162/solution2.js) | **90.60%** | **55.70%** | O(log n)|
