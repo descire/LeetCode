@@ -4,6 +4,8 @@
 
 ### Binary Search（二分查找法）
 
+- [前端工程师的 LeetCode 之旅 -- 二分搜索Easy篇](https://mp.weixin.qq.com/s/D6zY08tJ8J-nhIA4u86IoA)
+
 | 题目 | 难度 | 代码 | beats Runtime | beats Memory | 时间复杂度 |
 | :----- | :---: | :---: | :---: | :---: | :--: |
 | [852. 山脉数组的峰顶索引](https://leetcode-cn.com/problems/peak-index-in-a-mountain-array/submissions/) | Easy | [解题代码](/Binary-Search/852/solution2.js) | **98.70%** | **72.89%** | O(log n)|
