@@ -14,17 +14,18 @@ const hIndex = citations => {
     return 0
   }
   const index = binarySearch(citations, 0, max - 1)
+  // 边界条件
   return citations[index] > max - index ? max - index : citations[index]
 }
 
-function binarySearch(array, first, last) {
-  while (first < last) {
-    const mid = Math.floor(first + (last - first) / 2)
+function binarySearch(array, start, end) {
+  while (start < end) {
+    const mid = Math.floor(start + (end - start) / 2)
     if (array[mid] >= array.length - mid) {
-      last = mid
+      end = mid
     } else {
-      first = mid + 1
+      start = mid + 1
     }
   }
-  return first
+  return start
 }

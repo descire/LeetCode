@@ -14,35 +14,28 @@ const searchRange = function (nums, target)  {
     return [-1, -1]
   }
 
-  let lower = 0
-  let last = max - 1
-  while (lower < last) {
-    const mid = Math.floor(lower + (last - lower) / 2)
-    if (nums[mid] >= target) {
-      last = mid
-    } else {
-      lower = mid + 1
-    }
-  }
+  const lower = binarySearch(nums, 0, max - 1, target, (middle, target) => middle >= target)
 
-  let upper = 0
-  last = max - 1
-  while (upper < last) {
-    const mid = Math.floor(upper + (last - upper) / 2)
-    if (nums[mid] > target) {
-      last = mid
-    } else {
-      upper = mid + 1
-    }
-  }
-
-  if (nums[upper] !== target && nums[lower] !== target) {
+  if (nums[lower] !== target) {
     return [-1,-1]
   }
 
+  const upper = binarySearch(nums, 0, max - 1, target, (middle, target) => middle > target)
   if (nums[upper] !== target) {
-    upper--
+    return [lower, upper - 1]
+  }
+  return [lower, upper]
+}
+
+function binarySearch(array, start, end, target, compareFunc) {
+  while (start < end) {
+    const mid = Math.floor(start + (end - start) / 2)
+    if (compareFunc(array[mid], target)) {
+      end = mid
+    } else {
+      start = mid + 1
+    }
   }
 
-  return [lower, upper]
+  return start
 }

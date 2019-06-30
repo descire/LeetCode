@@ -10,19 +10,19 @@
  */
 const minEatingSpeed = (piles, H) => {
   const max = piles.length
-  let first = 1
-  let last = Math.max(...piles)
-  while (first < last) {
-    const mid = Math.floor(first + (last - first) / 2)
+  let start = 1
+  let end = Math.max(...piles)
+  while (start < end) {
+    const mid = Math.floor(start + (end - start) / 2)
     let hour = computeHour(piles, mid)
     if (hour > H) {
-      first = mid + 1
+      start = mid + 1
     } else {
-      last = mid
+      end = mid
     }
   }
 
-  return first
+  return start
 }
 
 function computeHour (piles, per) {
