@@ -6,7 +6,7 @@
  * Medium
  * 
  * 108ms 100.00%
- * 46.6mb 60.00%
+ * 46.6mb 100.00%
  */
 const findRightInterval = intervals => {
   const ret = []

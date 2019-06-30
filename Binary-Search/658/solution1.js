@@ -15,15 +15,15 @@ const findClosestElements = (arr, k, x) => {
   return arr.slice(index, index + k)
 }
 
-function binarySearch(array, first, last, target, k) {
-  while (first < last) {
-    const mid = Math.floor(first + (last - first) / 2)
-    // 左边必须优先选择 所以为 mid + k
+function binarySearch(array, start, end, target, k) {
+  while (start < end) {
+    const mid = Math.floor(start + (end - start) / 2)
+    
     if (mid + k > array.length - 1 || target - array[mid] <= array[mid + k] - target) {
-      last = mid
+      end = mid
     } else {
-      first = mid + 1
+      start = mid + 1
     }
   }
-  return first
+  return start
 }

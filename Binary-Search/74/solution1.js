@@ -26,14 +26,14 @@ const searchMatrix = (matrix, target) => {
   return false
 }
 
-function binarySearch(array, first, last, target) {
-  while (first < last) {
-    const mid = Math.floor(first + (last - first) / 2)
+function binarySearch(array, start, end, target) {
+  while (start < end) {
+    const mid = Math.floor(start + (end - start) / 2)
     if (array[mid] >= target) {
-      last = mid
+      end = mid
     } else {
-      first = mid + 1
+      start = mid + 1
     }
   }
-  return first
+  return start
 }
