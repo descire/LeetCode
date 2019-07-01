@@ -41,6 +41,7 @@
 | [153. 寻找旋转排序数组中的最小值](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/) | Medium | [*BinarySearch*](/Binary-Search/153/solution1.js) |
 | [33. 搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/) | Medium | [*BinarySearch*](/Binary-Search/33/solution1.js) |
 | [81. 搜索旋转排序数组 II](https://leetcode-cn.com/problems/search-in-rotated-sorted-array-ii/submissions/) | Medium | [*BinarySearch*](/Binary-Search/81/solution1.js) |
+| [287. 寻找重复数](https://leetcode-cn.com/problems/find-the-duplicate-number/) | Medium | [*HashMap*](/Binary-Search/287/solution1.js) [*BinarySearch*](/Binary-Search/287/solution2.js) |
 
 ### Two Points （双指针）
 | 题目 | 难度 | 代码 | beats Runtime | beats Memory | 时间复杂度 |
