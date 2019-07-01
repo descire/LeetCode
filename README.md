@@ -5,7 +5,8 @@
 
 ### 文章汇总
 
-  - [前端工程师的 LeetCode 之旅 -- 二分搜索Easy篇](https://mp.weixin.qq.com/s/D6zY08tJ8J-nhIA4u86IoA)
+  - [前端工程师的 LeetCode 之旅 -- 二分搜索 Easy 篇](https://mp.weixin.qq.com/s/D6zY08tJ8J-nhIA4u86IoA)
+  - [前端工程师的 LeetCode 之旅 -- 二分搜索 Medium 篇](https://mp.weixin.qq.com/s/W-z820EkMagQsZafJdEZrw)
 
 ### Binary Search（二分查找法）
 
