@@ -14,6 +14,9 @@
  * 小于等于中间数的个数 来判断 重复数字落在那个区间
  * 
  * O(nlogn)
+ * 
+ * 84ms 86.83%
+ * 35.2mb 71.43%
  */
 const findDuplicate = nums => {
   const max = nums.length - 1
