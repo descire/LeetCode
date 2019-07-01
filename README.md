@@ -27,7 +27,7 @@
 | [209. 长度最小的子数组](https://leetcode-cn.com/problems/minimum-size-subarray-sum/) | Medium | [解题代码](/Binary-Search/209/solution2.js) | **96.06%** | **17.26%** | O(nlog n)|
 | [74. 搜索二维矩阵](https://leetcode-cn.com/problems/search-a-2d-matrix/) | Medium | [解题代码](/Binary-Search/74/solution1.js) | **94.68%** | **52.73%** | O(nlog n)|
 | [34. 在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | Medium | [解题代码](/Binary-Search/34/solution1.js) | **94.28%** | **62.38%** | O(log n)|
-| [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | Medium | [解题代码](/Binary-Search/33/solution1.js) | **98.15%** | **90.53%** | O(log n)|
+| [33. 搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/) | Medium | [解题代码](/Binary-Search/33/solution1.js) | **98.15%** | **90.53%** | O(log n)|
 | [81. Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/) | Medium | [解题代码](/Binary-Search/81/solution1.js) | **99.72%** | **89.39%** | O(log n)|
 
 
