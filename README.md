@@ -10,25 +10,25 @@
 
 ### Binary Search（二分查找法）
 
-| 题目 | 难度 | 代码 | beats Runtime | beats Memory | 时间复杂度 |
-| :----- | :---: | :---: | :---: | :---: | :--: |
-| [852. 山脉数组的峰顶索引](https://leetcode-cn.com/problems/peak-index-in-a-mountain-array/submissions/) | Easy | [代码](/Binary-Search/852/solution2.js) | **98.70%** | **72.89%** | O(log n)|
-| [744. 寻找比目标字母大的最小字母](https://leetcode-cn.com/problems/find-smallest-letter-greater-than-target/) | Easy | [代码](/Binary-Search/744/solution1.js) | **100.00%** | **72.67%** | O(log n)|
-| [367. 有效的完全平方数](https://leetcode-cn.com/problems/valid-perfect-square/) | Easy | [代码](/Binary-Search/744/solution1.js) | **99.67%** | **79.73%** | O(log n)|
-| [441. 排列硬币](https://leetcode-cn.com/problems/arranging-coins/) | Easy | [代码](/Binary-Search/441/solution1.js) | **100.00%** | **90.18%** | O(log n)|
-| [475. 供暖器](https://leetcode-cn.com/problems/heaters/) | Easy | [代码](/Binary-Search/441/solution1.js) | **90.01%** | **74.45%** | O(nlog m)|
-| [69. x 的平方根](https://leetcode-cn.com/problems/sqrtx/) | Easy | [代码](/Binary-Search/441/solution1.js) | **96.10%** | **47.66%** | O(log n)|
-| [378. 有序矩阵中第K小的元素](https://leetcode-cn.com/problems/kth-smallest-element-in-a-sorted-matrix/) | Medium | [代码](/Binary-Search/378/solution2.js) | **97.86%** | **73.13%** | O(nlog n)|
-| [875. 爱吃香蕉的珂珂](https://leetcode-cn.com/problems/koko-eating-bananas/) | Medium | [代码](/Binary-Search/875/solution2.js) | **91.82%** | **71.83%** | O(nlog n)|
-| [436. 寻找右区间](https://leetcode-cn.com/problems/find-right-interval/) | Medium | [代码](/Binary-Search/436/solution2.js) | **100.00%** | **100.00%** | O(nlog n)|
-| [162. 寻找峰值](https://leetcode-cn.com/problems/find-peak-element/submissions/) | Medium | [代码](/Binary-Search/162/solution2.js) | **90.60%** | **55.70%** | O(log n)|
-| [658. 找到 K 个最接近的元素](https://leetcode-cn.com/problems/find-k-closest-elements/) | Medium | [代码](/Binary-Search/658/solution1.js) | **96.82%** | **59.55%** | O(log n)|
-| [275. H指数 II](https://leetcode-cn.com/problems/h-index-ii/) | Medium | [代码](/Binary-Search/275/solution1.js) | **97.30%** | **45.71%** | O(log n)|
-| [209. 长度最小的子数组](https://leetcode-cn.com/problems/minimum-size-subarray-sum/) | Medium | [代码](/Binary-Search/209/solution2.js) | **96.06%** | **17.26%** | O(nlog n)|
-| [74. 搜索二维矩阵](https://leetcode-cn.com/problems/search-a-2d-matrix/) | Medium | [代码](/Binary-Search/74/solution1.js) | **94.68%** | **52.73%** | O(nlog n)|
-| [34. 在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | Medium | [代码](/Binary-Search/34/solution1.js) | **94.28%** | **62.38%** | O(log n)|
-| [33. 搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/) | Medium | [代码](/Binary-Search/33/solution1.js) | **98.15%** | **90.53%** | O(log n)|
-| [81. 搜索旋转排序数组 II](https://leetcode-cn.com/problems/search-in-rotated-sorted-array-ii/submissions/) | Medium | [代码](/Binary-Search/81/solution1.js) | **99.72%** | **89.39%** | O(log n)|
+| 题目 | 难度 | 解法 | beats Runtime | 时间复杂度 |
+| :----- | :---: | :---: | :---: | :--: |
+| [852. 山脉数组的峰顶索引](https://leetcode-cn.com/problems/peak-index-in-a-mountain-array/submissions/) | Easy | [BinarySearch](/Binary-Search/852/solution2.js) | **98.70%** | O(log n)|
+| [744. 寻找比目标字母大的最小字母](https://leetcode-cn.com/problems/find-smallest-letter-greater-than-target/) | Easy | [BinarySearch](/Binary-Search/744/solution1.js) | **100.00%** | O(log n)|
+| [367. 有效的完全平方数](https://leetcode-cn.com/problems/valid-perfect-square/) | Easy | [BinarySearch](/Binary-Search/744/solution1.js) | **99.67%** | O(log n)|
+| [441. 排列硬币](https://leetcode-cn.com/problems/arranging-coins/) | Easy | [BinarySearch](/Binary-Search/441/solution1.js) | **100.00%** | O(log n)|
+| [475. 供暖器](https://leetcode-cn.com/problems/heaters/) | Easy | [BinarySearch](/Binary-Search/441/solution1.js) | **90.01%** | O(nlog m)|
+| [69. x 的平方根](https://leetcode-cn.com/problems/sqrtx/) | Easy | [BinarySearch](/Binary-Search/441/solution1.js) | **96.10%** | O(log n)|
+| [378. 有序矩阵中第K小的元素](https://leetcode-cn.com/problems/kth-smallest-element-in-a-sorted-matrix/) | Medium | [BinarySearch](/Binary-Search/378/solution2.js) | **97.86%** | O(nlog n)|
+| [875. 爱吃香蕉的珂珂](https://leetcode-cn.com/problems/koko-eating-bananas/) | Medium | [BinarySearch](/Binary-Search/875/solution2.js) | **91.82%** | O(nlog n)|
+| [436. 寻找右区间](https://leetcode-cn.com/problems/find-right-interval/) | Medium | [BinarySearch](/Binary-Search/436/solution2.js) | **100.00%** | O(nlog n)|
+| [162. 寻找峰值](https://leetcode-cn.com/problems/find-peak-element/submissions/) | Medium | [BinarySearch](/Binary-Search/162/solution2.js) | **90.60%** | O(log n)|
+| [658. 找到 K 个最接近的元素](https://leetcode-cn.com/problems/find-k-closest-elements/) | Medium | [BinarySearch](/Binary-Search/658/solution1.js) | **96.82%** | O(log n)|
+| [275. H指数 II](https://leetcode-cn.com/problems/h-index-ii/) | Medium | [BinarySearch](/Binary-Search/275/solution1.js) | **97.30%** | O(log n)|
+| [209. 长度最小的子数组](https://leetcode-cn.com/problems/minimum-size-subarray-sum/) | Medium | [BinarySearch](/Binary-Search/209/solution2.js) [TwoPoints](/Binary-Search/209/solution3.js) | **96.06%** | O(n)|
+| [74. 搜索二维矩阵](https://leetcode-cn.com/problems/search-a-2d-matrix/) | Medium | [/Binary-Search/209/solution2.js](/Binary-Search/74/solution1.js) | **94.68%** | O(nlog n)|
+| [34. 在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | Medium | [/Binary-Search/209/solution2.js](/Binary-Search/34/solution1.js) | **94.28%** | O(log n)|
+| [33. 搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/) | Medium | [/Binary-Search/209/solution2.js](/Binary-Search/33/solution1.js) | **98.15%** | O(log n)|
+| [81. 搜索旋转排序数组 II](https://leetcode-cn.com/problems/search-in-rotated-sorted-array-ii/submissions/) | Medium | [/Binary-Search/209/solution2.js](/Binary-Search/81/solution1.js) | **99.72%** | O(log n)|
 
 
 ### Two Points （双指针）
