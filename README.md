@@ -2,8 +2,20 @@
 
 > JavaScript 刷 LeetCode 不丢人 😂
 
+  &emsp;&emsp;本开源项目的目的：
 
-### 文章汇总
+  - 帮助前端同学培养**算法兴趣**，喜欢上这种刷题的学习模式；
+  - 提供大部分题目的**解题思路**；
+
+  &emsp;&emsp;对于刚开始接触 LeetCode 的同学，我的建议是：
+  
+  &emsp;&emsp;一刷：按照算法的分类，从 Easy 到 Medium 刷一遍，这样可以帮助你理解每一种算法的实现以及常用技巧。
+
+  &emsp;&emsp;二刷：可以尝试思考每一道题目是否可以用其它的算法解决以及它们之间的优劣。
+
+  &emsp;&emsp;Hard 类型的题目相对难度比较大，一开始接触这类题目可能会把你心态刷炸，所以等基本功稳健之后，再选择通过这类题目来进阶提升。
+
+### 📚文章汇总
 
   - [前端工程师的 LeetCode 之旅 -- 二分搜索 Easy 篇](https://mp.weixin.qq.com/s/D6zY08tJ8J-nhIA4u86IoA)
   - [前端工程师的 LeetCode 之旅 -- 二分搜索 Medium 篇（上）](https://mp.weixin.qq.com/s/W-z820EkMagQsZafJdEZrw)
@@ -27,9 +39,9 @@
 | [209. 长度最小的子数组](https://leetcode-cn.com/problems/minimum-size-subarray-sum/) | Medium | [*BinarySearch*](/Binary-Search/209/solution2.js) [*TwoPoints*](/Binary-Search/209/solution3.js) |
 | [74. 搜索二维矩阵](https://leetcode-cn.com/problems/search-a-2d-matrix/) | Medium | [*BinarySearch*](/Binary-Search/74/solution1.js) |
 | [34. 在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | Medium | [*BinarySearch*](/Binary-Search/34/solution1.js) |
+| [153. 寻找旋转排序数组中的最小值](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/) | Medium | [*BinarySearch*](/Binary-Search/153/solution1.js) |
 | [33. 搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/) | Medium | [*BinarySearch*](/Binary-Search/33/solution1.js) |
 | [81. 搜索旋转排序数组 II](https://leetcode-cn.com/problems/search-in-rotated-sorted-array-ii/submissions/) | Medium | [*BinarySearch*](/Binary-Search/81/solution1.js) |
-
 
 ### Two Points （双指针）
 | 题目 | 难度 | 代码 | beats Runtime | beats Memory | 时间复杂度 |
