@@ -15,7 +15,7 @@ const removeElement = (nums, val) => {
   let start = 0
   let end = max - 1
 
-  while (start < end) {
+  while (start <= end) {
     if (nums[end] === val) {
       nums.pop()
       end--
@@ -29,9 +29,6 @@ const removeElement = (nums, val) => {
       continue
     }
     start++
-  }
-  if (nums[end] === val) {
-    nums.pop()
   }
   return nums.length
 }
