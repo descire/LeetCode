@@ -47,7 +47,7 @@
 
 ### Two Points （双指针）
 | 题目 | 难度 | 解法 | beats Runtime |
-| :----- | :---: | :---: | :---: | :---: | :--: |
+| :----- | :---: | :---: | :---: |
 | [977. 有序数组的平方](https://leetcode-cn.com/problems/squares-of-a-sorted-array/) | Easy | [*TwoPoints*](/Two-Points/977/solution1.js) | **99.39%** |
 | [344. 反转字符串](https://leetcode-cn.com/problems/reverse-string/) | Easy | [*TwoPoints*](/Two-Points/344/solution1.js) | **98.36%** |
 | [349. 两个数组的交集](https://leetcode-cn.com/problems/intersection-of-two-arrays/) | Easy | [*HashMap*](/Two-Points/349/solution1.js) | **99.34%** |
