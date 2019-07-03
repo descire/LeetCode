@@ -22,28 +22,28 @@
 
 ### Binary Search（二分查找法）
 
-| 题目 | 难度 | 解法 |
-| :----- | :---: | :---: |
-| [852. 山脉数组的峰顶索引](https://leetcode-cn.com/problems/peak-index-in-a-mountain-array/submissions/) | Easy | [*BinarySearch*](/Binary-Search/852/solution2.js) |
-| [744. 寻找比目标字母大的最小字母](https://leetcode-cn.com/problems/find-smallest-letter-greater-than-target/) | Easy | [*BinarySearch*](/Binary-Search/744/solution1.js) |
-| [367. 有效的完全平方数](https://leetcode-cn.com/problems/valid-perfect-square/) | Easy | [*BinarySearch*](/Binary-Search/744/solution1.js) |
-| [441. 排列硬币](https://leetcode-cn.com/problems/arranging-coins/) | Easy | [*BinarySearch*](/Binary-Search/441/solution1.js) |
-| [475. 供暖器](https://leetcode-cn.com/problems/heaters/) | Easy | [*BinarySearch*](/Binary-Search/441/solution1.js) |
-| [69. x 的平方根](https://leetcode-cn.com/problems/sqrtx/) | Easy | [*BinarySearch*](/Binary-Search/441/solution1.js) |
-| [378. 有序矩阵中第K小的元素](https://leetcode-cn.com/problems/kth-smallest-element-in-a-sorted-matrix/) | Medium | [*BinarySearch*](/Binary-Search/378/solution2.js) |
-| [875. 爱吃香蕉的珂珂](https://leetcode-cn.com/problems/koko-eating-bananas/) | Medium | [*BinarySearch*](/Binary-Search/875/solution2.js) |
-| [436. 寻找右区间](https://leetcode-cn.com/problems/find-right-interval/) | Medium | [*BinarySearch*](/Binary-Search/436/solution2.js) |
-| [162. 寻找峰值](https://leetcode-cn.com/problems/find-peak-element/submissions/) | Medium | [*BinarySearch*](/Binary-Search/162/solution2.js) |
-| [658. 找到 K 个最接近的元素](https://leetcode-cn.com/problems/find-k-closest-elements/) | Medium | [*BinarySearch*](/Binary-Search/658/solution1.js) |
-| [275. H指数 II](https://leetcode-cn.com/problems/h-index-ii/) | Medium | [*BinarySearch*](/Binary-Search/275/solution1.js) |
-| [209. 长度最小的子数组](https://leetcode-cn.com/problems/minimum-size-subarray-sum/) | Medium | [*BinarySearch*](/Binary-Search/209/solution2.js) [*TwoPoints*](/Binary-Search/209/solution3.js) |
-| [74. 搜索二维矩阵](https://leetcode-cn.com/problems/search-a-2d-matrix/) | Medium | [*BinarySearch*](/Binary-Search/74/solution1.js) |
-| [34. 在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | Medium | [*BinarySearch*](/Binary-Search/34/solution1.js) |
-| [153. 寻找旋转排序数组中的最小值](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/) | Medium | [*BinarySearch*](/Binary-Search/153/solution1.js) |
-| [33. 搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/) | Medium | [*BinarySearch*](/Binary-Search/33/solution1.js) |
-| [81. 搜索旋转排序数组 II](https://leetcode-cn.com/problems/search-in-rotated-sorted-array-ii/submissions/) | Medium | [*BinarySearch*](/Binary-Search/81/solution1.js) |
-| [287. 寻找重复数](https://leetcode-cn.com/problems/find-the-duplicate-number/) | Medium | [*HashMap*](/Binary-Search/287/solution1.js) [*BinarySearch*](/Binary-Search/287/solution2.js) |
-| [154. 寻找旋转排序数组中的最小值 II](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii/submissions/) | Hard | [*BinarySearch*](/Binary-Search/154/solution1.js) |
+| 题目 | 难度 | 解法 | beats Runtime |
+| :----- | :---: | :---: | :---: |
+| [852. 山脉数组的峰顶索引](https://leetcode-cn.com/problems/peak-index-in-a-mountain-array/submissions/) | Easy | [*BinarySearch*](/Binary-Search/852/solution2.js) | **98.70%** |
+| [744. 寻找比目标字母大的最小字母](https://leetcode-cn.com/problems/find-smallest-letter-greater-than-target/) | Easy | [*BinarySearch*](/Binary-Search/744/solution1.js) | **100.00%** |
+| [367. 有效的完全平方数](https://leetcode-cn.com/problems/valid-perfect-square/) | Easy | [*BinarySearch*](/Binary-Search/744/solution1.js) | **99.67%** |
+| [441. 排列硬币](https://leetcode-cn.com/problems/arranging-coins/) | Easy | [*BinarySearch*](/Binary-Search/441/solution1.js) | **100.00%** |
+| [475. 供暖器](https://leetcode-cn.com/problems/heaters/) | Easy | [*BinarySearch*](/Binary-Search/441/solution1.js) | **100.00%** |
+| [69. x 的平方根](https://leetcode-cn.com/problems/sqrtx/) | Easy | [*BinarySearch*](/Binary-Search/441/solution1.js) | **96.10%** |
+| [378. 有序矩阵中第K小的元素](https://leetcode-cn.com/problems/kth-smallest-element-in-a-sorted-matrix/) | Medium | [*BinarySearch*](/Binary-Search/378/solution2.js) | **97.86%** |
+| [875. 爱吃香蕉的珂珂](https://leetcode-cn.com/problems/koko-eating-bananas/) | Medium | [*BinarySearch*](/Binary-Search/875/solution2.js) | **91.82%** |
+| [436. 寻找右区间](https://leetcode-cn.com/problems/find-right-interval/) | Medium | [*BinarySearch*](/Binary-Search/436/solution2.js) | **100.00%** |
+| [162. 寻找峰值](https://leetcode-cn.com/problems/find-peak-element/submissions/) | Medium | [*BinarySearch*](/Binary-Search/162/solution2.js) | **90.60%** |
+| [658. 找到 K 个最接近的元素](https://leetcode-cn.com/problems/find-k-closest-elements/) | Medium | [*BinarySearch*](/Binary-Search/658/solution1.js) | **96.82%** |
+| [275. H指数 II](https://leetcode-cn.com/problems/h-index-ii/) | Medium | [*BinarySearch*](/Binary-Search/275/solution1.js) | **97.30%** |
+| [209. 长度最小的子数组](https://leetcode-cn.com/problems/minimum-size-subarray-sum/) | Medium | [*BinarySearch*](/Binary-Search/209/solution2.js) [*TwoPoints*](/Binary-Search/209/solution3.js) | **97.96%%** |
+| [74. 搜索二维矩阵](https://leetcode-cn.com/problems/search-a-2d-matrix/) | Medium | [*BinarySearch*](/Binary-Search/74/solution1.js) | **94.89%** |
+| [34. 在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | Medium | [*BinarySearch*](/Binary-Search/34/solution1.js) | **94.28%** |
+| [153. 寻找旋转排序数组中的最小值](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/) | Medium | [*BinarySearch*](/Binary-Search/153/solution1.js) | **99.04%** |
+| [33. 搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/) | Medium | [*BinarySearch*](/Binary-Search/33/solution1.js) | **98.15%** |
+| [81. 搜索旋转排序数组 II](https://leetcode-cn.com/problems/search-in-rotated-sorted-array-ii/submissions/) | Medium | [*BinarySearch*](/Binary-Search/81/solution1.js) | **99.72%** |
+| [287. 寻找重复数](https://leetcode-cn.com/problems/find-the-duplicate-number/) | Medium | [*HashMap*](/Binary-Search/287/solution1.js) [*BinarySearch*](/Binary-Search/287/solution2.js) | **86.83%** |
+| [154. 寻找旋转排序数组中的最小值 II](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii/submissions/) | Hard | [*BinarySearch*](/Binary-Search/154/solution1.js) | **97.87%** |
 
 ### Two Points （双指针）
 | 题目 | 难度 | 解法 | beats Runtime |
