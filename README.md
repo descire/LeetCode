@@ -65,6 +65,7 @@
 | [28. 实现strStr()](https://leetcode-cn.com/problems/implement-strstr/) | Easy | [*BM*](/Two-Points/28/solution3.js) | **95.96%** |
 | [234. 回文链表](https://leetcode-cn.com/problems/palindrome-linked-list/) | Easy | [*TwoPoints*](/Two-Points/234/solution1.js) | **96.51%** |
 | [532. 数组中的K-diff数对](https://leetcode-cn.com/problems/k-diff-pairs-in-an-array/) | Easy | [*HashMap*](/Two-Points/532/solution2.js) | **99.12%** |
+| [763. 划分字母区间](https://leetcode-cn.com/problems/partition-labels/) | Medium | [*HashMap+TwoPoints+Greedy*](/Two-Points/763/solution1.js) | **96.67%** |
 
 ### Small Skill（利用一些小技巧思路处理的问题）
 | 题目 | 难度 | 代码 | beats Runtime | beats Memory | 时间复杂度 |
