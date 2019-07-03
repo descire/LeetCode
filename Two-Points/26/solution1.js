@@ -13,15 +13,15 @@ const removeDuplicates = nums => {
   if (max === 1) {
     return nums
   }
-  let index = 1
-  for (let i = 1; i < max; i++) {
-    if (nums[i] !== nums[index - 1]) {
-      nums[index] = nums[i]
-      index++
+  let slow = 1
+  for (let fast = 1; fast < max; fast++) {
+    if (nums[fast] !== nums[slow - 1]) {
+      nums[slow] = nums[fast]
+      slow++
       continue
     }
   }
-  let count = max - index
+  let count = max - slow
   while (count > 0) {
     nums.pop()
     count--
