@@ -46,25 +46,25 @@
 | [154. 寻找旋转排序数组中的最小值 II](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii/submissions/) | Hard | [*BinarySearch*](/Binary-Search/154/solution1.js) |
 
 ### Two Points （双指针）
-| 题目 | 难度 | 代码 | beats Runtime | beats Memory | 时间复杂度 |
+| 题目 | 难度 | 解法 | beats Runtime |
 | :----- | :---: | :---: | :---: | :---: | :--: |
-| [977. 有序数组的平方](https://leetcode-cn.com/problems/squares-of-a-sorted-array/) | Easy | [代码](/Two-Points/977/solution1.js) | **99.39%** | **99.46%** | O(n)|
-| [344. 反转字符串](https://leetcode-cn.com/problems/reverse-string/) | Easy | [代码](/Two-Points/344/solution1.js) | **98.36%** | **79.72%** | O(n)|
-| [349. 两个数组的交集](https://leetcode-cn.com/problems/intersection-of-two-arrays/) | Easy | [代码](/Two-Points/349/solution1.js) | **99.34%** | **57.93%** | O(n)|
-| [283. 移动零](https://leetcode-cn.com/problems/move-zeroes/) | Easy | [代码](/Two-Points/283/solution2.js) | **92.57%** | **25.27%** | O(n)|
-| [27. 移除元素](https://leetcode-cn.com/problems/remove-element/) | Easy | [代码](/Two-Points/27/solution1.js) | **97.20%** | **33.05%** | O(n)|
-| [167. 两数之和 II - 输入有序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/) | Easy | [代码](/Two-Points/167/solution1.js) | **91.86%** | **57.10%** | O(n)|
-| [345. 反转字符串中的元音字母](https://leetcode-cn.com/problems/reverse-vowels-of-a-string/) | Easy | [代码](/Two-Points/345/solution1.js) | **95.53%** | **43.37%** | O(n)|
-| [844. 比较含退格的字符串](https://leetcode-cn.com/problems/backspace-string-compare/) | Easy | [代码](/Two-Points/844/solution1.js) | **94.66%** | **98.53%** | O(n)|
-| [26. 删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) | Easy | [代码](/Two-Points/26/solution1.js) | **96.77%** | **67.72%** | O(n)|
-| [88. 合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/) | Easy | [代码](/Two-Points/88/solution1.js) | **95.92%** | **61.28%** | O(n)|
-| [350. 两个数组的交集 II](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/) | Easy | [代码](/Two-Points/350/solution1.js) | **97.54%** | **13.56%** | O(n)|
-| [925. 长按键入](https://leetcode-cn.com/problems/long-pressed-name/) | Easy | [代码](/Two-Points/925/solution1.js) | **100.00%** | **42.24%** | O(n)|
-| [141. 环形链表](https://leetcode-cn.com/problems/linked-list-cycle/) | Easy | [代码](/Two-Points/141/solution2.js) | **97.17%** | **20.77%** | O(n)|
-| [125. 验证回文串](https://leetcode-cn.com/problems/valid-palindrome/) | Easy | [代码](/Two-Points/125/solution1.js) | **96.73%** | **44.65%** | O(n)|
-| [28. 实现strStr()](https://leetcode-cn.com/problems/implement-strstr/) | Easy | [代码](/Two-Points/28/solution3.js) | **95.96%** | **37.78%** | O(n / m)|
-| [234. 回文链表](https://leetcode-cn.com/problems/palindrome-linked-list/) | Easy | [代码](/Two-Points/234/solution1.js) | **96.51%** | **37.67%** | O(n / m)|
-| [532. 数组中的K-diff数对](https://leetcode-cn.com/problems/k-diff-pairs-in-an-array/) | Easy | [代码](/Two-Points/532/solution2.js) | **99.12%** | **25.00%** | O(n)|
+| [977. 有序数组的平方](https://leetcode-cn.com/problems/squares-of-a-sorted-array/) | Easy | [*TwoPoints*](/Two-Points/977/solution1.js) | **99.39%** |
+| [344. 反转字符串](https://leetcode-cn.com/problems/reverse-string/) | Easy | [*TwoPoints*](/Two-Points/344/solution1.js) | **98.36%** |
+| [349. 两个数组的交集](https://leetcode-cn.com/problems/intersection-of-two-arrays/) | Easy | [*HashMap*](/Two-Points/349/solution1.js) | **99.34%** |
+| [283. 移动零](https://leetcode-cn.com/problems/move-zeroes/) | Easy | [*TwoPoints*](/Two-Points/283/solution2.js) | **92.57%** |
+| [27. 移除元素](https://leetcode-cn.com/problems/remove-element/) | Easy | [*TwoPoints*](/Two-Points/27/solution1.js) | **97.20%** |
+| [167. 两数之和 II - 输入有序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/) | Easy | [*TwoPoints*](/Two-Points/167/solution1.js) | **91.86%** |
+| [345. 反转字符串中的元音字母](https://leetcode-cn.com/problems/reverse-vowels-of-a-string/) | Easy | [*TwoPoints*](/Two-Points/345/solution1.js) | **95.53%** |
+| [844. 比较含退格的字符串](https://leetcode-cn.com/problems/backspace-string-compare/) | Easy | [*TwoPoints*](/Two-Points/844/solution1.js) | **94.66%** |
+| [26. 删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) | Easy | [*TwoPoints*](/Two-Points/26/solution1.js) | **96.77%** |
+| [88. 合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/) | Easy | [*TwoPoints*](/Two-Points/88/solution1.js) | **95.92%** |
+| [350. 两个数组的交集 II](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/) | Easy | [*HashMap*](/Two-Points/350/solution1.js) | **97.54%** |
+| [925. 长按键入](https://leetcode-cn.com/problems/long-pressed-name/) | Easy | [*TwoPoints*](/Two-Points/925/solution1.js) | **100.00%** |
+| [141. 环形链表](https://leetcode-cn.com/problems/linked-list-cycle/) | Easy | [*TwoPoints*](/Two-Points/141/solution2.js) | **97.17%** |
+| [125. 验证回文串](https://leetcode-cn.com/problems/valid-palindrome/) | Easy | [*TwoPoints*](/Two-Points/125/solution1.js) | **96.73%** |
+| [28. 实现strStr()](https://leetcode-cn.com/problems/implement-strstr/) | Easy | [*BM*](/Two-Points/28/solution3.js) | **95.96%** |
+| [234. 回文链表](https://leetcode-cn.com/problems/palindrome-linked-list/) | Easy | [*TwoPoints*](/Two-Points/234/solution1.js) | **96.51%** |
+| [532. 数组中的K-diff数对](https://leetcode-cn.com/problems/k-diff-pairs-in-an-array/) | Easy | [*HashMap*](/Two-Points/532/solution2.js) | **99.12%** |
 
 ### Small Skill（利用一些小技巧思路处理的问题）
 | 题目 | 难度 | 代码 | beats Runtime | beats Memory | 时间复杂度 |
