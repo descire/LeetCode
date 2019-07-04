@@ -70,6 +70,7 @@
 | [11. 盛最多水的容器](https://leetcode-cn.com/problems/container-with-most-water/) | Medium | [*TwoPoints*](/Two-Points/11/solution1.js) | **99.27%** |
 | [75. 颜色分类](https://leetcode-cn.com/problems/sort-colors/) | Medium | [*TwoPoints*](/Two-Points/75/solution1.js) | **97.04%** |
 | [80. 删除排序数组中的重复项 II](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array-ii/) | Medium | [*TwoPoints*](/Two-Points/80/solution1.js) | **99.54%** |
+| [524. 通过删除字母匹配到字典里最长单词](https://leetcode-cn.com/problems/longest-word-in-dictionary-through-deleting/) | Medium | [*TwoPoints*](/Two-Points/524/solution1.js) | **93.75%** |
 
 ### Small Skill（利用一些小技巧思路处理的问题）
 | 题目 | 难度 | 代码 | beats Runtime | beats Memory | 时间复杂度 |
