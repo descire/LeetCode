@@ -20,6 +20,7 @@
   - [前端工程师的 LeetCode 之旅 -- 二分搜索算法 Medium 篇（上）](https://mp.weixin.qq.com/s/W-z820EkMagQsZafJdEZrw)
   - [前端工程师的 LeetCode 之旅 -- 二分搜索算法 Medium 篇（下）](https://mp.weixin.qq.com/s/wiqrNBNp22RUqM1mmSXBkQ)
   - [前端工程师的 LeetCode 之旅 -- 双指针技巧 Easy 篇](https://mp.weixin.qq.com/s/SXj8tkGj19gZy3EgTPIy2Q)
+  - [前端工程师的 LeetCode 之旅 -- KMP 字符串匹配算法](https://mp.weixin.qq.com/s/-qIwfNLfrKR6W6HJoHrnGw)
 
 ### Binary Search（二分查找法）
 
@@ -63,7 +64,7 @@
 | [925. 长按键入](https://leetcode-cn.com/problems/long-pressed-name/) | Easy | [*TwoPoints*](/Two-Points/925/solution1.js) | **100.00%** |
 | [141. 环形链表](https://leetcode-cn.com/problems/linked-list-cycle/) | Easy | [*TwoPoints*](/Two-Points/141/solution2.js) | **97.17%** |
 | [125. 验证回文串](https://leetcode-cn.com/problems/valid-palindrome/) | Easy | [*TwoPoints*](/Two-Points/125/solution1.js) | **96.73%** |
-| [28. 实现strStr()](https://leetcode-cn.com/problems/implement-strstr/) | Easy | [*BM*](/Two-Points/28/solution3.js) | **95.96%** |
+| [28. 实现strStr()](https://leetcode-cn.com/problems/implement-strstr/) | Easy | [*KMP*](/Two-Points/28/solution2.js) | **95.96%** |
 | [234. 回文链表](https://leetcode-cn.com/problems/palindrome-linked-list/) | Easy | [*TwoPoints*](/Two-Points/234/solution1.js) | **96.51%** |
 | [532. 数组中的K-diff数对](https://leetcode-cn.com/problems/k-diff-pairs-in-an-array/) | Easy | [*HashMap*](/Two-Points/532/solution2.js) | **99.12%** |
 | [763. 划分字母区间](https://leetcode-cn.com/problems/partition-labels/) | Medium | [*HashMap+TwoPoints+Greedy*](/Two-Points/763/solution1.js) | **96.67%** |
