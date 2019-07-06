@@ -8,13 +8,13 @@
 
   &emsp;&emsp;本篇文章主要带大家了解 KMP 字符串匹配算法的执行流程以及代码实现。
 
-### 二、朴素算法
+### 二、朴素字符串匹配算法
 
   &emsp;&emsp;在介绍 KMP 字符串匹配算法之前，首先了解一下朴素字符串匹配算法的实现：
 
   ![朴素解法 28](./28.png)
 
-  &emsp;&emsp;上述代码的思路是：采用 needle 字符串依次与 haystack 字符串中字串进行匹配，时间复杂度为 O(nm)。
+  &emsp;&emsp;上述代码的思路是：采用 needle 字符串依次与 haystack 字符串中的子串进行匹配，时间复杂度为 O(nm)。
 
 ### 三、KMP 字符串匹配算法
 
@@ -31,9 +31,9 @@
 
   ![KMP 部分匹配表](./kmp-partial-table.png)
 
-  &emsp;&emsp;这张表记录的是 needle 字符串中所有前缀的不完全前后缀的最长公共字符串的长度（比较拗口,,ԾㅂԾ,,）。
+  &emsp;&emsp;**这张表记录的是 needle 字符串中所有前缀的不完全前后缀的最长公共字符串的长度**（比较拗口,,ԾㅂԾ,,）。
 
-  &emsp;&emsp;needle 中的前缀有: a, aa, aab, aaba, aabaa, aabaaa, aabaaac。
+  &emsp;&emsp;needle 字符串中的前缀有: a, aa, aab, aaba, aabaa, aabaaa, aabaaac。
 
   &emsp;&emsp;以前缀 aabaa 为例：
 
@@ -42,7 +42,7 @@
 
   &emsp;&emsp;所以 aabaa 不完全前后缀的最长公共字符串的长度为 2。
 
-  &emsp;&emsp;接下来进行第一轮匹配:
+  &emsp;&emsp;了解部分匹配表的概念之后，进行第一轮匹配:
 
   ![KMP 算法的第一轮比较](./kmp-first-match.png)
 
@@ -52,9 +52,9 @@
 
   ![KMP 算法的第二轮比较](./kmp-second-match.png)
 
-  &emsp;&emsp;这样，KMP 算法在第二轮就可以确定字符串被匹配的位置。
+  &emsp;&emsp;这样，KMP 算法在第二轮就可以确定字符串匹配的结果。
 
-  &emsp;&emsp;相比较朴素匹配算法的时间复杂度，KMP 字符串匹配算法将时间复杂度降低为 O(n+m)。
+  &emsp;&emsp;相比较朴素字符串匹配算法的时间复杂度，KMP 字符串匹配算法将时间复杂度降低为 O(n+m)。
 
 ##### 2、部分匹配表算法的实现
 
@@ -77,10 +77,10 @@
 
   ![KMP 算法实现](./kmp.png)
 
-  &emsp;&emsp;到此，我们就实现了 KMP 字符串匹配算法，如果博主粗糙的讲解让你仍然疑惑不解，可以查看以下参考文献：
+  &emsp;&emsp;到此，我们就实现了 KMP 字符串匹配算法，如果博主粗糙的讲解让你仍然疑惑不解，可以搜索以下参考文献：
 
-  - [阮一峰的网络日志:字符串匹配的KMP算法 -- http://www.ruanyifeng.com/blog/2013/05/Knuth%E2%80%93Morris%E2%80%93Pratt_algorithm.html](http://www.ruanyifeng.com/blog/2013/05/Knuth%E2%80%93Morris%E2%80%93Pratt_algorithm.html)
-  - [The Knuth-Morris-Pratt Algorithm in my own words -- http://jakeboxer.com/blog/2009/12/13/the-knuth-morris-pratt-algorithm-in-my-own-words/](http://jakeboxer.com/blog/2009/12/13/the-knuth-morris-pratt-algorithm-in-my-own-words/)
+  - [阮一峰的网络日志:字符串匹配的KMP算法](http://www.ruanyifeng.com/blog/2013/05/Knuth%E2%80%93Morris%E2%80%93Pratt_algorithm.html)
+  - [The Knuth-Morris-Pratt Algorithm in my own words](http://jakeboxer.com/blog/2009/12/13/the-knuth-morris-pratt-algorithm-in-my-own-words/)
 
 ### 写在最后
 
