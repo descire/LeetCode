@@ -32,9 +32,7 @@ const strStr = (haystack, needle) => {
       y++
       continue
     }
-    // 已经匹配的字符数长度 - 部分匹配的最大公共字串的长度
-    x = x - partial[y - 1]
-    y = 0
+    y = partial[y - 1]
   }
   if (y === l2) {
     return x - l2
@@ -43,29 +41,28 @@ const strStr = (haystack, needle) => {
 }
 
 // 部分匹配值
-// 根据前缀和后缀 算出最大的公共部分
 function getPartial(str) {
   const max = str.length
   const partial = Array(max).fill(0)
 
-  let i = 0
-  let j = 1
-  while (j < max) {
+  let start = 0
+  let end = 1
+  while (end < max) {
 
-    if (i === 0 && str[i] !== str[j]) {
-      partial[j] = 0
-      j++
+    if (start === 0 && str[start] !== str[end]) {
+      partial[end] = 0
+      end++
       continue
     }
 
-    if (str[i] === str[j]) {
-      partial[j] = i + 1
-      i++
-      j++
+    if (str[start] === str[end]) {
+      partial[end] = start + 1
+      start++
+      end++
       continue
     }
-    if (str[i] !== str[j]) {
-      i--
+    if (str[start] !== str[end]) {
+      start--
     }
   }
 
