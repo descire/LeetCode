@@ -77,6 +77,7 @@
 | [16. 最接近的三数之和](https://leetcode-cn.com/problems/3sum-closest/) | Medium | [*TwoPoints*](/Two-Points/16/solution1.js) | **97.27%** |
 | [142. 环形链表 II](https://leetcode-cn.com/problems/linked-list-cycle-ii/) | Medium | [*TwoPoints*](/Two-Points/142/solution1.js) | **94.77%** |
 | [15. 三数之和](https://leetcode-cn.com/problems/3sum/) | Medium | [*TwoPoints*](/Two-Points/15/solution1.js) | **95.96%** |
+| [923. 三数之和的多种可能](https://leetcode-cn.com/problems/3sum-with-multiplicity/) | Medium | [*TwoPoints*](/Two-Points/923/solution1.js) [*HashTable+Combination*](/Two-Points/923/solution2.js) | **96.30%** |
 
 ### Small Skill（利用一些小技巧思路处理的问题）
 | 题目 | 难度 | 代码 | beats Runtime | beats Memory | 时间复杂度 |
