@@ -32,6 +32,7 @@ const strStr = (haystack, needle) => {
       y++
       continue
     }
+    // 根据部分匹配表将 needle 与当前匹配的位置对齐
     y = partial[y - 1]
   }
   if (y === l2) {
