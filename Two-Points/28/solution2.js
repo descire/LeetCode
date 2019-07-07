@@ -19,7 +19,6 @@ const strStr = (haystack, needle) => {
   const partial = getPartial(needle)
   const l1 = haystack.length
   const l2 = needle.length
-
   let x = 0
   let y = 0
   while (x < l1 && y < l2) {
@@ -49,7 +48,6 @@ function getPartial(str) {
   let start = 0
   let end = 1
   while (end < max) {
-
     if (start === 0 && str[start] !== str[end]) {
       partial[end] = 0
       end++
@@ -63,9 +61,28 @@ function getPartial(str) {
       continue
     }
     if (str[start] !== str[end]) {
-      start--
+      // 不相等时，需要向前回退
+      let len = 0
+      let tempEnd = end
+      while (start >= 0) {
+        if (str[start] !== str[tempEnd]) {
+          len = 0
+          tempEnd = end
+        } else {
+          len++
+          tempEnd--
+        }
+        start--
+      }
+      partial[end++] = len
+      start += len + 1
     }
   }
 
   return partial
 }
+
+
+console.log(getPartial('abcabbd')) // 0001200
+console.log(getPartial('aabaaa')) // 010122
+console.log(strStr('abcabbcabbd', 'abcabbd'))
