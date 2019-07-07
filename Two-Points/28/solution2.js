@@ -61,7 +61,7 @@ function getPartial(str) {
       continue
     }
     if (str[start] !== str[end]) {
-      // 不相等时，需要向前回退
+      // 回退
       let len = 0
       let tempEnd = end
       while (start >= 0) {

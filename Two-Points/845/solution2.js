@@ -5,39 +5,45 @@
  * 
  * Medium
  * 
+ * 76ms 100%
+ * 
+ * 37.3mb 33.33%
+ * 
  */
 const longestMountain = A => {
   const max = A.length
   let ans = 0
-  let flag = false // 当前处于递增区间
-
   let start = 0
   let end = 0
+  let up = false
+  let down = false
 
-  while (end < max - 1) {
-    const item = A[end]
-    if (!flag) {
-      if (item > A[end + 1] && end - start >= 1) {
-        // 左边形成半峰
-        flag = true
-        continue
-      }
-      if ((item > A[end + 1] && end - start < 1) || item === A[end + 1]) {
-        start = end + 1
+  while (++end < max) {
+    const curItem = A[end]
+    const preItem = A[end - 1]
+    if (curItem === preItem) {
+      up = down = false
+      start = end
+    } else if (curItem > preItem) {
+      // 递增
+      up = true
+      if (down) {
+        start = end - 1
+        down = false
       }
     } else {
-      if (item <= A[end + 1]) {
-        ans = Math.max(ans, end - start + 1)
-        flag = false
-        start = start + 1
-        end = start
+      // 递减
+      if (up && !down) {
+        down = true
+      }
+      if (!up) {
+        start = end
       }
     }
-    end++
+
+    if (up && down) {
+      ans = Math.max(ans, end - start + 1)
+    }
   }
-  if (A[end - 1] > A[end]) {
-    // 单调的情况
-    ans = Math.max(ans, end - start + 1)
-  }
-  return ans > 2 ? ans : 0
+  return ans
 }
