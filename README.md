@@ -81,6 +81,7 @@
 | [18. 四数之和](https://leetcode-cn.com/problems/4sum/) | Medium | [*TwoPoints*](/Two-Points/18/solution1.js) | **99.36%** |
 | [845. 数组中的最长山脉](https://leetcode-cn.com/problems/longest-mountain-in-array/) | Medium | [*TwoPoints*](/Two-Points/845/solution1.js) | **100.00%** |
 | [930. 和相同的二元子数组](https://leetcode-cn.com/problems/binary-subarrays-with-sum/) | Medium | [*PrefixSum*](/Two-Points/930/solution2.js) | **100.00%** |
+| [713. 乘积小于K的子数组](https://leetcode-cn.com/problems/subarray-product-less-than-k/) | Medium | [*PrefixSum*](/Two-Points/713/solution1.js) | **100.00%** |
 
 ### Small Skill（利用一些小技巧思路处理的问题）
 | 题目 | 难度 | 代码 | beats Runtime | beats Memory | 时间复杂度 |
