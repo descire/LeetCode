@@ -79,11 +79,11 @@
 | [15. 三数之和](https://leetcode-cn.com/problems/3sum/) | Medium | [*TwoPoints*](/Two-Points/15/solution1.js) | **95.96%** |
 | [923. 三数之和的多种可能](https://leetcode-cn.com/problems/3sum-with-multiplicity/) | Medium | [*TwoPoints*](/Two-Points/923/solution1.js) [*HashTable+Combination*](/Two-Points/923/solution2.js) | **96.30%** |
 | [18. 四数之和](https://leetcode-cn.com/problems/4sum/) | Medium | [*TwoPoints*](/Two-Points/18/solution1.js) | **99.36%** |
-| [845. 数组中的最长山脉](https://leetcode-cn.com/problems/longest-mountain-in-array/) | Medium | [*TwoPoints*](/Two-Points/845/solution1.js) | **100.00%** |
+| [845. 数组中的最长山脉](https://leetcode-cn.com/problems/longest-mountain-in-array/) | Medium | [*SlidingWindow*](/Two-Points/845/solution1.js) | **100.00%** |
 | [930. 和相同的二元子数组](https://leetcode-cn.com/problems/binary-subarrays-with-sum/) | Medium | [*PrefixSum*](/Two-Points/930/solution2.js) | **100.00%** |
-| [713. 乘积小于K的子数组](https://leetcode-cn.com/problems/subarray-product-less-than-k/) | Medium | [*PrefixSum*](/Two-Points/713/solution1.js) | **100.00%** |
-| [3. 无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/) | Medium | [*TwoPoints*](/Two-Points/3/solution1.js) | **97.26%** |
-| [904. 水果成篮](https://leetcode-cn.com/problems/fruit-into-baskets/) | Medium | [*TwoPoints+HashTable*](/Two-Points/904/solution1.js) | **88.24%** |
+| [713. 乘积小于K的子数组](https://leetcode-cn.com/problems/subarray-product-less-than-k/) | Medium | [*SlidingWindow*](/Two-Points/713/solution1.js) | **100.00%** |
+| [3. 无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/) | Medium | [*SlidingWindow+HashTable*](/Two-Points/3/solution1.js) | **97.26%** |
+| [904. 水果成篮](https://leetcode-cn.com/problems/fruit-into-baskets/) | Medium | [*SlidingWindow+HashTable*](/Two-Points/904/solution1.js) | **88.24%** |
 | [567. 字符串的排列](https://leetcode-cn.com/problems/permutation-in-string/) | Medium | [*SlidingWindow+HashTable*](/Two-Points/567/solution1.js) | **87.75%** |
 | [881. 救生艇](https://leetcode-cn.com/problems/boats-to-save-people/) | Medium | [*TwoPoints*](/Two-Points/881/solution1.js) | **85.00%** |
 
