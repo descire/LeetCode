@@ -32,7 +32,7 @@ const checkInclusion = (s1, s2) => {
     }
     valueInWindows.set(s2[end], (valueInWindows.get(s2[end]) || 0) + 1)
     if (end - start + 1 === l1 && isEqual(record, valueInWindows)) {
-      // 判断当前的两个 HashTable 是否相等
+      // 子串 与 s1 的字符以及数量相等
       return true
     }
     end++
