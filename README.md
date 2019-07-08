@@ -83,6 +83,7 @@
 | [930. 和相同的二元子数组](https://leetcode-cn.com/problems/binary-subarrays-with-sum/) | Medium | [*PrefixSum*](/Two-Points/930/solution2.js) | **100.00%** |
 | [713. 乘积小于K的子数组](https://leetcode-cn.com/problems/subarray-product-less-than-k/) | Medium | [*PrefixSum*](/Two-Points/713/solution1.js) | **100.00%** |
 | [3. 无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/) | Medium | [*TwoPoints*](/Two-Points/3/solution1.js) | **97.26%** |
+| [904. 水果成篮](https://leetcode-cn.com/problems/fruit-into-baskets/) | Medium | [*TwoPoints+HashTable*](/Two-Points/904/solution1.js) | **88.24%** |
 
 ### Small Skill（利用一些小技巧思路处理的问题）
 | 题目 | 难度 | 代码 | beats Runtime | beats Memory | 时间复杂度 |
