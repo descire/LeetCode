@@ -84,6 +84,7 @@
 | [713. 乘积小于K的子数组](https://leetcode-cn.com/problems/subarray-product-less-than-k/) | Medium | [*PrefixSum*](/Two-Points/713/solution1.js) | **100.00%** |
 | [3. 无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/) | Medium | [*TwoPoints*](/Two-Points/3/solution1.js) | **97.26%** |
 | [904. 水果成篮](https://leetcode-cn.com/problems/fruit-into-baskets/) | Medium | [*TwoPoints+HashTable*](/Two-Points/904/solution1.js) | **88.24%** |
+| [567. 字符串的排列](https://leetcode-cn.com/problems/permutation-in-string/) | Medium | [*SlidingWindow+HashTable*](/Two-Points/567/solution1.js) | **87.75%** |
 
 ### Small Skill（利用一些小技巧思路处理的问题）
 | 题目 | 难度 | 代码 | beats Runtime | beats Memory | 时间复杂度 |
