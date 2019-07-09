@@ -39,7 +39,7 @@
 | [162. 寻找峰值](https://leetcode-cn.com/problems/find-peak-element/submissions/) | Medium | [*BinarySearch*](/Binary-Search/162/solution2.js) | **90.60%** |
 | [658. 找到 K 个最接近的元素](https://leetcode-cn.com/problems/find-k-closest-elements/) | Medium | [*BinarySearch*](/Binary-Search/658/solution1.js) | **96.82%** |
 | [275. H指数 II](https://leetcode-cn.com/problems/h-index-ii/) | Medium | [*BinarySearch*](/Binary-Search/275/solution1.js) | **97.30%** |
-| [209. 长度最小的子数组](https://leetcode-cn.com/problems/minimum-size-subarray-sum/) | Medium | [*BinarySearch*](/Binary-Search/209/solution2.js) [*TwoPoints*](/Binary-Search/209/solution3.js) | **97.96%%** |
+| [209. 长度最小的子数组](https://leetcode-cn.com/problems/minimum-size-subarray-sum/) | Medium | [*BinarySearch*](/Binary-Search/209/solution2.js) [*SlidingWindow*](/Binary-Search/209/solution3.js) | **97.96%** |
 | [74. 搜索二维矩阵](https://leetcode-cn.com/problems/search-a-2d-matrix/) | Medium | [*BinarySearch*](/Binary-Search/74/solution1.js) | **94.89%** |
 | [34. 在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | Medium | [*BinarySearch*](/Binary-Search/34/solution1.js) | **94.28%** |
 | [153. 寻找旋转排序数组中的最小值](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/) | Medium | [*BinarySearch*](/Binary-Search/153/solution1.js) | **99.04%** |
@@ -69,7 +69,7 @@
 | [234. 回文链表](https://leetcode-cn.com/problems/palindrome-linked-list/) | Easy | [*TwoPoints*](/Two-Points/234/solution1.js) | **96.51%** |
 | [532. 数组中的K-diff数对](https://leetcode-cn.com/problems/k-diff-pairs-in-an-array/) | Easy | [*HashMap*](/Two-Points/532/solution2.js) | **99.12%** |
 | [763. 划分字母区间](https://leetcode-cn.com/problems/partition-labels/) | Medium | [*HashMap+TwoPoints+Greedy*](/Two-Points/763/solution1.js) | **96.67%** |
-| [986. 区间列表的交集](https://leetcode-cn.com/problems/interval-list-intersections/) | Medium | [*TwoPoints*](/Two-Points/986/solution2.js) | **96.43%** |
+| [986. 区间列表的交集](https://leetcode-cn.com/problems/interval-list-intersections/) | Medium | [*SlidingWindow*](/Two-Points/986/solution2.js) | **96.43%** |
 | [11. 盛最多水的容器](https://leetcode-cn.com/problems/container-with-most-water/) | Medium | [*TwoPoints*](/Two-Points/11/solution1.js) | **99.27%** |
 | [75. 颜色分类](https://leetcode-cn.com/problems/sort-colors/) | Medium | [*TwoPoints*](/Two-Points/75/solution1.js) | **97.04%** |
 | [80. 删除排序数组中的重复项 II](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array-ii/) | Medium | [*TwoPoints*](/Two-Points/80/solution1.js) | **99.54%** |

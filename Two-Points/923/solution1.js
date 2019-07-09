@@ -8,7 +8,7 @@
  * 220ms 29.63%
  * 35.4mb 50.00%
  * 
- * 双指针 把双重循环转化为单循环问题，
+ * 双指针
  */
 const MAX = 10 ** 9 + 7
 const threeSumMulti = (A, target) => {

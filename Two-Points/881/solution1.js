@@ -17,9 +17,9 @@ const numRescueBoats = (people, limit) => {
   let end = people.length - 1
   let ans = 0
   while (start <= end) {
-    const smaller = people[start]
-    const bigger = people[end]
-    if (smaller + bigger > limit) {
+    const light = people[start]
+    const weight = people[end]
+    if (light + weight > limit) {
       end--
     } else {
       end--
