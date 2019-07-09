@@ -57,7 +57,7 @@
 | [27. 移除元素](https://leetcode-cn.com/problems/remove-element/) | Easy | [*TwoPoints*](/Two-Points/27/solution1.js) | **97.20%** |
 | [167. 两数之和 II - 输入有序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/) | Easy | [*TwoPoints*](/Two-Points/167/solution1.js) | **91.86%** |
 | [345. 反转字符串中的元音字母](https://leetcode-cn.com/problems/reverse-vowels-of-a-string/) | Easy | [*TwoPoints*](/Two-Points/345/solution1.js) | **95.53%** |
-| [844. 比较含退格的字符串](https://leetcode-cn.com/problems/backspace-string-compare/) | Easy | [*TwoPoints*](/Two-Points/844/solution1.js) | **94.66%** |
+| [844. 比较含退格的字符串](https://leetcode-cn.com/problems/backspace-string-compare/) | Easy | [*TwoPoints*](/Two-Points/844/solution1.js) [*Stack*](/Two-Points/844/solution2.js) | **94.66%** |
 | [26. 删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) | Easy | [*TwoPoints*](/Two-Points/26/solution1.js) | **96.77%** |
 | [88. 合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/) | Easy | [*TwoPoints*](/Two-Points/88/solution1.js) | **95.92%** |
 | [350. 两个数组的交集 II](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/) | Easy | [*HashMap*](/Two-Points/350/solution1.js) | **97.54%** |
