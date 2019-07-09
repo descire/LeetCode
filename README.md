@@ -22,7 +22,7 @@
   - [前端工程师的 LeetCode 之旅 -- 双指针技巧 Easy 篇](https://mp.weixin.qq.com/s/SXj8tkGj19gZy3EgTPIy2Q)
   - [前端工程师的 LeetCode 之旅 -- KMP 字符串匹配算法](https://mp.weixin.qq.com/s/liZ5G1Oaaimlu6DIEmquNw)
 
-### Binary Search（二分查找法）
+### Binary Search Algorithm（二分搜索算法）
 
 | 题目 | 难度 | 解法 | beats Runtime |
 | :----- | :---: | :---: | :---: |
@@ -86,6 +86,11 @@
 | [904. 水果成篮](https://leetcode-cn.com/problems/fruit-into-baskets/) | Medium | [*SlidingWindow+HashTable*](/Two-Points/904/solution1.js) | **88.24%** |
 | [567. 字符串的排列](https://leetcode-cn.com/problems/permutation-in-string/) | Medium | [*SlidingWindow+HashTable*](/Two-Points/567/solution1.js) | **87.75%** |
 | [881. 救生艇](https://leetcode-cn.com/problems/boats-to-save-people/) | Medium | [*TwoPoints*](/Two-Points/881/solution1.js) | **85.00%** |
+
+### Greedy Algorithm（贪心算法）
+| 题目 | 难度 | 解法 | beats Runtime |
+| :----- | :---: | :---: | :---: |
+| [944. 删列造序](https://leetcode-cn.com/problems/delete-columns-to-make-sorted/) | Easy | [*HashTable*](/Greedy/944/solution1.js) [*Greedy*](/Greedy/944/solution2.js) | **98.46%** |
 
 ### Small Skill（利用一些小技巧思路处理的问题）
 | 题目 | 难度 | 代码 | beats Runtime | beats Memory | 时间复杂度 |
