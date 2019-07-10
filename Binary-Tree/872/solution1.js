@@ -1,7 +1,17 @@
+/**
+ * https://leetcode-cn.com/problems/leaf-similar-trees/submissions/
+ * 
+ * 872. 叶子相似的树
+ * 
+ * Easy
+ * 
+ * 76ms 91.80%
+ * 35.4mb 21.43%
+ */
 const leafSimilar = (root1, root2) => {
 
-  const x = help(root1, [])
-  const y = help(root2, [])
+  const x = levelOrder(root1, [])
+  const y = levelOrder(root2, [])
 
   if (x.length !== y.length) {
     return false
@@ -16,18 +26,17 @@ const leafSimilar = (root1, root2) => {
   }
 
   return true
+}
 
-  // 递归遍历
-  function help (root, leaves) {
-    if (!root) {
-      return
-    }
-    if (!root.left && !root.right) {
-      leaves.push(root.val)
-    } else {
-      help(root.left, leaves)
-      help(root.right, leaves)
-    }
-    return leaves
+function levelOrder (root, leaves) {
+  if (!root) {
+    return
   }
+  if (!root.left && !root.right) {
+    leaves.push(root.val)
+  } else {
+    levelOrder(root.left, leaves)
+    levelOrder(root.right, leaves)
+  }
+  return leaves
 }
