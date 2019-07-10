@@ -89,6 +89,11 @@
 | [567. 字符串的排列](https://leetcode-cn.com/problems/permutation-in-string/) | Medium | [*SlidingWindow+HashTable*](/Two-Points/567/solution1.js) | **87.75%** |
 | [881. 救生艇](https://leetcode-cn.com/problems/boats-to-save-people/) | Medium | [*TwoPoints*](/Two-Points/881/solution1.js) | **85.00%** |
 
+### Binary Tree（二叉树）
+| 题目 | 难度 | 解法 | beats Runtime |
+| :----- | :---: | :---: | :---: |
+| [938. 二叉搜索树的范围和](https://leetcode-cn.com/problems/range-sum-of-bst/) | Easy | [*Recursion+BST*](/BinaryTree/938/solution1.js) | **96.57%** |
+
 ### Greedy Algorithm（贪心算法）
 | 题目 | 难度 | 解法 | beats Runtime |
 | :----- | :---: | :---: | :---: |
