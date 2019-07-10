@@ -1,3 +1,15 @@
+/**
+ * 
+ * 669. 修剪二叉搜索树
+ * 
+ * https://leetcode-cn.com/problems/trim-a-binary-search-tree/
+ * 
+ * Easy
+ * 
+ * 92ms 98.25%
+ * 39.5mb 11.76%
+ */
+
 const trimBST = (root, L, R) => {
   if (!root) {
     return null
