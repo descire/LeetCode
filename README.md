@@ -102,6 +102,7 @@
 | [107. 二叉树的层次遍历 II](https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii/) | Easy | [*Queue+Stack*](/BinaryTree/107/solution1.js) [*Recursion*](/BinaryTree/107/solution2.js) | **98.25%** |
 | [637. 二叉树的层平均值](https://leetcode-cn.com/problems/average-of-levels-in-binary-tree/) | Easy | [*Recursion*](/BinaryTree/637/solution1.js) | **98.61%** |
 | [235. 二叉搜索树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | Easy | [*Recursion+BST*](/BinaryTree/235/solution1.js) | **92.88%** |
+| [872. 叶子相似的树](https://leetcode-cn.com/problems/leaf-similar-trees/submissions/) | Easy | [*Recursion*](/BinaryTree/872/solution1.js) | **91.80%** |
 
 ### Greedy Algorithm（贪心算法）
 | 题目 | 难度 | 解法 | beats Runtime |
