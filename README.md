@@ -95,6 +95,7 @@
 | [938. 二叉搜索树的范围和](https://leetcode-cn.com/problems/range-sum-of-bst/) | Easy | [*Recursion+BST*](/BinaryTree/938/solution1.js) | **96.57%** |
 | [617. 合并二叉树](https://leetcode-cn.com/problems/merge-two-binary-trees/) | Easy | [*Recursion*](/BinaryTree/617/solution1.js) | **97.63%** |
 | [226. 翻转二叉树](https://leetcode-cn.com/problems/invert-binary-tree/) | Easy | [*Recursion*](/BinaryTree/226/solution1.js) | **98.02%** |
+| [104. 二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/) | Easy | [*Recursion*](/BinaryTree/104/solution1.js) | **90.87%** |
 
 ### Greedy Algorithm（贪心算法）
 | 题目 | 难度 | 解法 | beats Runtime |
