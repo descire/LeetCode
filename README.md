@@ -119,6 +119,7 @@
 | [101. 对称二叉树](https://leetcode-cn.com/problems/symmetric-tree/) | Easy | [*Recursion*](/BinaryTree/101/solution1.js) | **92.13%** |
 | [112. 路径总和](https://leetcode-cn.com/problems/path-sum/) | Easy | [*Recursion*](/BinaryTree/112/solution1.js) | **84.76%** |
 | [671. 二叉树中第二小的节点](https://leetcode-cn.com/problems/second-minimum-node-in-a-binary-tree/) | Easy | [*Recursion*](/BinaryTree/671/solution1.js) | **95.16%** |
+| [543. 二叉树的直径](https://leetcode-cn.com/problems/diameter-of-binary-tree/) | Easy | [*Recursion*](/BinaryTree/543/solution1.js) | **93.98%** |
 
 ### Greedy Algorithm（贪心算法）
 | 题目 | 难度 | 解法 | beats Runtime |
