@@ -120,6 +120,7 @@
 | [112. 路径总和](https://leetcode-cn.com/problems/path-sum/) | Easy | [*Recursion*](/BinaryTree/112/solution1.js) | **84.76%** |
 | [671. 二叉树中第二小的节点](https://leetcode-cn.com/problems/second-minimum-node-in-a-binary-tree/) | Easy | [*Recursion*](/BinaryTree/671/solution1.js) | **95.16%** |
 | [543. 二叉树的直径](https://leetcode-cn.com/problems/diameter-of-binary-tree/) | Easy | [*Recursion*](/BinaryTree/543/solution1.js) | **93.98%** |
+| [501. 二叉搜索树中的众数](https://leetcode-cn.com/problems/find-mode-in-binary-search-tree/) | Easy | [*Recursion+HashTable*](/BinaryTree/501/solution1.js) | **86.79%** |
 
 ### Greedy Algorithm（贪心算法）
 | 题目 | 难度 | 解法 | beats Runtime |
