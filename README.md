@@ -118,6 +118,7 @@
 | [993. 二叉树的堂兄弟节点](https://leetcode-cn.com/problems/cousins-in-binary-tree/) | Easy | [*Recursion*](/BinaryTree/993/solution1.js) | **87.88%** |
 | [101. 对称二叉树](https://leetcode-cn.com/problems/symmetric-tree/) | Easy | [*Recursion*](/BinaryTree/101/solution1.js) | **92.13%** |
 | [112. 路径总和](https://leetcode-cn.com/problems/path-sum/) | Easy | [*Recursion*](/BinaryTree/112/solution1.js) | **84.76%** |
+| [671. 二叉树中第二小的节点](https://leetcode-cn.com/problems/second-minimum-node-in-a-binary-tree/) | Easy | [*Recursion*](/BinaryTree/671/solution1.js) | **95.16%** |
 
 ### Greedy Algorithm（贪心算法）
 | 题目 | 难度 | 解法 | beats Runtime |
