@@ -1,3 +1,13 @@
+/**
+ * https://leetcode-cn.com/problems/longest-univalue-path/
+ * 
+ * 687. 最长同值路径
+ * 
+ * Easy
+ * 
+ * 264ms 85.25%
+ * 52.5mb 25.00%
+ */
 const longestUnivaluePath = root => {
   let ans = 0
   if (!root) {
