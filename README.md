@@ -112,6 +112,7 @@
 | [653. 两数之和 IV - 输入 BST](https://leetcode-cn.com/problems/two-sum-iv-input-is-a-bst/) | Easy | [*Recursion+BST+HashTable*](/BinaryTree/653/solution1.js) | **100.00%** |
 | [437. 路径总和 III](https://leetcode-cn.com/problems/path-sum-iii/) | Easy | [*Recursion*](/BinaryTree/437/solution1.js) | **74.51%** |
 | [606. 根据二叉树创建字符串](https://leetcode-cn.com/problems/construct-string-from-binary-tree/) | Easy | [*Recursion*](/BinaryTree/606/solution1.js) | **74.47%** |
+| [404. 左叶子之和](https://leetcode-cn.com/problems/sum-of-left-leaves/) | Easy | [*Recursion*](/BinaryTree/404/solution1.js) | **90.00%** |
 
 ### Greedy Algorithm（贪心算法）
 | 题目 | 难度 | 解法 | beats Runtime |
