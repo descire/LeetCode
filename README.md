@@ -113,6 +113,7 @@
 | [437. 路径总和 III](https://leetcode-cn.com/problems/path-sum-iii/) | Easy | [*Recursion*](/BinaryTree/437/solution1.js) | **74.51%** |
 | [606. 根据二叉树创建字符串](https://leetcode-cn.com/problems/construct-string-from-binary-tree/) | Easy | [*Recursion*](/BinaryTree/606/solution1.js) | **74.47%** |
 | [404. 左叶子之和](https://leetcode-cn.com/problems/sum-of-left-leaves/) | Easy | [*Recursion*](/BinaryTree/404/solution1.js) | **90.00%** |
+| [110. 平衡二叉树](https://leetcode-cn.com/problems/balanced-binary-tree/) | Easy | [*Recursion*](/BinaryTree/110/solution1.js) | **95.09%** |
 
 ### Greedy Algorithm（贪心算法）
 | 题目 | 难度 | 解法 | beats Runtime |
