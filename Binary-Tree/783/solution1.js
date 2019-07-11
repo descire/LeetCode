@@ -11,6 +11,8 @@
 const minDiffInBST = root => {
   let ans = Number.MAX_SAFE_INTEGER
   let pre = null
+  inOrder(root)
+  return ans
 
   function inOrder(root) {
     if (!root) {
@@ -23,7 +25,4 @@ const minDiffInBST = root => {
     pre = root.val
     inOrder(root.right)
   }
-
-  inOrder(root)
-  return ans
 }

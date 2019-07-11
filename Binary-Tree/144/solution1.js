@@ -18,7 +18,10 @@ function preOrder (root, ans) {
   if (!root) {
     return
   }
+  // 访问根
   ans.push(root.val)
+  // 前序遍历左子树
   preOrder(root.left, ans)
+  // 前序遍历右子树
   preOrder(root.right, ans)
 }
