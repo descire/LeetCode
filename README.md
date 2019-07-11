@@ -107,6 +107,7 @@
 | [897. 递增顺序查找树](https://leetcode-cn.com/problems/increasing-order-search-tree/) | Easy | [*Recursion*](/BinaryTree/897/solution1.js) | **94.34%** |
 | [538. 把二叉搜索树转换为累加树](https://leetcode-cn.com/problems/convert-bst-to-greater-tree/) | Easy | [*Recursion+BST*](/BinaryTree/538/solution1.js) | **84.93%** |
 | [530. 二叉搜索树的最小绝对差](https://leetcode-cn.com/problems/minimum-absolute-difference-in-bst/) | Easy | [*Recursion+BST*](/BinaryTree/530/solution1.js) | **85.71%** |
+| [100. 相同的树](https://leetcode-cn.com/problems/same-tree/) | Easy | [*Recursion*](/BinaryTree/100/solution1.js) | **75.53%** |
 
 ### Greedy Algorithm（贪心算法）
 | 题目 | 难度 | 解法 | beats Runtime |
