@@ -1,3 +1,15 @@
+/**
+ * https://leetcode-cn.com/problems/second-minimum-node-in-a-binary-tree/
+ * 
+ * 671. 二叉树中第二小的节点
+ * 
+ * Easy
+ * 
+ * 最容易明白的方法 是 先遍历 再排序
+ * 
+ * 72ms 95.16%
+ * 33.7mb 50.00%
+ */
 const findSecondMinimumValue = root => {
 
   if (!root) {
@@ -11,10 +23,10 @@ const findSecondMinimumValue = root => {
   let left = root.left.val
   let right = root.right.val
 
-  if (root.left.val === root.val) {
+  if (left === root.val) {
     left = findSecondMinimumValue(root.left)
   }
-  if (root.right.val === root.val) {
+  if (right === root.val) {
     right = findSecondMinimumValue(root.right)
   }
 
