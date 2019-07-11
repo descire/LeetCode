@@ -122,6 +122,7 @@
 | [543. 二叉树的直径](https://leetcode-cn.com/problems/diameter-of-binary-tree/) | Easy | [*Recursion*](/BinaryTree/543/solution1.js) | **93.98%** |
 | [501. 二叉搜索树中的众数](https://leetcode-cn.com/problems/find-mode-in-binary-search-tree/) | Easy | [*Recursion+HashTable*](/BinaryTree/501/solution1.js) | **86.79%** |
 | [572. 另一个树的子树](https://leetcode-cn.com/problems/subtree-of-another-tree/) | Easy | [*Recursion*](/BinaryTree/572/solution1.js) | **100.00%** |
+| [111. 二叉树的最小深度](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/) | Easy | [*Recursion*](/BinaryTree/111/solution1.js) | **96.55%** |
 
 ### Greedy Algorithm（贪心算法）
 | 题目 | 难度 | 解法 | beats Runtime |
