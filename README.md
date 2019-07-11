@@ -109,6 +109,7 @@
 | [530. 二叉搜索树的最小绝对差](https://leetcode-cn.com/problems/minimum-absolute-difference-in-bst/) | Easy | [*Recursion+BST*](/BinaryTree/530/solution1.js) | **85.71%** |
 | [783. 二叉搜索树结点最小距离](https://leetcode-cn.com/problems/minimum-distance-between-bst-nodes/) | Easy | [*Recursion+BST*](/BinaryTree/783/solution1.js) | **80.22%** |
 | [100. 相同的树](https://leetcode-cn.com/problems/same-tree/) | Easy | [*Recursion*](/BinaryTree/100/solution1.js) | **75.53%** |
+| [653. 两数之和 IV - 输入 BST](https://leetcode-cn.com/problems/two-sum-iv-input-is-a-bst/) | Easy | [*Recursion+BST+HashTable*](/BinaryTree/653/solution1.js) | **100.00%** |
 
 ### Greedy Algorithm（贪心算法）
 | 题目 | 难度 | 解法 | beats Runtime |
