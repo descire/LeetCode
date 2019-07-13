@@ -1,27 +1,34 @@
+/**
+ * https://leetcode-cn.com/problems/binary-tree-level-order-traversal/
+ * 
+ * 102. 二叉树的层次遍历
+ * 
+ * Medium
+ * 
+ * BFS
+ * 
+ * 88ms 67.65%
+ * 34.6mb 58.21%
+ */
 const levelOrder = root => {
   const ans = []
   if (!root) {
     return ans
   }
 
-  const q = [root]
-  let deep = 0
+  const queue = [root]
 
-  while (q.length) {
-    const max = q.length
+  while (queue.length) {
+    const children = []
+    const max = queue.length
 
     for (let i = 0; i < max; i++) {
-      const item = q.pop()
-      if (item) {
-        if (!ans[deep]) {
-          ans[deep] = []
-        }
-        ans[deep].push(item.val)
-        item.left && q.unshift(item.left)
-        item.right && q.unshift(item.right)
-      }
+      const item = queue.pop()
+      children.push(item.val)
+      item.left && queue.unshift(item.left)
+      item.right && queue.unshift(item.right)
     }
-    deep++
+    ans.push(children)
   }
 
   return ans
