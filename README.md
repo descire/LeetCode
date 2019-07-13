@@ -126,8 +126,9 @@
 | [111. 二叉树的最小深度](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/) | Easy | [*Recursion*](/BinaryTree/111/solution1.js) | **96.55%** |
 | [1022. 从根到叶的二进制数之和](https://leetcode-cn.com/problems/sum-of-root-to-leaf-binary-numbers/) | Easy | [*Recursion*](/BinaryTree/1022/solution1.js) | **94.55%** |
 | [687. 最长同值路径](https://leetcode-cn.com/problems/longest-univalue-path/) | Easy | [*Recursion*](/BinaryTree/687/solution1.js) | **85.25%** |
-| [144. 二叉树的前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/) | Medium | [*Recursion*](/BinaryTree/144/solution1.js) | **99.52%** |
-| [102. 二叉树的层次遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/) | Medium | [*Queue+BFS*](/BinaryTree/102/solution1.js) [*Recursion+DFS*](/BinaryTree/102/solution2.js) | **99.52%** |
+| [144. 二叉树的前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/) | Medium | [*Recursion*](/BinaryTree/144/solution1.js) | **68.00%** |
+| [102. 二叉树的层次遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/) | Medium | [*Queue+BFS*](/BinaryTree/102/solution1.js) [*Recursion+DFS*](/BinaryTree/102/solution2.js) | **67.65%** |
+| [94. 二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/) | Medium | [*Recursion+DFS*](/BinaryTree/102/solution1.js) | **64.76%** |
 
 ### Greedy Algorithm（贪心算法）
 | 题目 | 难度 | 解法 | beats Runtime |
