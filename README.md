@@ -34,8 +34,8 @@
 | [744. 寻找比目标字母大的最小字母](https://leetcode-cn.com/problems/find-smallest-letter-greater-than-target/) | Easy | [*BinarySearch*](/Binary-Search/744/solution1.js) | **100.00%** |
 | [367. 有效的完全平方数](https://leetcode-cn.com/problems/valid-perfect-square/) | Easy | [*BinarySearch*](/Binary-Search/744/solution1.js) | **99.67%** |
 | [441. 排列硬币](https://leetcode-cn.com/problems/arranging-coins/) | Easy | [*BinarySearch*](/Binary-Search/441/solution1.js) | **100.00%** |
-| [475. 供暖器](https://leetcode-cn.com/problems/heaters/) | Easy | [*BinarySearch*](/Binary-Search/441/solution1.js) | **100.00%** |
-| [69. x 的平方根](https://leetcode-cn.com/problems/sqrtx/) | Easy | [*BinarySearch*](/Binary-Search/441/solution1.js) | **96.10%** |
+| [475. 供暖器](https://leetcode-cn.com/problems/heaters/) | Easy | [*BinarySearch*](/Binary-Search/475/solution1.js) | **100.00%** |
+| [69. x 的平方根](https://leetcode-cn.com/problems/sqrtx/) | Easy | [*BinarySearch*](/Binary-Search/69/solution1.js) | **96.10%** |
 | [378. 有序矩阵中第K小的元素](https://leetcode-cn.com/problems/kth-smallest-element-in-a-sorted-matrix/) | Medium | [*BinarySearch*](/Binary-Search/378/solution2.js) | **97.86%** |
 | [875. 爱吃香蕉的珂珂](https://leetcode-cn.com/problems/koko-eating-bananas/) | Medium | [*BinarySearch*](/Binary-Search/875/solution2.js) | **91.82%** |
 | [436. 寻找右区间](https://leetcode-cn.com/problems/find-right-interval/) | Medium | [*BinarySearch*](/Binary-Search/436/solution2.js) | **100.00%** |
