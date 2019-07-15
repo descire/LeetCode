@@ -1,9 +1,16 @@
 /**
- * https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/
+ * 106. 从中序与后序遍历序列构造二叉树
  * 
- * 106. Construct Binary Tree from Inorder and Postorder Traversal
+ * https://leetcode-cn.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/
  * 
- * 【Medium】
+ * Medium
+ * 
+ * 左 根 右
+ * 
+ * 左 右 根
+ * 
+ * 200ms 47.44%
+ * 128mb 8.57%
  * 
  */
 const buildTree = (inorder, postorder) => {
