@@ -1,3 +1,13 @@
+/**
+ * https://leetcode-cn.com/problems/all-possible-full-binary-trees/
+ * 
+ * 894. 所有可能的满二叉树
+ * 
+ * Medium
+ * 
+ * 232ms 45.71%
+ * 54.1mb 12.50%
+ */
 const allPossibleFBT = N => {
   const ans = []
   if (N % 2 === 0) {
