@@ -1,19 +1,20 @@
+/**
+ * https://leetcode-cn.com/problems/maximum-binary-tree/
+ * 
+ * 654. 最大二叉树
+ * 
+ * Medium
+ * 
+ * 140ms 85.71%
+ * 41mb 82.14%
+ * 
+ */
 const constructMaximumBinaryTree = nums => {
-  const len = nums.length
-  if (!len) {
+  if (nums.length === 0) {
     return null
   }
-
-  let max = nums[0]
-  let index = 0
-  for (let i = 1; i < len; i++) {
-    const item = nums[i]
-    if (item > max) {
-      max = item
-      index = i
-    }
-  }
-
+  const max = Math.max(...nums)
+  const index = nums.indexOf(max)
   const root = new TreeNode(max)
   root.left = constructMaximumBinaryTree(nums.slice(0, index))
   root.right = constructMaximumBinaryTree(nums.slice(index + 1))
