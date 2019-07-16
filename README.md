@@ -25,6 +25,8 @@
   - [前端工程师的 LeetCode 之旅 -- KMP 字符串匹配算法](https://mp.weixin.qq.com/s/liZ5G1Oaaimlu6DIEmquNw)
   - [前端工程师的 LeetCode 之旅 -- 二叉树 Easy 篇](https://mp.weixin.qq.com/s/NNIn8BLUIBWCvEjYgzb2mg)
   - [前端工程师的 LeetCode 之旅 -- 二叉树 Medium 篇（DFS 和 BFS）](https://mp.weixin.qq.com/s/FFCVLfndgtIaxwIGiDAGiA)
+  - [前端工程师的 LeetCode 之旅 -- 二叉树 Medium 篇（根据遍历序列构造二叉树）](https://mp.weixin.qq.com/s/g46dFFNOyEh9W4dY61NV7g)
+
 
 ### Binary Search Algorithm（二分搜索算法）
 
