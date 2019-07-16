@@ -1,27 +1,38 @@
+/**
+ * https://leetcode-cn.com/problems/delete-node-in-a-bst/
+ * 
+ * 450. 删除二叉搜索树中的节点
+ * 
+ * Medium
+ * 
+ * 116ms 100%
+ * 42.3mb 30.00%
+ * 
+ */
 const deleteNode = (root, key) => {
   if (!root) {
-    return root
+    return null
   }
 
-  const rv = root.val
+  const rootValue = root.val
 
-  if (rv > key) {
+  if (rootValue > key) {
     root.left = deleteNode(root.left, key)
-  } else if (rv < key) {
+  } else if (rootValue < key) {
     root.right = deleteNode(root.right, key)
   } else {
     if (root.left && root.right) {
-      // 左右节点都存在的情况， 这时需要在右子树中找一个最小值作为新的节点
+      // 找一个最小的替换当前根节点，再删除这个替换的节点。
       let min = root.right
       while (min.left) {
         min = min.left
       }
       root.val = min.val
-      // 替换结束后，需要再删除刚刚找到的最小值
       root.right = deleteNode(root.right, min.val)
     } else {
       return root.left ? root.left : root.right
     }
   }
+
   return root
 }
