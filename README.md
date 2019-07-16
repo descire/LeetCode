@@ -140,6 +140,7 @@
 | [654. 最大二叉树](https://leetcode-cn.com/problems/maximum-binary-tree/) | Medium | [*Recursion*](/BinaryTree/654/solution1.js)| **85.71%** |
 | [894. 所有可能的满二叉树](https://leetcode-cn.com/problems/all-possible-full-binary-trees/) | Medium | [*HashTable+Recursion*](/BinaryTree/894/solution2.js)| **100.00%** |
 | [814. 二叉树剪枝](https://leetcode-cn.com/problems/binary-tree-pruning/) | Medium | [*Recursion*](/BinaryTree/814/solution2.js)| **89.66%** |
+| [450. 删除二叉搜索树中的节点](https://leetcode-cn.com/problems/delete-node-in-a-bst/) | Medium | [*Recursion*](/BinaryTree/450/solution1.js)| **100.00%** |
 | [145. 二叉树的后序遍历](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/) | Hard | [*Recursion+DFS*](/BinaryTree/145/solution1.js) [*Stack+DFS*](/BinaryTree/145/solution2.js)| **84.00%** |
 
 ### Greedy Algorithm（贪心算法）
