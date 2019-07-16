@@ -4,6 +4,9 @@
  * 814. 二叉树剪枝
  * 
  * Medium
+ * 
+ * 72ms 89.66%
+ * 34mb 23.08%
  */
 const pruneTree = root => {
   if (!root) {
