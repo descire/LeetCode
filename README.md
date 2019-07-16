@@ -137,6 +137,7 @@
 | [105. 从前序与中序遍历序列构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium | [*Recursion*](/BinaryTree/105/solution1.js)| **58.31%** |
 | [106. 从中序与后序遍历序列构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/) | Medium | [*Recursion*](/BinaryTree/106/solution2.js)| **94.87%** |
 | [889. 根据前序和后序遍历构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/) | Medium | [*Recursion*](/BinaryTree/889/solution1.js)| **89.29%** |
+| [654. 最大二叉树](https://leetcode-cn.com/problems/maximum-binary-tree/) | Medium | [*Recursion*](/BinaryTree/654/solution1.js)| **85.71%** |
 | [145. 二叉树的后序遍历](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/) | Hard | [*Recursion+DFS*](/BinaryTree/145/solution1.js) [*Stack+DFS*](/BinaryTree/145/solution2.js)| **84.00%** |
 
 ### Greedy Algorithm（贪心算法）
