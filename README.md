@@ -145,6 +145,7 @@
 | [701. 二叉搜索树中的插入操作](https://leetcode-cn.com/problems/insert-into-a-binary-search-tree/) | Medium | [*Recursion*](/BinaryTree/701/solution1.js)| **66.67%** |
 | [230. 二叉搜索树中第K小的元素](https://leetcode-cn.com/problems/kth-smallest-element-in-a-bst/) | Medium | [*Recursion*](/BinaryTree/230/solution1.js)| **90.91%** |
 | [96. 不同的二叉搜索树](https://leetcode-cn.com/problems/unique-binary-search-trees/) | Medium | [*Recursion*](/BinaryTree/96/solution1.js)| **96.00%** |
+| [1104. 二叉树寻路](https://leetcode-cn.com/problems/path-in-zigzag-labelled-binary-tree/) | Medium | [*Iteration*](/BinaryTree/1104/solution1.js)| **50.00%** |
 | [145. 二叉树的后序遍历](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/) | Hard | [*Recursion+DFS*](/BinaryTree/145/solution1.js) [*Stack+DFS*](/BinaryTree/145/solution2.js)| **84.00%** |
 
 ### Greedy Algorithm（贪心算法）
