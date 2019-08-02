@@ -4,6 +4,9 @@
  * 1104. 二叉树寻路
  * 
  * Medium
+ * 
+ * 80ms 50.00%
+ * 34mb 100.00
  */
 const pathInZigZagTree = label => {
   const res = [];
