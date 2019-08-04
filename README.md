@@ -147,6 +147,7 @@
 | [96. 不同的二叉搜索树](https://leetcode-cn.com/problems/unique-binary-search-trees/) | Medium | [*Recursion*](/BinaryTree/96/solution1.js)| **96.00%** |
 | [1104. 二叉树寻路](https://leetcode-cn.com/problems/path-in-zigzag-labelled-binary-tree/) | Medium | [*Iteration*](/BinaryTree/1104/solution1.js)| **50.00%** |
 | [1123. 最深叶节点的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-deepest-leaves/) | Medium | [*DFS*](/BinaryTree/1123/solution1.js)| **90.48%** |
+| [998. 最大二叉树 II](https://leetcode-cn.com/problems/maximum-binary-tree-ii/) | Medium | [*Recursion*](/BinaryTree/998/solution1.js)| **92.31%** |
 | [145. 二叉树的后序遍历](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/) | Hard | [*Recursion+DFS*](/BinaryTree/145/solution1.js) [*Stack+DFS*](/BinaryTree/145/solution2.js)| **84.00%** |
 
 ### Greedy Algorithm（贪心算法）
