@@ -152,6 +152,7 @@
 | [116. 填充每个节点的下一个右侧节点指针](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node/) | Medium | [*Recursion*](/BinaryTree/116/solution1.js)| **98.95%** |
 | [117. 填充每个节点的下一个右侧节点指针 II](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node-ii/) | Medium | [*Recursion*](/BinaryTree/117/solution1.js)| **88.00%** |
 | [988. 从叶结点开始的最小字符串](https://leetcode-cn.com/problems/smallest-string-starting-from-leaf/) | Medium | [*Recursion*](/BinaryTree/988/solution1.js)| **100.00%** |
+| [1145. 二叉树着色游戏](https://leetcode-cn.com/problems/binary-tree-coloring-game/) | Medium | [*Recursion*](/BinaryTree/1145/solution2.js)| **97.14%** |
 | [145. 二叉树的后序遍历](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/) | Hard | [*Recursion+DFS*](/BinaryTree/145/solution1.js) [*Stack+DFS*](/BinaryTree/145/solution2.js)| **84.00%** |
 
 ### Greedy Algorithm（贪心算法）
