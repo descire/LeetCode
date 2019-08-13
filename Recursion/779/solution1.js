@@ -4,6 +4,8 @@
  * 779. 第K个语法符号
  * 
  * Medium
+ * 
+ * heap out of memory
  */
 const kthGrammar = (N, K) => {
   const str = getString(N);
