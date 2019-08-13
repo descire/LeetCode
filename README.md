@@ -155,6 +155,11 @@
 | [1145. 二叉树着色游戏](https://leetcode-cn.com/problems/binary-tree-coloring-game/) | Medium | [*Recursion*](/BinaryTree/1145/solution2.js)| **97.14%** |
 | [145. 二叉树的后序遍历](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/) | Hard | [*Recursion+DFS*](/BinaryTree/145/solution1.js) [*Stack+DFS*](/BinaryTree/145/solution2.js)| **84.00%** |
 
+### Recursion（递归）
+| 题目 | 难度 | 解法 | beats Runtime |
+| :----- | :---: | :---: | :---: |
+| [779. 第K个语法符号](https://leetcode-cn.com/problems/k-th-symbol-in-grammar/) | Medium | [*Recursion*](/Recursion/799/solution2.js) | **64.15%** |
+
 ### Greedy Algorithm（贪心算法）
 | 题目 | 难度 | 解法 | beats Runtime |
 | :----- | :---: | :---: | :---: |
