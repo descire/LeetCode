@@ -159,6 +159,7 @@
 | 题目 | 难度 | 解法 | beats Runtime |
 | :----- | :---: | :---: | :---: |
 | [779. 第K个语法符号](https://leetcode-cn.com/problems/k-th-symbol-in-grammar/) | Medium | [*Recursion*](/Recursion/799/solution2.js) | **64.15%** |
+| [794. 有效的井字游戏](https://leetcode-cn.com/problems/valid-tic-tac-toe-state/) | Medium | [*-----*](/Recursion/794/solution1.js) | **83.33%** |
 
 ### Greedy Algorithm（贪心算法）
 | 题目 | 难度 | 解法 | beats Runtime |
