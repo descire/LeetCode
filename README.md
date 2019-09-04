@@ -178,6 +178,7 @@
 | :----- | :---: | :---: | :---: |
 | [709. 转换成小写字母](https://leetcode-cn.com/problems/to-lower-case/) | Easy | [*String*](/String/709/solution1.js) | **95.27%** |
 | [771. 宝石与石头](https://leetcode-cn.com/problems/jewels-and-stones/) | Easy | [*HashMap*](/String/771/solution1.js) | **96.19%** |
+| [1108. IP 地址无效化](https://leetcode-cn.com/problems/defanging-an-ip-address/) | Easy | [*HashMap*](/String/1108/solution1.js) | **81.93%** |
 | [392. Is Subsequence](https://leetcode.com/problems/is-subsequence/) | Medium | [*String*](/String/392/solution2.js) | **96.43%** |
 | [539. 最小时间差](https://leetcode-cn.com/problems/minimum-time-difference/) | Medium | [*Sort+Skill*](/String/539/solution2.js) | **94.59%** |
 
