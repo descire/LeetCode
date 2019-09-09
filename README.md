@@ -182,6 +182,12 @@
 | [392. Is Subsequence](https://leetcode.com/problems/is-subsequence/) | Medium | [*String*](/String/392/solution2.js) | **96.43%** |
 | [539. 最小时间差](https://leetcode-cn.com/problems/minimum-time-difference/) | Medium | [*Sort+Skill*](/String/539/solution2.js) | **94.59%** |
 
+### Linked List（链表）
+| 题目 | 难度 | 代码 | beats Runtime |
+| :----- | :---: | :---: | :---: |
+| [237. 删除链表中的节点](https://leetcode-cn.com/problems/delete-node-in-a-linked-list/) | Easy | [*--*](/Linked-List/237/solution1.js) | **91.84%** |
+
+
 
 ### Other （被标签高估的题目）
 | 题目 | 难度 | 代码 | beats Runtime | beats Memory | 时间复杂度 |
