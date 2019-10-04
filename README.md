@@ -186,7 +186,7 @@
 | 题目 | 难度 | 代码 | beats Runtime |
 | :----- | :---: | :---: | :---: |
 | [237. 删除链表中的节点](https://leetcode-cn.com/problems/delete-node-in-a-linked-list/) | Easy | [*--*](/Linked-List/237/solution1.js) | **91.84%** |
-
+| [206. 反转链表](https://leetcode-cn.com/problems/reverse-linked-list/) | Easy | [*iteration*](/Linked-List/206/solution2.js) | **96.28%** |
 
 
 ### Other （被标签高估的题目）
