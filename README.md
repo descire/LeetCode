@@ -189,6 +189,7 @@
 | [206. 反转链表](https://leetcode-cn.com/problems/reverse-linked-list/) | Easy | [*iteration*](/Linked-List/206/solution2.js) | **96.28%** |
 | [234. 回文链表](https://leetcode-cn.com/problems/palindrome-linked-list/) | Easy | [*TwoPoints+Reverse*](/Linked-List/234/solution2.js) | **98.98%** |
 | [876. 链表的中间结点](https://leetcode-cn.com/problems/middle-of-the-linked-list/) | Easy | [*TwoPoints*](/Linked-List/876/solution1.js) | **92.99%** |
+| [147. 对链表进行插入排序](https://leetcode-cn.com/problems/insertion-sort-list/) | Medium | [*sort*](/Linked-List/147/solution1.js) | **75.68%** |
 
 
 ### Other （被标签高估的题目）
