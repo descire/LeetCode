@@ -191,6 +191,7 @@
 | [876. 链表的中间结点](https://leetcode-cn.com/problems/middle-of-the-linked-list/) | Easy | [*TwoPoints*](/Linked-List/876/solution1.js) | **92.99%** |
 | [147. 对链表进行插入排序](https://leetcode-cn.com/problems/insertion-sort-list/) | Medium | [*sort*](/Linked-List/147/solution1.js) | **75.68%** |
 | [328. 奇偶链表](https://leetcode-cn.com/problems/odd-even-linked-list/) | Medium | [*TwoPoints*](/Linked-List/328/solution1.js) | **75.16%** |
+| [817. 链表组件](https://leetcode-cn.com/problems/linked-list-components/) | Medium | [*Linked-LIst*](/Linked-List/817/solution1.js) | **79.31%** |
 
 
 ### Other （被标签高估的题目）
