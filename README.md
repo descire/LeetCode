@@ -193,6 +193,7 @@
 | [328. 奇偶链表](https://leetcode-cn.com/problems/odd-even-linked-list/) | Medium | [*TwoPoints*](/Linked-List/328/solution1.js) | **75.16%** |
 | [817. 链表组件](https://leetcode-cn.com/problems/linked-list-components/) | Medium | [*Linked-LIst*](/Linked-List/817/solution1.js) | **79.31%** |
 | [86. 分隔链表](https://leetcode-cn.com/problems/partition-list/) | Medium | [*Linked-LIst*](/Linked-List/86/solution1.js) | **85.16%** |
+| [143. 重排链表](https://leetcode-cn.com/problems/reorder-list/) | Medium | [*TwoPoints+Merge+Reverse*](/Linked-List/143/solution1.js) | **97.62%** |
 
 
 ### Other （被标签高估的题目）
