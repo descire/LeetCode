@@ -5,8 +5,8 @@
  * 
  * Medium
  * 
- * 72ms 51.37%
- * 34.4mb 7.92%
+ * 60ms 94.99%
+ * 33.9mb 51.22%
  */
 const removeNthFromEnd = (head, n) => {
   const dummyHead = new ListNode(-1);
@@ -18,18 +18,12 @@ const removeNthFromEnd = (head, n) => {
     totalCount++;
     currentHead = currentHead.next;
   }
-  // 删除节点
-  let index = totalCount - n + 1;
-  let preHead = dummyHead;
-  currentHead = dummyHead.next;
-  while(index) {
-    if (index === 1) {
-      preHead.next = currentHead.next;
-      break;
-    }
-    index--;
-    preHead = currentHead;
-    currentHead = currentHead.next;
+  // 删除节点（题目中确保了n有效，所以不需要做健壮性处理）
+  let index = totalCount - n;
+  let prevHead = dummyHead;
+  while(index--) {
+    prevHead = prevHead.next;
   }
+  prevHead.next = prevHead.next.next;
   return dummyHead.next;
 }
