@@ -11,13 +11,13 @@
  * 34.9mb 46.38%
  */
 const reverseList = head => {
-  let pre = null;
-  let current = head;
-  while (current) {
-    const nextTemp = current.next;
-    current.next = pre;
-    pre = current;
-    current = nextTemp;
+  let reverseHead = null;
+  let currentHead = head;
+  while (currentHead) {
+    const nextTemp = currentHead.next;
+    currentHead.next = reverseHead;
+    reverseHead = currentHead;
+    currentHead = nextTemp;
   }
-  return pre;
+  return reverseHead;
 }
