@@ -210,6 +210,7 @@
 | 题目 | 难度 | 代码 | beats Runtime |
 | :----- | :---: | :---: | :---: |
 | [496. 下一个更大元素 I](https://leetcode-cn.com/problems/next-greater-element-i/) | Easy | [*Stack+HashMap*](/Stack/496/solution2.js) | **95.47%** |
+| [1021. 删除最外层的括号](https://leetcode-cn.com/problems/remove-outermost-parentheses/) | Easy | [*Iteration*](/Stack/1021/solution1.js) | **97.18%** |
 
 ### Other （被标签高估的题目）
 | 题目 | 难度 | 代码 | beats Runtime | beats Memory | 时间复杂度 |
