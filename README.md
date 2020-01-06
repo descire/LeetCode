@@ -206,6 +206,11 @@
 | [19. 删除链表的倒数第N个节点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/) | Medium | [*TwoPoints*](/Linked-List/19/solution2.js) | **98.71%** |
 | [61. 旋转链表](https://leetcode-cn.com/problems/rotate-list/) | Medium | [*Iteration*](/Linked-List/61/solution1.js) | **95.08%** |
 
+### Stack（栈）
+| 题目 | 难度 | 代码 | beats Runtime |
+| :----- | :---: | :---: | :---: |
+| [496. 下一个更大元素 I](https://leetcode-cn.com/problems/next-greater-element-i/) | Easy | [*Stack+HashMap*](/Stack/496/solution2.js) | **95.47%** |
+
 ### Other （被标签高估的题目）
 | 题目 | 难度 | 代码 | beats Runtime | beats Memory | 时间复杂度 |
 | :----- | :---: | :---: | :---: | :---: | :--: |
