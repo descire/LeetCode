@@ -213,6 +213,7 @@
 | [1021. 删除最外层的括号](https://leetcode-cn.com/problems/remove-outermost-parentheses/) | Easy | [*Iteration*](/Stack/1021/solution1.js) | **97.18%** |
 | [682. 棒球比赛](https://leetcode-cn.com/problems/baseball-game/) | Easy | [*Stack*](/Stack/682/solution1.js) | **94.84%** |
 | [1047. 删除字符串中的所有相邻重复项](https://leetcode-cn.com/problems/remove-all-adjacent-duplicates-in-string/) | Easy | [*Stack*](/Stack/1047/solution1.js) | **73.21%** |
+| [844. 比较含退格的字符串](https://leetcode-cn.com/problems/backspace-string-compare/) | Easy | [*Stack*](/Stack/844/solution1.js) | **92.83%** |
 
 ### Other （被标签高估的题目）
 | 题目 | 难度 | 代码 | beats Runtime | beats Memory | 时间复杂度 |
