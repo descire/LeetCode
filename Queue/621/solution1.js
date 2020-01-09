@@ -6,5 +6,4 @@
  * Medium
  */
 const leastInterval = (tasks, n) => {
-
 }
