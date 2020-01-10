@@ -26,6 +26,7 @@
   - [前端工程师的 LeetCode 之旅 -- 二叉树 Easy 篇](https://mp.weixin.qq.com/s/NNIn8BLUIBWCvEjYgzb2mg)
   - [前端工程师的 LeetCode 之旅 -- 二叉树 Medium 篇（DFS 和 BFS）](https://mp.weixin.qq.com/s/FFCVLfndgtIaxwIGiDAGiA)
   - [前端工程师的 LeetCode 之旅 -- 二叉树 Medium 篇（根据遍历序列构造二叉树）](https://mp.weixin.qq.com/s/g46dFFNOyEh9W4dY61NV7g)
+  - [前端工程师的 LeetCode 之旅 -- 链表 Easy 篇](https://mp.weixin.qq.com/s/_L_zU73IOFy_rAU-QQz_Dgg)
 
 
 ### Binary Search Algorithm（二分搜索算法）
