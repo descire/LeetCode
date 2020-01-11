@@ -218,6 +218,11 @@
 | [20. 有效的括号](https://leetcode-cn.com/problems/valid-parentheses/) | Easy | [*Stack*](/Stack/20/solution1.js) | **99.24%** |
 | [739. 每日温度](https://leetcode-cn.com/problems/daily-temperatures/) | Medium | [*Stack*](/Stack/739/solution1.js) | **100.00%** |
 
+### Heap（堆）
+| 题目 | 难度 | 代码 | beats Runtime |
+| :----- | :---: | :---: | :---: |
+| [703. 数据流中的第K大元素](https://leetcode-cn.com/problems/kth-largest-element-in-a-stream/) | Easy | [*Heap*](/Heap/703/solution1.js) | **69.53%** |
+
 ### Other （被标签高估的题目）
 | 题目 | 难度 | 代码 | beats Runtime | beats Memory | 时间复杂度 |
 | :----- | :---: | :---: | :---: | :---: | :--: |
