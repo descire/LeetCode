@@ -223,6 +223,7 @@
 | :----- | :---: | :---: | :---: |
 | [703. 数据流中的第K大元素](https://leetcode-cn.com/problems/kth-largest-element-in-a-stream/) | Easy | [*Heap*](/Heap/703/solution1.js) | **69.53%** |
 | [1046. 最后一块石头的重量](https://leetcode-cn.com/problems/last-stone-weight/) | Easy | [*Sort*](/Heap/1046/solution1.js) | **98.88%** |
+| [451. 根据字符出现频率排序](https://leetcode-cn.com/problems/sort-characters-by-frequency/) | Medium | [*HashTable+Sort*](/Heap/451/solution1.js) | **85.55%** |
 
 ### Other （被标签高估的题目）
 | 题目 | 难度 | 代码 | beats Runtime | beats Memory | 时间复杂度 |
