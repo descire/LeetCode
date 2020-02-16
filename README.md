@@ -228,6 +228,7 @@
 | [347. 前 K 个高频元素](https://leetcode-cn.com/problems/top-k-frequent-elements/) | Medium | [*Sort*](/Heap/347/solution1.js) | **93.75%** |
 | [692. 前K个高频单词](https://leetcode-cn.com/problems/top-k-frequent-words/) | Medium | [*HashMap+Sort*](/Heap/692/solution1.js) | **97.98%** |
 | [973. 最接近原点的 K 个点](https://leetcode-cn.com/problems/k-closest-points-to-origin/submissions/) | Medium | [*Divide-and-Conquer*](/Heap/973/solution2.js) | **100.00%** |
+| [1714.最小K个数](https://leetcode-cn.com/problems/smallest-k-lcci/) | Medium | [*Divide-and-Conquer+sort*](/Heap/1714/solution2.js) | **100.00%** |
 
 ### Other （被标签高估的题目）
 | 题目 | 难度 | 代码 | beats Runtime | beats Memory | 时间复杂度 |
