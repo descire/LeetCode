@@ -235,6 +235,7 @@
 | 题目 | 难度 | 代码 | beats Runtime |
 | :----- | :---: | :---: | :---: |
 | [1709. 第 k 个数](https://leetcode-cn.com/problems/get-kth-magic-number-lcci/) | Medium | [*DP*](/Dynamic-Programming/1709/solution1.js) | **100.00%** |
+| [264. 丑数 II](https://leetcode-cn.com/problems/ugly-number-ii/) | Medium | [*DP*](/Dynamic-Programming/264/solution1.js) | **94.37%** |
 
 ### Other （被标签高估的题目）
 | 题目 | 难度 | 代码 | beats Runtime | beats Memory | 时间复杂度 |
