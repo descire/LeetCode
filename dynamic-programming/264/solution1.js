@@ -1,24 +1,39 @@
 /**
- * https://leetcode.com/problems/ugly-number-ii/
+ * https://leetcode-cn.com/problems/ugly-number-ii/
  * 
- * 
- * 264. Ugly Number II
+ * 264. 丑数 II
  * 
  * Medium
  * 
- * 暴力求解
+ * 68ms 94.37%
+ * 36.6mb 96.92%
+ * 
  */
 const nthUglyNumber = n => {
-  const ans = []
+  const ans = [1];
+  let x = 0;
+  let y = 0;
+  let z = 0;
 
-  for (let a = 1; a < Number.MAX_SAFE_INTEGER; a *= 2) {
-    for (let b = a; b < Number.MAX_SAFE_INTEGER; b *= 3) {
-      for (let c = b; c < Number.MAX_SAFE_INTEGER; c *= 5) {
-        ans.push(c)
-      }
+  for (let i = 1; i < n; i++) {
+    const result1 = ans[x] * 2;
+    const result2 = ans[y] * 3;
+    const result3 = ans[z] * 5;
+    const min = Math.min(result1, result2, result3);
+    if (min === result1) {
+      x++;
     }
+
+    if (min === result2) {
+      y++;
+    }
+
+    if (min === result3) {
+      z++;
+    }
+
+    ans[i] = min;
   }
 
-  ans.sort((a, b) => a - b)
-  return ans[n - 1]
+  return ans[n - 1];
 }
