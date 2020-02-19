@@ -235,6 +235,7 @@
 | 题目 | 难度 | 代码 | beats Runtime |
 | :----- | :---: | :---: | :---: |
 | [263. 丑数](https://leetcode-cn.com/problems/ugly-number/) | Easy | [*Math*](/Dynamic-Programming/263/solution1.js) | **94.92%** |
+| [49. 丑数](https://leetcode-cn.com/problems/chou-shu-lcof/) | Medium | [*DP*](/Dynamic-Programming/49/solution1.js) | **100.00%** |
 | [264. 丑数 II](https://leetcode-cn.com/problems/ugly-number-ii/) | Medium | [*DP*](/Dynamic-Programming/264/solution1.js) | **94.37%** |
 | [1709. 第 k 个数](https://leetcode-cn.com/problems/get-kth-magic-number-lcci/) | Medium | [*DP*](/Dynamic-Programming/1709/solution1.js) | **100.00%** |
 
