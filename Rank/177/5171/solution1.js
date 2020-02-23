@@ -1,3 +1,13 @@
+/**
+ * https://leetcode-cn.com/problems/closest-divisors/
+ * 
+ * 5171. 最接近的因数
+ * 
+ * Medium
+ * 
+ * 108ms 100.00%
+ * 34.7mb 100.00%
+ */
 const closestDivisors = num => {
   const [x1, y1] = findTwoNumber(num + 1);
   const [x2, y2] = findTwoNumber(num + 2);
@@ -33,5 +43,3 @@ function findTwoNumber(num) {
   }
   return [x, y];
 }
-
-console.log(closestDivisors(797442477))
