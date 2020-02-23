@@ -6,8 +6,9 @@
  * 
  * Easy
  * 
- * 208ms
- * 36.1mb
+ * 76ms 100.00%
+ * 36.1mb 100.00%
+ * 
  */
 
 const sortByBits = arr => {
@@ -24,11 +25,9 @@ const sortByBits = arr => {
 
 function getBitCount(num) {
   let ans = 0;
-  const str = num.toString(2);
-  for (let i = 0, max = str.length; i < max; i++) {
-    if (str[i] === '1') {
-      ans++;
-    }
+  while (num) {
+    ans++;
+    num &= (num - 1);
   }
   return ans;
 }
