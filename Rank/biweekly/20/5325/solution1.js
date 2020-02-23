@@ -1,3 +1,12 @@
+/**
+ * https://leetcode-cn.com/problems/number-of-substrings-containing-all-three-characters/
+ * 
+ * 5325. 包含所有三种字符的子字符串数目
+ * 
+ * Medium
+ * 
+ * TimeLimit
+ */
 const numberOfSubstrings = s => {
   let ans = 0;
   const max = s.length;
