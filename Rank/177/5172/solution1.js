@@ -1,3 +1,10 @@
+/**
+ * https://leetcode-cn.com/problems/largest-multiple-of-three/
+ * 
+ * 5172. 形成三的最大倍数
+ * 
+ * Hard
+ */
 const largestMultipleOfThree = digits => {
   const record = Array(10).fill(0);
   let total = 0;
