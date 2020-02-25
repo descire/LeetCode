@@ -18,7 +18,7 @@ const minDifficulty = (jobDifficulty, d) => {
   /**
    * dp[n][d]:
    * 
-   * n 个 job 花费所需要的最小难度
+   * n 个 job d 天 花费所需要的最小难度
    */
 
   const dp = Array.from({ length: jobCount + 1 }, () => Array(d + 1).fill(Infinity));
@@ -28,7 +28,7 @@ const minDifficulty = (jobDifficulty, d) => {
   for (let i = 1; i <= jobCount; i++) {
     for (let j = 1; j <= d; j++) {
       let currentJobDifficulty = 0;
-      // 根据划分任务的数量，来求出前一天做少的难度
+      // 根据划分任务的数量，来求出前一天最少的难度
       for (let k = i - 1; k >= j - 1; k--) {
         currentJobDifficulty = Math.max(currentJobDifficulty, jobDifficulty[k]);
         dp[i][j] = Math.min(dp[i][j], dp[k][j - 1] + currentJobDifficulty);

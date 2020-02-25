@@ -10,19 +10,16 @@
  */
 const findTheCity = (n, edges, distanceThreshold) => {
   // 首先求出每个城市到达城市数目最多的最短距离
-  const distance = Array.from({ length: n }, () => Array(n).fill(10 ** 4 + 1));
+  const distances = Array.from({ length: n }, () => Array(n).fill(10 ** 4 + 1));
 
   for (const [i, j, weight] of edges) {
-    distance[i][j] = distance[j][i] = weight;
+    distances[i][j] = distances[j][i] = weight;
   }
 
   for (let i = 0; i < n; i++) {
     for (let j = 0; j < n; j++) {
       for (let k = 0; k < n; k++) {
-        if (k === j) {
-          continue;
-        } 
-        distance[j][k] = Math.min(distance[j][k], distance[j][i] + distance[i][k]);
+        distances[j][k] = Math.min(distances[j][k], distances[j][i] + distances[i][k]);
       }
     }
   }
@@ -32,7 +29,7 @@ const findTheCity = (n, edges, distanceThreshold) => {
   for (let i = 0; i < n; i++) {
     let currentCityCount = 0;
     for (let j = 0; j < n; j++) {
-      if (distance[i][j] <= distanceThreshold) {
+      if (distances[i][j] <= distanceThreshold) {
         currentCityCount++;
       }
     }
