@@ -9,7 +9,7 @@
  * 38.2mb 100.00%
  * 
  * 考察点
- * - 递归
+ * - 递归 
  */
 const maxJumps = (arr, d) => {
   const record = [];
