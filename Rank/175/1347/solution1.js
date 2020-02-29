@@ -8,7 +8,7 @@
  * 考察点：
  *  - 哈希表
  * 
- * 220ms 21.63%
+ * 172ms 43.33%
  * 40.9mb 100.00%
  */
 const minSteps = (s, t) => {
@@ -19,13 +19,17 @@ const minSteps = (s, t) => {
       record.set(s[i], 0);
     }
     record.set(s[i], record.get(s[i]) + 1);
+
+    if (!record.has(t[i])) {
+      record.set(t[i], 0);
+    }
+    record.set(t[i], record.get(t[i]) - 1);
   }
 
-  let ans = s.length;
-  for (let i = 0, max = t.length; i < max; i++) {
-    if (record.has(t[i]) && record.get(t[i]) > 0) {
-      record.set(t[i], record.get(t[i]) - 1);
-      ans--;
+  let ans = 0
+  for (const count of record.values()) {
+    if (count > 0) {
+      ans += count;
     }
   }
 
