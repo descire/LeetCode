@@ -358,3 +358,7 @@
 | [174 -- 1338. 数组大小减半](https://leetcode-cn.com/problems/reduce-array-size-to-the-half/) | Medium | [*HashTable*](/Rank/174/1338/solution1.js) | **92.68%** |
 | [174 -- 1339. 分裂二叉树的最大乘积](https://leetcode-cn.com/problems/maximum-product-of-splitted-binary-tree/) | Medium | [*Tree*](/Rank/174/1339/solution1.js) | **57.14%** |
 | [174 -- 1340. 跳跃游戏 V](https://leetcode-cn.com/problems/jump-game-v/) | Hard | [*Recursion*](/Rank/174/1340/solution1.js) | **93.33%** |
+| [177 -- 5169. 日期之间隔几天](https://leetcode-cn.com/problems/number-of-days-between-two-dates/) | Easy | [*--*](/Rank/177/5169/solution1.js) | **100.00%** |
+| [177 -- 5170. 验证二叉树](https://leetcode-cn.com/problems/validate-binary-tree-nodes/) | Medium | [*Tree*](/Rank/177/5170/solution1.js) | **100.00%** |
+| [177 -- 5171. 最接近的因数](https://leetcode-cn.com/problems/closest-divisors/) | Medium | [*Math*](/Rank/177/5171/solution1.js) | **100.00%** |
+| [177 -- 5172. 形成三的最大倍数](https://leetcode-cn.com/problems/largest-multiple-of-three/) | Hard | [*Math*](/Rank/177/5172/solution1.js) | **100.00%** |
