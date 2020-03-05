@@ -354,3 +354,7 @@
 | [173 -- 1333. 餐厅过滤器](https://leetcode-cn.com/problems/filter-restaurants-by-vegan-friendly-price-and-distance/) | Medium | [*Sort*](/Rank/173/1333/solution1.js) | **90.91%** |
 | [173 -- 1334. 阈值距离内邻居最少的城市](https://leetcode-cn.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) | Medium | [*Floyd-Warshall*](/Rank/173/1334/solution1.js) | **60.67%** |
 | [173 -- 1335. 工作计划的最低难度](https://leetcode-cn.com/problems/minimum-difficulty-of-a-job-schedule/) | Hard | [*DP*](/Rank/173/1335/solution1.js) | **80.00%** |
+| [174 -- 1337. 方阵中战斗力最弱的 K 行](https://leetcode-cn.com/problems/the-k-weakest-rows-in-a-matrix/) | Easy | [*Sort*](/Rank/174/1337/solution1.js) | **93.75%** |
+| [174 -- 1338. 数组大小减半](https://leetcode-cn.com/problems/reduce-array-size-to-the-half/) | Medium | [*HashTable*](/Rank/174/1338/solution1.js) | **92.68%** |
+| [174 -- 1339. 分裂二叉树的最大乘积](https://leetcode-cn.com/problems/maximum-product-of-splitted-binary-tree/) | Medium | [*Tree*](/Rank/174/1339/solution1.js) | **57.14%** |
+| [174 -- 1340. 跳跃游戏 V](https://leetcode-cn.com/problems/jump-game-v/) | Hard | [*Recursion*](/Rank/174/1340/solution1.js) | **93.33%** |
