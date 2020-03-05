@@ -362,3 +362,7 @@
 | [177 -- 5170. 验证二叉树](https://leetcode-cn.com/problems/validate-binary-tree-nodes/) | Medium | [*Tree*](/Rank/177/5170/solution1.js) | **100.00%** |
 | [177 -- 5171. 最接近的因数](https://leetcode-cn.com/problems/closest-divisors/) | Medium | [*Math*](/Rank/177/5171/solution1.js) | **100.00%** |
 | [177 -- 5172. 形成三的最大倍数](https://leetcode-cn.com/problems/largest-multiple-of-three/) | Hard | [*Math*](/Rank/177/5172/solution1.js) | **100.00%** |
+| [178 -- 5344. 有多少小于当前数字的数字](https://leetcode-cn.com/problems/how-many-numbers-are-smaller-than-the-current-number/) | Easy | [*--*](/Rank/178/5344/solution1.js) | **100.00%** |
+| [178 -- 5345. 通过投票对团队排名](https://leetcode-cn.com/problems/rank-teams-by-votes/) | Medium | [*Sort*](/Rank/178/5345/solution1.js) | **100.00%** |
+| [178 -- 5346. 二叉树中的列表](https://leetcode-cn.com/problems/linked-list-in-binary-tree/) | Medium | [*Tree+Recursion*](/Rank/178/5346/solution1.js) | **100.00%** |
+| [178 -- 1368. 使网格图至少有一条有效路径的最小代价](https://leetcode-cn.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/) | Hard | [*BFS*](/Rank/178/1368/solution2.js) | **82.35%** |
