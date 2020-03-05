@@ -49,6 +49,7 @@
   - [Heap（堆）](#9)
   - [Dynamic Programming（动态规划）](#10)
   - [Array（数组）](#11)
+  - [周赛](#12)
 
 
 <h3 id="1">Binary Search Algorithm（二分搜索算法）</h3>
@@ -344,14 +345,12 @@
 | [835. Image Overlap](https://leetcode.com/problems/image-overlap/) | Medium | [--](/array/835/solution1.js) | O(n^4) | -- |
 | [495. Teemo Attacking](https://leetcode.com/problems/teemo-attacking/) | Medium | [--](/array/495/solution1.js) | O(n) | -- |
 
-### Small Skill（利用一些小技巧思路处理的问题）
-| 题目 | 难度 | 代码 | beats Runtime | beats Memory | 时间复杂度 |
-| :----- | :---: | :---: | :---: | :---: | :--: |
-| [454. 4Sum II](https://leetcode.com/problems/4sum-ii/submissions/) | Medium | [代码](/Small-Skill/454/solution2.js) | **99.33%** | **98.28%** | O(n^2)|
-| [287. Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) | Medium | [代码](/Small-Skill/287/solution1.js) | **93.47%** | **37.72%** | O(n)|
-| [240. Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/) | Medium | [代码](/Small-Skill/240/solution2.js) | **94.61%** | **37.71%** | O(n)|
+<h3 id="12">周赛打卡</h3>
 
-### Other （被标签高估的题目）
-| 题目 | 难度 | 代码 | beats Runtime | beats Memory | 时间复杂度 |
-| :----- | :---: | :---: | :---: | :---: | :--: |
-| [153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | Medium | [代码](/Other/153/solution1.js) | **94.11%** | **71.58%** | O(n)|
+
+| 题目 | 难度 | 代码 | beats Runtime |
+| :----- | :---: | :---: | :---: |
+| [173 -- 1332. 删除回文子序列](https://leetcode-cn.com/problems/remove-palindromic-subsequences/) | Easy | [*TwoPoints*]](/Rank/173/1332/solution1.js) | **84.21%** |
+| [173 -- 1333. 餐厅过滤器](https://leetcode-cn.com/problems/filter-restaurants-by-vegan-friendly-price-and-distance/) | Medium | [*Sort*]](/Rank/173/1333/solution1.js) | **90.91%** |
+| [173 -- 1334. 阈值距离内邻居最少的城市](https://leetcode-cn.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) | Medium | [*Floyd-Warshall*]](/Rank/173/1334/solution1.js) | **60.67%** |
+| [173 -- 1335. 工作计划的最低难度](https://leetcode-cn.com/problems/minimum-difficulty-of-a-job-schedule/) | Hard | [*DP*]](/Rank/173/1335/solution1.js) | **80.00%** |
