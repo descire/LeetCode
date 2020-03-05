@@ -49,7 +49,7 @@
   - [Heap（堆）](#9)
   - [Dynamic Programming（动态规划）](#10)
   - [Array（数组）](#11)
-  - [周赛](#12)
+  - [历届周赛](#12)
 
 
 <h3 id="1">Binary Search Algorithm（二分搜索算法）</h3>
@@ -350,7 +350,7 @@
 
 | 题目 | 难度 | 代码 | beats Runtime |
 | :----- | :---: | :---: | :---: |
-| [173 -- 1332. 删除回文子序列](https://leetcode-cn.com/problems/remove-palindromic-subsequences/) | Easy | [*TwoPoints*]](/Rank/173/1332/solution1.js) | **84.21%** |
-| [173 -- 1333. 餐厅过滤器](https://leetcode-cn.com/problems/filter-restaurants-by-vegan-friendly-price-and-distance/) | Medium | [*Sort*]](/Rank/173/1333/solution1.js) | **90.91%** |
-| [173 -- 1334. 阈值距离内邻居最少的城市](https://leetcode-cn.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) | Medium | [*Floyd-Warshall*]](/Rank/173/1334/solution1.js) | **60.67%** |
-| [173 -- 1335. 工作计划的最低难度](https://leetcode-cn.com/problems/minimum-difficulty-of-a-job-schedule/) | Hard | [*DP*]](/Rank/173/1335/solution1.js) | **80.00%** |
+| [173 -- 1332. 删除回文子序列](https://leetcode-cn.com/problems/remove-palindromic-subsequences/) | Easy | [*TwoPoints*](/Rank/173/1332/solution1.js) | **84.21%** |
+| [173 -- 1333. 餐厅过滤器](https://leetcode-cn.com/problems/filter-restaurants-by-vegan-friendly-price-and-distance/) | Medium | [*Sort*](/Rank/173/1333/solution1.js) | **90.91%** |
+| [173 -- 1334. 阈值距离内邻居最少的城市](https://leetcode-cn.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) | Medium | [*Floyd-Warshall*](/Rank/173/1334/solution1.js) | **60.67%** |
+| [173 -- 1335. 工作计划的最低难度](https://leetcode-cn.com/problems/minimum-difficulty-of-a-job-schedule/) | Hard | [*DP*](/Rank/173/1335/solution1.js) | **80.00%** |
