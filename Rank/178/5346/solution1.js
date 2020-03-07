@@ -46,7 +46,7 @@ function recordTrees(root, record) {
   }
 
   if (root.right) {
-    record.push(root.left);
+    record.push(root.right);
     recordTrees(root.right, record);
   }
 }
