@@ -1,3 +1,18 @@
+/**
+ * https://leetcode-cn.com/problems/increasing-decreasing-string/
+ * 
+ * 5336. 上升下降字符串
+ * 
+ * Easy
+ * 
+ * 112ms 100.00%
+ * 38.3mb 100.00%
+ * 
+ * 考点
+ * 
+ *  - Map
+ *  - Sort
+ */
 const sortString = s => {
   if (!s.length) {
     return '';
