@@ -5,8 +5,8 @@
  * 
  * Easy
  * 
- * 5216ms 5.74%
- * 39.5mb 98.15%
+ * 68ms 96.72%
+ * 39.3mb 100.00%
  * 
  * 时间复杂度 O(n^2)
  */
@@ -21,13 +21,18 @@ const canThreePartsEqualSum = A => {
     return false;
   }
 
+  const everyPartSum = sum / 3;
+
   let firstPartSum = 0;
   for (let i = 0; i < max - 2; i++) {
     firstPartSum += A[i];
+    if (firstPartSum !== everyPartSum) {
+      continue;
+    }
     let secondPartSum = 0;
     for (let j = i + 1; j < max - 1; j++) {
       secondPartSum += A[j];
-      if (firstPartSum === secondPartSum && 3 * secondPartSum === sum) {
+      if (secondPartSum === everyPartSum) {
         return true;
       }
     }
