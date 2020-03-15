@@ -36,17 +36,17 @@
 
     return ans;
 
-    function dfs(startIndex, record, t, target, current) {
+    function dfs(startIndex, record, t, target, probability) {
       const indexsList = record.get(startIndex);
       if (target === startIndex && ( t === 0 || (t > 0 && !indexsList.length))) {
-        ans = current;
+        ans = probability;
         return
       }
       if (t === 0 || !indexsList.length) {
         return
       }
       for (let i = 0, max = indexsList.length; i < max; i++) {
-        dfs(indexsList[i], record, t - 1, target, current * (1 / max));
+        dfs(indexsList[i], record, t - 1, target, probability * (1 / max));
       }
     }
   }
