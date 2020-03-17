@@ -8,7 +8,7 @@
  * 1、堆 实现优先队列
  * 2、BigInt
  * 
- * 364ms 100.00%;
+ * 360ms 100.00%;
  * 60.4mb 100.00%
  */
 const maxPerformance = (n, speed, efficiency, k) => {
@@ -38,7 +38,7 @@ function PriorityQueue() {
   this.heap = [];
 }
 
-PriorityQueue.prototype.heapify_down = function (arr, n, index) {
+PriorityQueue.prototype.heapify = function (arr, n, index, isDown) {
   if (index >= n) {
     return;
   }
@@ -54,39 +54,22 @@ PriorityQueue.prototype.heapify_down = function (arr, n, index) {
 
   if (minIndex !== index) {
     [arr[minIndex], arr[index]] = [arr[index], arr[minIndex]];
-    this.heapify_down(arr, n, minIndex);
-  }
-}
-
-PriorityQueue.prototype.heapify_up = function (arr, n, index) {
-  if (index < 0) {
-    return;
-  }
-  const c1 = index * 2 + 1;
-  const c2 = index * 2 + 2;
-  let minIndex = index;
-  if (c1 < n && arr[c1] < arr[minIndex]) {
-    minIndex = c1;
-  }
-  if (c2 < n && arr[c2] < arr[minIndex]) {
-    minIndex = c2;
-  }
-
-  if (minIndex !== index) {
-    [arr[minIndex], arr[index]] = [arr[index], arr[minIndex]];
-    this.heapify_up(arr, n, Math.floor((index - 1) / 2));
+    const nextIndex = isDown ? minIndex : Math.floor((index - 1) / 2);
+    this.heapify(arr, n, nextIndex, isDown);
   }
 }
 
 PriorityQueue.prototype.pop_first = function () {
   const min = this.heap[0];
-  this.heap[0] = this.heap[this.heap.length - 1];
+  const n = this.heap.length;
+  this.heap[0] = this.heap[n - 1];
   this.heap.pop();
-  this.heapify_down(this.heap, this.heap.length, 0);
+  this.heapify(this.heap, n, 0, true);
   return min;
 }
 
 PriorityQueue.prototype.push_first = function (value) {
   this.heap.push(value);
-  this.heapify_up(this.heap, this.heap.length, Math.floor((this.heap.length - 2) / 2));
+  const n = this.heap.length;
+  this.heapify(this.heap, n, Math.floor((n - 2) / 2), false);
 }
