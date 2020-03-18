@@ -35,6 +35,8 @@
   - [前端工程师的 LeetCode 之旅 - 夜喵专场（20）](https://mp.weixin.qq.com/s/dvSA3yruUQzmLchYyzDKdw)
   - [前端工程师的 LeetCode 之旅 - 173周赛 ](https://mp.weixin.qq.com/s/kNd2nQAH9QG1POhlvNNZ4g)
   - [前端工程师的 LeetCode 之旅 - 177周赛 ](https://mp.weixin.qq.com/s/FvT-vd8UVFADdBwQanp4xQ)
+  - [前端工程师的 LeetCode 之旅 - 178周赛 ](https://mp.weixin.qq.com/s?__biz=MzUzODgwNDAzOA==&mid=2247484191&idx=1&sn=d057dcac5204eab59e889fda0fe5b3f2&chksm=fad36936cda4e02069428a30377ac644c0c073ab58621a39472dcc917dcb4cc586ba909980f4&scene=21#wechat_redirect)
+  - [前端工程师的 LeetCode 之旅 - 179周赛 ](https://mp.weixin.qq.com/s?__biz=MzUzODgwNDAzOA==&mid=2247484219&idx=1&sn=50057af519d65fb1f321be5d82615c63&chksm=fad36912cda4e004b8fa3842e00a3cd4d0cad9897c2eca2eced24b97b9c919a6e9fed29c9e13&scene=21#wechat_redirect)
 
 ### 🧭目录导航
 
@@ -366,3 +368,7 @@
 | [178 -- 5345. 通过投票对团队排名](https://leetcode-cn.com/problems/rank-teams-by-votes/) | Medium | [*Sort*](/Rank/178/5345/solution1.js) | **100.00%** |
 | [178 -- 5346. 二叉树中的列表](https://leetcode-cn.com/problems/linked-list-in-binary-tree/) | Medium | [*Tree+Recursion*](/Rank/178/5346/solution1.js) | **100.00%** |
 | [178 -- 1368. 使网格图至少有一条有效路径的最小代价](https://leetcode-cn.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/) | Hard | [*BFS*](/Rank/178/1368/solution2.js) | **82.35%** |
+| [179 -- 1374. 生成每种字符都是奇数个的字符串](https://leetcode-cn.com/problems/generate-a-string-with-characters-that-have-odd-counts/) | Easy | [*--*](/Rank/179/1374/solution1.js) | **100%** |
+| [179 -- 1375. 灯泡开关 III](https://leetcode-cn.com/problems/bulb-switcher-iii/) | Medium | [*Math*](/Rank/179/1375/solution1.js) | **100%** |
+| [179 -- 1376. 通知所有员工所需的时间](https://leetcode-cn.com/problems/time-needed-to-inform-all-employees/) | Medium | [*DFS*](/Rank/179/1376/solution1.js) | **71.62%** |
+| [179 -- 1377. T 秒后青蛙的位置](https://leetcode-cn.com/problems/frog-position-after-t-seconds/) | Hard | [*DFS*](/Rank/179/1377/solution1.js) | **87.88%** |
