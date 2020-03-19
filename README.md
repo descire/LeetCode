@@ -37,6 +37,7 @@
   - [前端工程师的 LeetCode 之旅 - 177周赛 ](https://mp.weixin.qq.com/s/FvT-vd8UVFADdBwQanp4xQ)
   - [前端工程师的 LeetCode 之旅 - 178周赛 ](https://mp.weixin.qq.com/s?__biz=MzUzODgwNDAzOA==&mid=2247484191&idx=1&sn=d057dcac5204eab59e889fda0fe5b3f2&chksm=fad36936cda4e02069428a30377ac644c0c073ab58621a39472dcc917dcb4cc586ba909980f4&scene=21#wechat_redirect)
   - [前端工程师的 LeetCode 之旅 - 179周赛 ](https://mp.weixin.qq.com/s?__biz=MzUzODgwNDAzOA==&mid=2247484219&idx=1&sn=50057af519d65fb1f321be5d82615c63&chksm=fad36912cda4e004b8fa3842e00a3cd4d0cad9897c2eca2eced24b97b9c919a6e9fed29c9e13&scene=21#wechat_redirect)
+  - [前端工程师的 LeetCode 之旅 - 180周赛 ](https://mp.weixin.qq.com/s/UEXsXCGvtJunHHmIiuhEFQ)
 
 ### 🧭目录导航
 
@@ -372,3 +373,7 @@
 | [179 -- 1375. 灯泡开关 III](https://leetcode-cn.com/problems/bulb-switcher-iii/) | Medium | [*Math*](/Rank/179/1375/solution1.js) | **100%** |
 | [179 -- 1376. 通知所有员工所需的时间](https://leetcode-cn.com/problems/time-needed-to-inform-all-employees/) | Medium | [*DFS*](/Rank/179/1376/solution1.js) | **71.62%** |
 | [179 -- 1377. T 秒后青蛙的位置](https://leetcode-cn.com/problems/frog-position-after-t-seconds/) | Hard | [*DFS*](/Rank/179/1377/solution1.js) | **87.88%** |
+| [180 -- 5356. 矩阵中的幸运数](https://leetcode-cn.com/problems/lucky-numbers-in-a-matrix/) | Easy | [*--*](/Rank/180/5356/solution1.js) | **100.00%** |
+| [180 -- 5357. 设计一个支持增量操作的栈](https://leetcode-cn.com/problems/design-a-stack-with-increment-operation/) | Medium | [*Stack*](/Rank/180/5357/solution1.js) | **100.00%** |
+| [180 -- 5179. 将二叉搜索树变平衡](https://leetcode-cn.com/problems/balance-a-binary-search-tree/) | Medium | [*BST*](/Rank/180/5179/solution1.js) | **100.00%** |
+| [180 -- 5359. 最大的团队表现值](https://leetcode-cn.com/problems/maximum-performance-of-a-team/) | Hard | [*Heap*](/Rank/180/5359/solution1.js) | **100.00%** |
