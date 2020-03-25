@@ -380,3 +380,7 @@
 | [180 -- 5357. 设计一个支持增量操作的栈](https://leetcode-cn.com/problems/design-a-stack-with-increment-operation/) | Medium | [*Stack*](/Rank/180/5357/solution1.js) | **100.00%** |
 | [180 -- 5179. 将二叉搜索树变平衡](https://leetcode-cn.com/problems/balance-a-binary-search-tree/) | Medium | [*BST*](/Rank/180/5179/solution1.js) | **100.00%** |
 | [180 -- 5359. 最大的团队表现值](https://leetcode-cn.com/problems/maximum-performance-of-a-team/) | Hard | [*Heap*](/Rank/180/5359/solution1.js) | **100.00%** |
+| [181 -- 5364. 按既定顺序创建目标数组](https://leetcode-cn.com/problems/create-target-array-in-the-given-order/submissions/) | Easy | [*Array*](/Rank/181/5364/solution1.js) | **100.00%** |
+| [181 -- 1390. 四因数](https://leetcode-cn.com/problems/four-divisors/) | Medium | [*Math*](/Rank/181/5178/solution1.js) | **100.00%** |
+| [181 -- 1391. 检查网格中是否存在有效路径](https://leetcode-cn.com/problems/check-if-there-is-a-valid-path-in-a-grid/) | Medium | [*BFS*](/Rank/181/5366/solution2.js) | **100.00%** |
+| [181 -- 1392. 最长快乐前缀](https://leetcode-cn.com/problems/longest-happy-prefix/) | Hard | [*KMP*](/Rank/181/1392/solution2.js) | **100.00%** |
