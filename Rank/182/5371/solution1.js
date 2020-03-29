@@ -6,15 +6,24 @@ const findGoodStrings = (n, s1, s2, evil) => {
     return 0;
   }
 
+  const record = new Set();
+  for (let i = 0; i < evil.length; i++) {
+    record.add(evil[i]);
+  }
+
   let c1 = 0
   for (let i = s1[0].charCodeAt(0) + 1; i < s2[0].charCodeAt(0); i++) {
     if (evil.indexOf(String.fromCharCode(i)) === -1) {
       c1++;
     }
   }
+
   ans += getCount(c1, evil.length, n - 1);
 
   for (let i = 1; i < s1.length; i++) {
+    if (record.has(s1[i - 1])) {
+      break;
+    }
     const item = s1[i];
     let count = 0;
     let start = item.charCodeAt(0);
@@ -26,7 +35,13 @@ const findGoodStrings = (n, s1, s2, evil) => {
       start++;
     }
     ans += getCount(count, evil.length, n - i - 1);
+      
+  }
 
+  for (let i = 0; i < s2.length; i++) {
+    if (record.has(s2[i - 1])) {
+      break;
+    }
     if(s2[i - 1] !== s1[i - 1]) {
       const item2 = s2[i];
       let count2 = 0;
@@ -40,8 +55,8 @@ const findGoodStrings = (n, s1, s2, evil) => {
 
       ans += getCount(count2, evil.length, n - i - 1);
     }
-      
   }
+
   return ans;
 }
 
