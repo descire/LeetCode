@@ -1,3 +1,10 @@
+/**
+ * https://leetcode-cn.com/problems/count-number-of-teams/
+ * 
+ * 5369. 统计作战单位数
+ * 
+ * Medium
+ */
 const numTeams = rating => {
   let ans = 0;
   const max = rating.length;
@@ -16,11 +23,4 @@ const numTeams = rating => {
   }
 
   return ans;
-}
-
-function getCount(count) {
-  if (count < 3) {
-    return 0;
-  }
-  return count * (count - 1) * (count - 2) / 6
 }
