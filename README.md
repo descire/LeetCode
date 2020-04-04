@@ -384,3 +384,7 @@
 | [181 -- 1390. 四因数](https://leetcode-cn.com/problems/four-divisors/) | Medium | [*Math*](/Rank/181/5178/solution1.js) | **100.00%** |
 | [181 -- 1391. 检查网格中是否存在有效路径](https://leetcode-cn.com/problems/check-if-there-is-a-valid-path-in-a-grid/) | Medium | [*BFS*](/Rank/181/5366/solution2.js) | **100.00%** |
 | [181 -- 1392. 最长快乐前缀](https://leetcode-cn.com/problems/longest-happy-prefix/) | Hard | [*KMP*](/Rank/181/1392/solution2.js) | **100.00%** |
+| [182 -- 5368. 找出数组中的幸运数](https://leetcode-cn.com/problems/find-lucky-integer-in-an-array/) | Easy | [*--*](/Rank/182/5368/solution1.js) | **100.00%** |
+| [182 -- 5369. 统计作战单位数](https://leetcode-cn.com/problems/count-number-of-teams/) | Medium | [*TwoPoints*](/Rank/182/5369/solution2.js) | **100.00%** |
+| [182 -- 5370. 设计地铁系统](https://leetcode-cn.com/problems/design-underground-system/submissions/) | Medium | [*HashMap*](/Rank/182/5370/solution1.js) | **100.00%** |
+| [182 -- 5371. 找到所有好字符串](https://leetcode-cn.com/problems/find-all-good-strings/) | Hard | [*数位DP+KMP*](/Rank/182/5371/solution1.js) | **100.00%** |

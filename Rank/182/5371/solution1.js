@@ -1,3 +1,14 @@
+/**
+ * https://leetcode-cn.com/problems/find-all-good-strings/
+ * 
+ * 
+ * 1397. 找到所有好字符串
+ * 
+ * Hard
+ * 
+ * 120ms 100.00%
+ * 41.5mb 100.00%
+ */
 const MAX_INT = 10 ** 9 + 7;
 let dp;
 let next;
