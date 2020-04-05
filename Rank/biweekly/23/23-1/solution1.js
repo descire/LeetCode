@@ -1,3 +1,13 @@
+/**
+ * https://leetcode-cn.com/problems/count-largest-group/
+ * 
+ * 统计最大组的数目
+ * 
+ * Easy
+ * 
+ * 84ms 100.00%
+ * 37.8mb 100.00%
+ */
 const countLargestGroup = n => {
   const record = new Map();
   for (let i = 1; i <= n; i++) {
@@ -9,17 +19,17 @@ const countLargestGroup = n => {
     record.set(sum, record.get(sum) + 1);
   }
 
-  let ans = 0;
+  let maxCount = 0;
   for (const count of record.values()) {
-    ans = Math.max(count, ans);
+    maxCount = Math.max(count, maxCount);
   }
 
-  let some = 0;
+  let ans = 0;
   for (const count of record.values()) {
-    if (count === ans) {
-      some++;
+    if (count === maxCount) {
+      ans++;
     }
   }
 
-  return some;
+  return ans;
 }

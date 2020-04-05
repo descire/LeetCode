@@ -1,3 +1,12 @@
+/**
+ * https://leetcode-cn.com/problems/construct-k-palindrome-strings/submissions/
+ * 
+ * 构造 K 个回文字符串
+ * 
+ * Medium
+ * 
+ * 132ms
+ */
 const canConstruct = (s, k) => {
   const max = s.length;
 
