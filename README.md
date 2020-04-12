@@ -41,6 +41,9 @@
   - [前端工程师的 LeetCode 之旅 - 周赛 180](https://mp.weixin.qq.com/s/UEXsXCGvtJunHHmIiuhEFQ)
   - [前端工程师的 LeetCode 之旅 - 夜喵专场（22）](https://mp.weixin.qq.com/s/gjWicUgaJXJ2Q-wT9COkiA)
   - [前端工程师的 LeetCode 之旅 - 周赛 181](https://mp.weixin.qq.com/s/12n0txs_lWYeZsyFmMdWJQ)
+  - [前端工程师的 LeetCode 之旅 - 周赛 182](https://mp.weixin.qq.com/s/QfFkMBiJy3-hYs73eyKRCA)
+  - [前端工程师的 LeetCode 之旅 - 夜喵专场（23）](https://mp.weixin.qq.com/s/ImLe4nDvZ7fC5cf2OsY4DQ)
+  - [前端工程师的 LeetCode 之旅 - 周赛 183](https://mp.weixin.qq.com/s/oQLaD4vDDjLJE4l7DFy-xw)
 
 ### 🧭目录导航
 
@@ -354,37 +357,42 @@
 <h3 id="12">周赛打卡</h3>
 
 
-| 题目 | 难度 | 代码 | beats Runtime |
-| :----- | :---: | :---: | :---: |
-| [173 -- 1332. 删除回文子序列](https://leetcode-cn.com/problems/remove-palindromic-subsequences/) | Easy | [*TwoPoints*](/Rank/173/1332/solution1.js) | **84.21%** |
-| [173 -- 1333. 餐厅过滤器](https://leetcode-cn.com/problems/filter-restaurants-by-vegan-friendly-price-and-distance/) | Medium | [*Sort*](/Rank/173/1333/solution1.js) | **90.91%** |
-| [173 -- 1334. 阈值距离内邻居最少的城市](https://leetcode-cn.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) | Medium | [*Floyd-Warshall*](/Rank/173/1334/solution1.js) | **60.67%** |
-| [173 -- 1335. 工作计划的最低难度](https://leetcode-cn.com/problems/minimum-difficulty-of-a-job-schedule/) | Hard | [*DP*](/Rank/173/1335/solution1.js) | **80.00%** |
-| [174 -- 1337. 方阵中战斗力最弱的 K 行](https://leetcode-cn.com/problems/the-k-weakest-rows-in-a-matrix/) | Easy | [*Sort*](/Rank/174/1337/solution1.js) | **93.75%** |
-| [174 -- 1338. 数组大小减半](https://leetcode-cn.com/problems/reduce-array-size-to-the-half/) | Medium | [*HashTable*](/Rank/174/1338/solution1.js) | **92.68%** |
-| [174 -- 1339. 分裂二叉树的最大乘积](https://leetcode-cn.com/problems/maximum-product-of-splitted-binary-tree/) | Medium | [*Tree*](/Rank/174/1339/solution1.js) | **57.14%** |
-| [174 -- 1340. 跳跃游戏 V](https://leetcode-cn.com/problems/jump-game-v/) | Hard | [*Recursion*](/Rank/174/1340/solution1.js) | **93.33%** |
-| [177 -- 5169. 日期之间隔几天](https://leetcode-cn.com/problems/number-of-days-between-two-dates/) | Easy | [*--*](/Rank/177/5169/solution1.js) | **100.00%** |
-| [177 -- 5170. 验证二叉树](https://leetcode-cn.com/problems/validate-binary-tree-nodes/) | Medium | [*Tree*](/Rank/177/5170/solution1.js) | **100.00%** |
-| [177 -- 5171. 最接近的因数](https://leetcode-cn.com/problems/closest-divisors/) | Medium | [*Math*](/Rank/177/5171/solution1.js) | **100.00%** |
-| [177 -- 5172. 形成三的最大倍数](https://leetcode-cn.com/problems/largest-multiple-of-three/) | Hard | [*Math*](/Rank/177/5172/solution1.js) | **100.00%** |
-| [178 -- 5344. 有多少小于当前数字的数字](https://leetcode-cn.com/problems/how-many-numbers-are-smaller-than-the-current-number/) | Easy | [*--*](/Rank/178/5344/solution1.js) | **100.00%** |
-| [178 -- 5345. 通过投票对团队排名](https://leetcode-cn.com/problems/rank-teams-by-votes/) | Medium | [*Sort*](/Rank/178/5345/solution1.js) | **100.00%** |
-| [178 -- 5346. 二叉树中的列表](https://leetcode-cn.com/problems/linked-list-in-binary-tree/) | Medium | [*Tree+Recursion*](/Rank/178/5346/solution1.js) | **100.00%** |
-| [178 -- 1368. 使网格图至少有一条有效路径的最小代价](https://leetcode-cn.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/) | Hard | [*BFS*](/Rank/178/1368/solution2.js) | **82.35%** |
-| [179 -- 1374. 生成每种字符都是奇数个的字符串](https://leetcode-cn.com/problems/generate-a-string-with-characters-that-have-odd-counts/) | Easy | [*--*](/Rank/179/1374/solution1.js) | **100%** |
-| [179 -- 1375. 灯泡开关 III](https://leetcode-cn.com/problems/bulb-switcher-iii/) | Medium | [*Math*](/Rank/179/1375/solution1.js) | **100%** |
-| [179 -- 1376. 通知所有员工所需的时间](https://leetcode-cn.com/problems/time-needed-to-inform-all-employees/) | Medium | [*DFS*](/Rank/179/1376/solution1.js) | **71.62%** |
-| [179 -- 1377. T 秒后青蛙的位置](https://leetcode-cn.com/problems/frog-position-after-t-seconds/) | Hard | [*DFS*](/Rank/179/1377/solution1.js) | **87.88%** |
-| [180 -- 5356. 矩阵中的幸运数](https://leetcode-cn.com/problems/lucky-numbers-in-a-matrix/) | Easy | [*--*](/Rank/180/5356/solution1.js) | **100.00%** |
-| [180 -- 5357. 设计一个支持增量操作的栈](https://leetcode-cn.com/problems/design-a-stack-with-increment-operation/) | Medium | [*Stack*](/Rank/180/5357/solution1.js) | **100.00%** |
-| [180 -- 5179. 将二叉搜索树变平衡](https://leetcode-cn.com/problems/balance-a-binary-search-tree/) | Medium | [*BST*](/Rank/180/5179/solution1.js) | **100.00%** |
-| [180 -- 5359. 最大的团队表现值](https://leetcode-cn.com/problems/maximum-performance-of-a-team/) | Hard | [*Heap*](/Rank/180/5359/solution1.js) | **100.00%** |
-| [181 -- 5364. 按既定顺序创建目标数组](https://leetcode-cn.com/problems/create-target-array-in-the-given-order/submissions/) | Easy | [*Array*](/Rank/181/5364/solution1.js) | **100.00%** |
-| [181 -- 1390. 四因数](https://leetcode-cn.com/problems/four-divisors/) | Medium | [*Math*](/Rank/181/5178/solution1.js) | **100.00%** |
-| [181 -- 1391. 检查网格中是否存在有效路径](https://leetcode-cn.com/problems/check-if-there-is-a-valid-path-in-a-grid/) | Medium | [*BFS*](/Rank/181/5366/solution2.js) | **100.00%** |
-| [181 -- 1392. 最长快乐前缀](https://leetcode-cn.com/problems/longest-happy-prefix/) | Hard | [*KMP*](/Rank/181/1392/solution2.js) | **100.00%** |
-| [182 -- 5368. 找出数组中的幸运数](https://leetcode-cn.com/problems/find-lucky-integer-in-an-array/) | Easy | [*--*](/Rank/182/5368/solution1.js) | **100.00%** |
-| [182 -- 5369. 统计作战单位数](https://leetcode-cn.com/problems/count-number-of-teams/) | Medium | [*TwoPoints*](/Rank/182/5369/solution2.js) | **100.00%** |
-| [182 -- 5370. 设计地铁系统](https://leetcode-cn.com/problems/design-underground-system/submissions/) | Medium | [*HashMap*](/Rank/182/5370/solution1.js) | **100.00%** |
-| [182 -- 5371. 找到所有好字符串](https://leetcode-cn.com/problems/find-all-good-strings/) | Hard | [*数位DP+KMP*](/Rank/182/5371/solution1.js) | **100.00%** |
+| 题目 | 难度 | 代码 | 时间复杂度 | 空间复杂度 |
+| :----- | :---: | :---: | :---: | :---: |
+| [173 -- 1332. 删除回文子序列](https://leetcode-cn.com/problems/remove-palindromic-subsequences/) | Easy | [*TwoPoints*](/Rank/173/1332/solution1.js) | **84.21%** | -- |
+| [173 -- 1333. 餐厅过滤器](https://leetcode-cn.com/problems/filter-restaurants-by-vegan-friendly-price-and-distance/) | Medium | [*Sort*](/Rank/173/1333/solution1.js) | **90.91%** | -- |
+| [173 -- 1334. 阈值距离内邻居最少的城市](https://leetcode-cn.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) | Medium | [*Floyd-Warshall*](/Rank/173/1334/solution1.js) | **60.67%** | -- |
+| [173 -- 1335. 工作计划的最低难度](https://leetcode-cn.com/problems/minimum-difficulty-of-a-job-schedule/) | Hard | [*DP*](/Rank/173/1335/solution1.js) | **80.00%** | -- |
+| [174 -- 1337. 方阵中战斗力最弱的 K 行](https://leetcode-cn.com/problems/the-k-weakest-rows-in-a-matrix/) | Easy | [*Sort*](/Rank/174/1337/solution1.js) | **93.75%** | -- |
+| [174 -- 1338. 数组大小减半](https://leetcode-cn.com/problems/reduce-array-size-to-the-half/) | Medium | [*HashTable*](/Rank/174/1338/solution1.js) | **92.68%** | -- |
+| [174 -- 1339. 分裂二叉树的最大乘积](https://leetcode-cn.com/problems/maximum-product-of-splitted-binary-tree/) | Medium | [*Tree*](/Rank/174/1339/solution1.js) | **57.14%** | -- |
+| [174 -- 1340. 跳跃游戏 V](https://leetcode-cn.com/problems/jump-game-v/) | Hard | [*Recursion*](/Rank/174/1340/solution1.js) | **93.33%** | -- |
+| [177 -- 5169. 日期之间隔几天](https://leetcode-cn.com/problems/number-of-days-between-two-dates/) | Easy | [*--*](/Rank/177/5169/solution1.js) | **100.00%** | -- |
+| [177 -- 5170. 验证二叉树](https://leetcode-cn.com/problems/validate-binary-tree-nodes/) | Medium | [*Tree*](/Rank/177/5170/solution1.js) | **100.00%** | -- |
+| [177 -- 5171. 最接近的因数](https://leetcode-cn.com/problems/closest-divisors/) | Medium | [*Math*](/Rank/177/5171/solution1.js) | **100.00%** | -- |
+| [177 -- 5172. 形成三的最大倍数](https://leetcode-cn.com/problems/largest-multiple-of-three/) | Hard | [*Math*](/Rank/177/5172/solution1.js) | **100.00%** | -- |
+| [178 -- 5344. 有多少小于当前数字的数字](https://leetcode-cn.com/problems/how-many-numbers-are-smaller-than-the-current-number/) | Easy | [*--*](/Rank/178/5344/solution1.js) | **100.00%** | -- |
+| [178 -- 5345. 通过投票对团队排名](https://leetcode-cn.com/problems/rank-teams-by-votes/) | Medium | [*Sort*](/Rank/178/5345/solution1.js) | **100.00%** | -- |
+| [178 -- 5346. 二叉树中的列表](https://leetcode-cn.com/problems/linked-list-in-binary-tree/) | Medium | [*Tree+Recursion*](/Rank/178/5346/solution1.js) | **100.00%** | -- |
+| [178 -- 1368. 使网格图至少有一条有效路径的最小代价](https://leetcode-cn.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/) | Hard | [*BFS*](/Rank/178/1368/solution2.js) | **82.35%** | -- |
+| [179 -- 1374. 生成每种字符都是奇数个的字符串](https://leetcode-cn.com/problems/generate-a-string-with-characters-that-have-odd-counts/) | Easy | [*--*](/Rank/179/1374/solution1.js) | **100%** | -- |
+| [179 -- 1375. 灯泡开关 III](https://leetcode-cn.com/problems/bulb-switcher-iii/) | Medium | [*Math*](/Rank/179/1375/solution1.js) | **100%** | -- |
+| [179 -- 1376. 通知所有员工所需的时间](https://leetcode-cn.com/problems/time-needed-to-inform-all-employees/) | Medium | [*DFS*](/Rank/179/1376/solution1.js) | **71.62%** | -- |
+| [179 -- 1377. T 秒后青蛙的位置](https://leetcode-cn.com/problems/frog-position-after-t-seconds/) | Hard | [*DFS*](/Rank/179/1377/solution1.js) | **87.88%** | -- |
+| [180 -- 5356. 矩阵中的幸运数](https://leetcode-cn.com/problems/lucky-numbers-in-a-matrix/) | Easy | [*--*](/Rank/180/5356/solution1.js) | **100.00%** | -- |
+| [180 -- 5357. 设计一个支持增量操作的栈](https://leetcode-cn.com/problems/design-a-stack-with-increment-operation/) | Medium | [*Stack*](/Rank/180/5357/solution1.js) | **100.00%** | -- |
+| [180 -- 5179. 将二叉搜索树变平衡](https://leetcode-cn.com/problems/balance-a-binary-search-tree/) | Medium | [*BST*](/Rank/180/5179/solution1.js) | **100.00%** | -- |
+| [180 -- 5359. 最大的团队表现值](https://leetcode-cn.com/problems/maximum-performance-of-a-team/) | Hard | [*Heap*](/Rank/180/5359/solution1.js) | **100.00%** | -- |
+| [181 -- 5364. 按既定顺序创建目标数组](https://leetcode-cn.com/problems/create-target-array-in-the-given-order/submissions/) | Easy | [*Array*](/Rank/181/5364/solution1.js) | **100.00%** | -- |
+| [181 -- 1390. 四因数](https://leetcode-cn.com/problems/four-divisors/) | Medium | [*Math*](/Rank/181/5178/solution1.js) | **100.00%** | -- |
+| [181 -- 1391. 检查网格中是否存在有效路径](https://leetcode-cn.com/problems/check-if-there-is-a-valid-path-in-a-grid/) | Medium | [*BFS*](/Rank/181/5366/solution2.js) | **100.00%** | -- |
+| [181 -- 1392. 最长快乐前缀](https://leetcode-cn.com/problems/longest-happy-prefix/) | Hard | [*KMP*](/Rank/181/1392/solution2.js) | **100.00%** | -- |
+| [182 -- 5368. 找出数组中的幸运数](https://leetcode-cn.com/problems/find-lucky-integer-in-an-array/) | Easy | [*--*](/Rank/182/5368/solution1.js) | **100.00%** | -- |
+| [182 -- 5369. 统计作战单位数](https://leetcode-cn.com/problems/count-number-of-teams/) | Medium | [*TwoPoints*](/Rank/182/5369/solution2.js) | **100.00%** | -- |
+| [182 -- 5370. 设计地铁系统](https://leetcode-cn.com/problems/design-underground-system/submissions/) | Medium | [*HashMap*](/Rank/182/5370/solution1.js) | **100.00%** | -- |
+| [182 -- 5371. 找到所有好字符串](https://leetcode-cn.com/problems/find-all-good-strings/) | Hard | [*数位DP+KMP*](/Rank/182/5371/solution1.js) | **100.00%** | -- |
+| [183 -- 非递增顺序的最小子序列](https://leetcode-cn.com/problems/minimum-subsequence-in-non-increasing-order/submissions/) | Easy | [*Sort*](/Rank/183/183-1/solution1.js) | **O(nlogn)** | **O(n)** |
+| [183 -- 将二进制表示减到 1 的步骤数](https://leetcode-cn.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/submissions/) | Medium | [*--*](/Rank/183/183-2/solution1.js) | **O(n^2)** | **O(1)** |
+| [183 -- 最长快乐字符串](https://leetcode-cn.com/problems/longest-happy-string/submissions/) | Medium | [*Sort+Greedy*](/Rank/183/183-3/solution1.js) | **O(nlogn)** | **O(1)** |
+| [183 -- 石子游戏 III](https://leetcode-cn.com/problems/stone-game-iii/solution/dp-yi-ge-zhuan-yi-fang-cheng-jie-jue-by-enko-2/) | Hard | [*DP*](/Rank/183/183-4/solution1.js) | **O(n)** | **O(n)** |
+
