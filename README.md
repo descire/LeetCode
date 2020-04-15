@@ -395,4 +395,8 @@
 | [183 -- 将二进制表示减到 1 的步骤数](https://leetcode-cn.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/submissions/) | Medium | [*--*](/Rank/183/183-2/solution1.js) | **O(n^2)** | **O(1)** |
 | [183 -- 最长快乐字符串](https://leetcode-cn.com/problems/longest-happy-string/submissions/) | Medium | [*Sort+Greedy*](/Rank/183/183-3/solution1.js) | **O(nlogn)** | **O(1)** |
 | [183 -- 石子游戏 III](https://leetcode-cn.com/problems/stone-game-iii/solution/dp-yi-ge-zhuan-yi-fang-cheng-jie-jue-by-enko-2/) | Hard | [*DP*](/Rank/183/183-4/solution1.js) | **O(n)** | **O(n)** |
+| [184 -- 数组中的字符串匹配](https://leetcode-cn.com/problems/string-matching-in-an-array/) | Easy | [*String*](/Rank/184/1408/solution1.js) | **O(n^2)** | **O(n)** |
+| [184 -- 查询带键的排列](https://leetcode-cn.com/problems/queries-on-a-permutation-with-key/) | Medium | [*Array*](/Rank/184/1409/solution1.js) | **O(n^2)** | **O(n)** |
+| [184 -- HTML 实体解析器](https://leetcode-cn.com/problems/html-entity-parser/submissions/) | Medium | [*String*](/Rank/184/1410/solution1.js) | **--** | **--** |
+| [184 -- 给 N x 3 网格图涂色的方案数](https://leetcode-cn.com/problems/number-of-ways-to-paint-n-x-3-grid/submissions/) | Hard | [*DP*](/Rank/184/1411/solution1.js) | **O(n)** | **O(1)** |
 
