@@ -1,29 +1,29 @@
 // 第一种解法
 const minCost = function(n, cuts) {
   const cache = new Map();
-  return help(0, n, cache);
-
-  function help(left, right, cache) {
-    const cacheKey = `${left}-${right}`;
-    if (cache.has(cacheKey)) {
-      return cache.get(cacheKey);
-    }
-    let min = Number.MAX_SAFE_INTEGER;
-    for (let i = 0; i < cuts.length; i++) {
-      if (cuts[i] > left && cuts[i] < right) {
-        let cost = help(left, cuts[i], cache) + help(cuts[i], right, cache);
-        min = Math.min(min, cost);
-      }
-    }
-    if (min === Number.MAX_SAFE_INTEGER) {
-      min = 0
-    } else {
-      min += right - left;
-    }
-    cache.set(cacheKey, min);
-    return min;
-  }
+  return help(0, n, cuts, cache);
 };
+
+function help(left, right, cuts, cache) {
+  const cacheKey = `${left}-${right}`;
+  if (cache.has(cacheKey)) {
+    return cache.get(cacheKey);
+  }
+  let min = Number.MAX_SAFE_INTEGER;
+  for (let i = 0; i < cuts.length; i++) {
+    if (cuts[i] > left && cuts[i] < right) {
+      let cost = help(left, cuts[i], cuts, cache) + help(cuts[i], right, cuts, cache);
+      min = Math.min(min, cost);
+    }
+  }
+  if (min === Number.MAX_SAFE_INTEGER) {
+    min = 0
+  } else {
+    min += right - left;
+  }
+  cache.set(cacheKey, min);
+  return min;
+}
 
 // 第二种解法
 const minCost = function(n, cuts) {
