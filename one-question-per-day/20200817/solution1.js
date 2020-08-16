@@ -1,0 +1,20 @@
+/**
+ *  递归 记得返回当前节点的 高度 以及合法度
+ *  时间复杂度 O(n);
+ *  空间复杂度 O(1);
+ */
+const isBalanced = root => {
+  const ans = help(root);
+  return ans[1];
+}
+
+function help(root) {
+  if (!root) {
+    return [0, true];
+  }
+
+  const [leftHeight, isLeftValid] = help(root.left);
+  const [rightHeight, isRightValid] = help(root.right);
+  const isValid = Math.abs(leftHeight - rightHeight) <= 1;
+  return [Math.max(leftHeight, rightHeight) + 1, isValid && isLeftValid && isRightValid];
+}
