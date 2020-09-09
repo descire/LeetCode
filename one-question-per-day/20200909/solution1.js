@@ -1,28 +1,24 @@
+/**
+ * 回溯算法
+ */
 const combinationSum = function(candidates, target) {
   const ans = [];
-  const record = new Set();
-  dfs([]);
+  dfs([], target, 0);
   return ans;
-  function dfs(current) {
-    let sum = current.reduce((a, b) => a + b, 0);
-    if (sum === target) {
-      if (!record.has(current.sort().join(''))) {
-        record.add(current.sort().join(''));
-        ans.push([...current]);
-      }
+  function dfs(current, sum, index) {
+    if (index === candidates.length) {
+      return;
+    }
+    if (0 === sum) {
+      ans.push([...current]);
       return;
     }
 
-    if (sum > target) {
-      return;
-    }
-
-    for (let i = 0; i < candidates.length; i++) {
-      const item = candidates[i];
-      current.push(item);
-      dfs(current);
+    dfs(current, sum, index + 1);
+    if (sum - candidates[index] >= 0) {
+      current.push(candidates[index]);
+      dfs(current, sum - candidates[index], index);
       current.pop();
-      dfs(current);
     }
   }
 };
