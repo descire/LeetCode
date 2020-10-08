@@ -1,27 +1,22 @@
 /**
- * https://leetcode-cn.com/problems/sum-of-root-to-leaf-binary-numbers/
- * 
- * 1022. 从根到叶的二进制数之和
- * 
- * Easy
- * 
- * 80ms 94.55%
- * 36.4mb 100.00%
+ * 递归
+ * 时间复杂度 O(n)
+ * 空间复杂度 O(n)
  */
 const sumRootToLeaf = root => {
-  let sum = 0
-  dfs(root, '')
-
-  return sum
-
-  function dfs(root, path) {
+  let sum = 0;
+  const help = (root, path) => {
     if (!root) {
-      return
+      return;
     }
-    dfs(root.left, path + '' + root.val)
-    dfs(root.right, path + '' + root.val)
+    const newPath = path + '' + root.val;
     if (!root.left && !root.right) {
-      sum += Number.parseInt(path + '' + root.val, 2)
+      sum += Number.parseInt(newPath, 2);
     }
+    help(root.left, newPath);
+    help(root.right, newPath);
   }
+
+  help(root, '');
+  return sum;
 }
