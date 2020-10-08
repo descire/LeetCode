@@ -1,39 +1,34 @@
 /**
- * https://leetcode-cn.com/problems/cousins-in-binary-tree/
+ * 递归
  * 
- * 993. 二叉树的堂兄弟节点
- * 
- * Easy
- * 
- * 80ms 87.88%
- * 34.7mb 40.00%
+ * 时间复杂度 O(n)
+ * 空间复杂度 O(n)
  */
 const isCousins = (root, x, y) => {
+  let xRoot = null;
+  let xLevel = 0;
+  let yRoot = null;
+  let yLevel = 0;
 
-  let xRoot = null
-  let xLevel = 0
-  let yRoot = null
-  let yLevel = 0
-
-  preOrder(root, x, y, 0, null)
-
-  return (xRoot !== yRoot && xLevel === yLevel)
-
-  function preOrder(root, x, y, level, p) {
+  const help = (root, x, y, level, currentRoot) => {
     if (!root) {
-      return
+      return;
     }
-  
+
     if (root.val === x) {
-      xRoot = p
-      xLevel = level
+      xRoot = currentRoot;
+      xLevel = level;
     }
+
     if (root.val === y) {
-      yRoot = p
-      yLevel = level
+      yRoot = currentRoot;
+      yLevel = level;
     }
-  
-    preOrder(root.left, x, y, level + 1, root)
-    preOrder(root.right, x, y, level + 1, root)
+    help(root.left, x, y, level + 1, root);
+    help(root.right, x, y, level + 1, root);
   }
+
+  help(root, x, y, 0, null);
+
+  return (xRoot !== yRoot && xLevel === yLevel);
 }
