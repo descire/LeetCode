@@ -1,29 +1,25 @@
 /**
- * https://leetcode-cn.com/problems/minimum-absolute-difference-in-bst/
+ * 递归
  * 
- * 530. 二叉搜索树的最小绝对差
- * 
- * Easy
- * 
- * 116ms 85.71%
- * 38mb 51.72%
+ * 时间复杂度 O(n)
+ * 空间复杂度 O(n)
  */
 const getMinimumDifference = root => {
-  let ans = Number.MAX_SAFE_INTEGER
-  let pre = null
-  function inOrder (root) {
+  let ans = Number.MAX_SAFE_INTEGER;
+  let preValue = null;
+
+  const help = root => {
     if (!root) {
-      return
+      return 0;
     }
-    inOrder(root.left)
-    if (pre !== null) {
-      ans = Math.min(ans, Math.abs(root.val - pre))
+    help(root.left);
+    if (preValue !== null) {
+      ans = Math.min(ans, Math.abs(preValue - root.val));
     }
-    pre = root.val
-    inOrder(root.right)
+    preValue = root.val;
+    help(root.right);
   }
 
-  inOrder(root)
-
-  return ans
+  help(root);
+  return ans;
 }
