@@ -1,0 +1,28 @@
+{
+  "name": "LeetCode",
+  "version": "1.0.0",
+  "description": "> 用 JavaScript 刷 LeetCode 不丢人 😂",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/descire/LeetCode.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/descire/LeetCode/issues"
+  },
+  "homepage": "https://github.com/descire/LeetCode#readme",
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
