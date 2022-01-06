@@ -8,8 +8,6 @@ const replaceStr = (pre, next) => {
     }
 }
 const modifyString = function(s) {
-    const str = 'abcdefghijklmnopqrstuvwxyz';
-
     const ans = s.split('');
 
     for (let i = 0; i < ans.length; i++) {
