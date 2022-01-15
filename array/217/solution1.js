@@ -1,23 +1,21 @@
 /**
- * https://leetcode.com/problems/contains-duplicate/
+ * 哈希表
+ * 时间复杂度 O(n)
+ * 空间复杂度 O(n)
  * 
- * 217. Contains Duplicate
- * 
- * Easy
- * 
- * 60ms 98.10%
- * 
- * 40MB 70.65%
+ * 因为本题只需要记录是否重复，所以直接使用 JavaScript 中的 Set 数据结构记录是否重复即可。
+ * @param {*} nums 
+ * @returns 
  */
-const containsDuplicate = nums => {
-  const s = new Set()
-
-  for (let i = 0, max = nums.length; i < max; i++) {
-    const n = nums[i]
-    if (s.has(n)) {
-      return true
+const containsDuplicate = function(nums) {
+  const record = new Set();
+  for (let i = 0; i < nums.length; i++) {
+    if (!record.has(nums[i])) {
+      record.add(nums[i]);
+    } else {
+      return true;
     }
-    s.add(n)
   }
-  return false
-}
+
+  return false;
+};
