@@ -1,12 +1,16 @@
+/**
+ * 暴力解法
+ * 时间复杂度 O(n^2)
+ * 空间复杂度 O(1);
+ * @param {*} nums 
+ * @param {*} target 
+ */
 const twoSum = (nums, target) => {
-  const record = new Map();
-
   for (let i = 0; i < nums.length; i++) {
-    if (record.has(nums[i])) {
-      const preIndex = record.get(nums[i]);
-      return [preIndex, i];
-    } else {
-      record.set(target - nums[i], i);
+    for (let j = i + 1; j < nums.length; j++) {
+      if (nums[i] + nums[j] === target) {
+        return [i, j];
+      }
     }
   }
 }
