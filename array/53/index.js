@@ -8,7 +8,7 @@
  * @param {*} nums 
  */
 const maxSubArray = (nums) => {
-  let ans = 0
+  let ans = nums[0]
   let pre = nums[0];
 
   for (let i = 1; i < nums.length; i++) {
