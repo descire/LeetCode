@@ -1,9 +1,6 @@
 /**
- * https://leetcode.com/problems/reshape-the-matrix/
- * 
- * 566. Reshape the Matrix
- * 
- * Easy
+ * 时间复杂度：O(mn)
+ * 空间复杂度：O(rc)
  */
 const matrixReshape = (num, r, c) => {
   const result = []
