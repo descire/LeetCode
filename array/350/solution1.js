@@ -1,32 +1,29 @@
 /**
- * https://leetcode.com/problems/intersection-of-two-arrays-ii/
+ * 哈希表
  * 
- * 350. Intersection of Two Arrays II
+ * 时间复杂度 O(m + n)
+ * 空间复杂度 O(min(m + n))
  * 
- * Easy
- * 
- * 60ms 90.22%
- * 35.7mb 25.12%
  */
 const intersect = (nums1, nums2) => {
-  const map = new Map()
-  const result = []
-  for (let i = 0, max = nums2.length; i < max; i++) {
-    const num = nums2[i]
-    if (!map.has(num)) {
-      map.set(num, 0)
+  const record = new Map();
+  for (let i = 0; i < nums1.length; i++) {
+    const item = nums1[i];
+    if (!record.has(item)) {
+      record.set(item, 0);
     }
-    map.set(num, map.get(num) + 1)
+    record.set(item, record.get(item) + 1);
   }
 
-  for (let i = 0, max = nums1.length; i < max; i++) {
-    const num = nums1[i]
-    const count = map.get(num)
-    if (count) {
-      result.push(num)
-      map.set(num, count - 1)
+  const ans = [];
+
+  for (let i = 0; i < nums2.length; i++) {
+    const item = nums2[i];
+    if (record.get(item) > 0) {
+      record.set(item, record.get(item) - 1);
+      ans.push(item);
     }
   }
 
-  return result
+  return ans;
 }
