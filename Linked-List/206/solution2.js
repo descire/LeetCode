@@ -1,23 +1,17 @@
 /**
- * https://leetcode-cn.com/problems/reverse-linked-list/
+ * 递归
  * 
- * 206. 反转链表
+ * 时间复杂度：O(n)
+ * 空间复杂度：O(n)
  * 
- * Easy
- * 
- * 1 -> 2 -> 3 -> 4 -> 5
- * 
- * 68ms 96.28%
- * 34.9mb 46.38%
  */
 const reverseList = head => {
-  let reverseHead = null;
-  let currentHead = head;
-  while (currentHead) {
-    const nextTemp = currentHead.next;
-    currentHead.next = reverseHead;
-    reverseHead = currentHead;
-    currentHead = nextTemp;
+  if (!head || !head.next) {
+    return head;
   }
-  return reverseHead;
+
+  const newHead = reverseList(head.next);
+  head.next.next = head;
+  head.next = null;
+  return newHead;
 }
