@@ -1,24 +1,22 @@
 /**
- * https://leetcode-cn.com/problems/binary-tree-postorder-traversal/
- * 
- * 145. 二叉树的后序遍历
- * 
- * Hard
- * 
- * 80ms 73.54%
- * 34mb 5.76%
+ * 时间复杂度：O(n)
+ * 空间复杂度：O(n)
  */
 const postorderTraversal = root => {
-  const ans = []
-  dfs(root, ans)
+  const ans = [];
+  help(root, ans);
   return ans
 }
 
-function dfs(root, ans) {
+function help(root, ans) {
   if (!root) {
-    return
+    return;
   }
-  dfs(root.left, ans)
-  dfs(root.right, ans)
-  ans.push(root.val)
+
+  // 左
+  help(root.left, ans);
+  // 右
+  help(root.right, ans);
+  // 中
+  ans.push(root.val);
 }
