@@ -1,16 +1,12 @@
 /**
- * https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/
+ * 时间复杂度：O(n)
  * 
- * 104. 二叉树的最大深度
+ * 空间复杂度：O(height)
  * 
- * Easy
- * 
- * 88ms 90.87%
- * 37.1mb 46.80%
  */
 const maxDepth = root => {
   if (!root) {
-    return 0
+    return 0;
   }
-  return Math.max(maxDepth(root.left), maxDepth(root.right)) + 1
+  return Math.max(maxDepth(root.left), maxDepth(root.right)) + 1;
 }
