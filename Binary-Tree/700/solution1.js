@@ -1,25 +1,19 @@
 /**
- * 700. 二叉搜索树中的搜索
- * 
- * https://leetcode-cn.com/problems/search-in-a-binary-search-tree/
- * 
- * Easy
- * 
- * 116ms 90.57%
- * 42.3mb 15.47%
+ * 时间复杂度：O(n)
+ * 空间复杂度：O(n)
  */
 const searchBST = (root, val) => {
   if (!root) {
-    return null
+    return null;
   }
+
   if (root.val === val) {
-    return root
+    return root;
   }
 
   if (root.val > val) {
-    return searchBST(root.left, val)
-  }
-  if (root.val < val) {
-    return searchBST(root.right, val)
+    return searchBST(root.left, val);
+  } else {
+    return searchBST(root.right, val);
   }
 }
