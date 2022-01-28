@@ -1,32 +1,26 @@
 /**
- * https://leetcode-cn.com/problems/two-sum-iv-input-is-a-bst/
- * 
- * 653. 两数之和 IV - 输入 BST
- * 
- * Easy
- * 
- * 108ms 100%
- * 41.6mb 61.76%
+ * 时间复杂度：O(n)
+ * 空间复杂度：O(n)
  */
 
 const findTarget = (root, k) => {
-  let ans = false
-  const s = new Set()
-
-  inOrder(root)
-  return ans
-  function inOrder (root) {
+  let ans = false;
+  const record = new Set();
+  const help = (root) => {
     if (!root) {
-      return
+      return;
     }
 
-    inOrder(root.left)
-    const rest = k - root.val
-    if (s.has(rest)) {
-      ans = true
-      return
+    help(root.left);
+    const reset = k - root.val;
+    if (record.has(reset)) {
+      ans = true;
+      return;
     }
-    s.add(root.val)
-    inOrder(root.right)
+    record.add(root.val);
+    help(root.right);
   }
+
+  help(root);
+  return ans;
 }
