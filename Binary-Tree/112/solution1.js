@@ -1,22 +1,17 @@
 /**
- *  https://leetcode-cn.com/problems/path-sum/
- * 
- * 112. 路径总和
- * 
- * Easy
- * 
- * 96ms 84.76%
- * 37.5mb 8.05%
+ * 时间复杂度：O(n)
+ * 空间复杂度：O(height)
  */
 const hasPathSum = (root, sum) => {
   if (!root) {
-    return false
+    return false;
   }
   if (!root.left && !root.right) {
-    return root.val === sum
+    return root.val === sum;
   }
-  const rest = sum - root.val
-  const x = hasPathSum(root.left, rest)
-  const y = hasPathSum(root.right, rest)
-  return x || y
+
+  const reset = sum - root.val;
+  const x = hasPathSum(root.left, reset);
+  const y = hasPathSum(root.right, reset);
+  return x || y;
 }
