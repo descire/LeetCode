@@ -1,6 +1,6 @@
 /**
- * 时间复杂度：O(n)
- * 空间复杂度：O(1)
+ * 时间复杂度：O(n^2)
+ * 空间复杂度：O(n)
  */
 const checkSubarraySum = (nums, k) => {
   const length = nums.length;
@@ -14,13 +14,11 @@ const checkSubarraySum = (nums, k) => {
     preSum[i] = preSum[i - 1] + nums[i - 1];
   }
 
-  const record = new Set();
-
-  for (let i = 2; i <= length; i++) {
-    record.add(preSum[i - 2] % k);
-
-    if (record.has(preSum[i] % k)) {
-      return true;
+  for (let i = 0; i < length + 1; i++) {
+    for (let j = i + 2; j < length + 1; j++) {
+      if ((preSum[j] - preSum[i]) % k === 0) {
+        return true;
+      }
     }
   }
   return false;
