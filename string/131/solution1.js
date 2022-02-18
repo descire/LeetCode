@@ -1,9 +1,6 @@
 /**
- * https://leetcode.com/problems/palindrome-partitioning/
- * 
- * 131. Palindrome Partitioning
- * 
- * Medium
+ * 时间复杂度：O(n*2^n)
+ * 空间复杂度：O(2^n)
  */
 const partition = s => {
   const max = s.length
