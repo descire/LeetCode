@@ -7,31 +7,33 @@ const partition = s => {
   const ans = []
   const path = []
 
-  dfs(s, 0, path, ans)
+  backtrack(s, 0, path, ans, max);
   return ans
-  function dfs (s, pos, path, ans) {
-    if (pos === max) {
-      ans.push([...path])
-      return
-    }
-    for (let i = pos; i < max; i++) {
-      if (isPalindrome(s, pos, i)) {
-        path.push(s.substring(pos, i + 1))
-        dfs(s, i + 1, path, ans)
-        path.pop()
-      }
-    }
+}
+
+function backtrack(str, position, path, ans, max) {
+  if (position === max) {
+    return ans.push([...path]);
+  }
+
+  for (let i = position; i < max; i++) {
+    if (isPalindrome(str, position, i)) {
+      path.push(str.substring(position, i + 1))
+      backtrack(str, i + 1, path, ans, max);
+      path.pop();
+    } 
   }
 }
 
-function isPalindrome (s, i, j) {
-  for (let start = i, end = j; start <= end;) {
-    if (s[start] === s[end]) {
-      start++
-      end--
-      continue
+function isPalindrome(str, start, end) {
+  while (start < end) {
+    if (str[start] === str[end]) {
+      start++;
+      end--;
+    } else {
+      return false;
     }
-    return false
   }
-  return true
+
+  return true;
 }
