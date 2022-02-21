@@ -5,16 +5,28 @@
  * 空间复杂度：O(1)
  */
 var countSubstrings = function(s) {
-    const len = s.length;
     let ans = 0;
+    const max = s.length;
 
-    for (let i = 0; i < 2 * len - 1; i++) {
-        let start = Math.floor(i / 2);
-        let end = Math.floor(i / 2) + i % 2;
-        while (start >= 0 && end < len && s[start] === s[end] && s[start] !== undefined && s[end] !== undefined) {
+    for (let i = 0; i < max; i++) {
+        ans++;
+        let start = i - 1;
+        let end = i + 1;
+        while (start >= 0 && end < max && s[start] === s[end]) {
+            ans++;
             start--;
             end++;
+        }
+    }
+
+    for (let i = 1; i < max; i++) {
+        let start = i - 1;
+        let end = i;
+
+        while (start >= 0 && end < max && s[start] === s[end]) {
             ans++;
+            start--;
+            end++;
         }
     }
 
