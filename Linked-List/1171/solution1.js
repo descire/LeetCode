@@ -1,43 +1,32 @@
 /**
- * https://leetcode-cn.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/
- * 
- * 1171. 从链表中删去总和值为零的连续节点
- * 
- * Medium
- * 
- * 72ms 69.44%
- * 37mb 10.00%
+ * 时间复杂度：O(n)
+ * 空间复杂度：O(1)
  */
 const removeZeroSumSublists = head => {
-  if (!head) {
-    return head;
-  }
 
-  const dummy = new ListNode(0);
-  dummy.next = head;
+  const dummyHead = new ListNode(null);
+  dummyHead.next = head;
 
+  const sumRecord = new Map();
   let sum = 0;
-  const record = new Map();
-  record.set(sum, dummy);
+  sumRecord.set(sum, dummyHead);
 
-  while(head) {
+  while (head) {
     sum += head.val;
-    if (record.has(sum)) {
-      let removeHead = record.get(sum).next;
+    if (sumRecord.has(sum)) {
+      let removeHead = sumRecord.get(sum).next;
       let tempSum = sum;
-      // 清除之前的记录
-      while(removeHead !== head) {
+      while (removeHead !== head) {
         tempSum += removeHead.val;
-        record.delete(tempSum);
+        sumRecord.delete(tempSum);
         removeHead = removeHead.next;
       }
-      // 更新指向
-      record.get(sum).next = head.next;
+      sumRecord.get(sum).next = head.next;
     } else {
-      record.set(sum, head);
+      sumRecord.set(sum, head);
     }
     head = head.next;
   }
 
-  return dummy.next;
+  return dummyHead.next;
 }
