@@ -1,45 +1,40 @@
 /**
- * https://leetcode-cn.com/problems/add-two-numbers-ii/
- * 
- * 445. 两数相加 II
- * 
- * Medium
- * 
- * 140ms 66.67%
- * 38.6mb 81.25%
+ * 时间复杂度：O(max(n, m))
+ * 空间复杂度：O(1)
  */
 const addTwoNumbers = (l1, l2) => {
-  let c1 = reverseLinkedList(l1);
-  let c2 = reverseLinkedList(l2);
+  const ans = new ListNode(null);
 
-  let current1 = c1;
-  let current2 = c2;
-  let isOne = true;
-  let count = 0;
-  while (current1 || current2) {
+  let currentHead = ans;
+  let carry = 0;
 
-    const total = (current1 ? current1.val : 0) + (current2 ? current2.val : 0) + count;
-    current1 && (current1.val = total % 10);
-    current2 && (current2.val = total % 10);
-    count = Math.floor(total / 10);
-    // 记录哪一个最长
-    if (!current1 && current2) {
-      isOne = false;
+  l1 = reverseLinkedList(l1);
+  l2 = reverseLinkedList(l2);
+
+  while (l1 || l2) {
+    const x = (l1 && l1.val) || 0;
+    const y = (l2 && l2.val) || 0;
+
+    const sum = x + y + carry;
+    if (sum >= 10) {
+      carry = 1;
+    } else {
+      carry = 0;
     }
-    current1 && (current1 = current1.next);
-    current2 && (current2 = current2.next);
+
+    currentHead.next = new ListNode(sum % 10);
+    currentHead = currentHead.next;
+
+    l1 && (l1 = l1.next);
+    l2 && (l2 = l2.next);
   }
 
-  let ans = new ListNode(count); // 边缘情况处理
-  if (!isOne) {
-    ans.next = reverseLinkedList(c2);
-  } else {
-    ans.next = reverseLinkedList(c1);
+  if (carry > 0) {
+    currentHead.next = new ListNode(carry);
   }
-  if (count) {
-    return ans;
-  }
-  return ans.next;
+
+  return reverseLinkedList(ans.next);
+
 }
 
 function reverseLinkedList(head) {
@@ -49,11 +44,13 @@ function reverseLinkedList(head) {
 
   let nextHead = head.next;
   head.next = null;
+
   while (nextHead) {
-    const tempNext = nextHead.next;
+    const temp = nextHead.next;
     nextHead.next = head;
     head = nextHead;
-    nextHead = tempNext;
+    nextHead = temp;
   }
+
   return head;
 }
