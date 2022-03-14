@@ -1,31 +1,44 @@
 /**
- * https://leetcode-cn.com/problems/reverse-linked-list-ii/
- * 
- * 92. 反转链表 II
- * 
- * Medium
- * 
- * O(n)
- * 
- * 64ms 72.54%
- * 34,2mb 5.76%
+ * 时间复杂度：O(n)
+ * 空间复杂度：O(1)
  */
 const reverseBetween = (head, m, n) => {
-  // m = 1 时，头节点的问题
-  const newHead = new ListNode(-1);
-  newHead.next = head;
+  const dummyHead = new ListNode(null);
+  dummyHead.next = head;
 
-  let preHead = newHead;
-  for (let i = 0; i< m - 1; i++) {
+  let preHead = dummyHead;
+
+  for (let i = 0; i < m - 1; i++) {
     preHead = preHead.next;
   }
 
-  let currentHead = preHead.next;
-  for (let i = m; i < n; i++) {
-    const nextHead = currentHead.next;
-    currentHead.next = nextHead.next;
-    nextHead.next = preHead.next;
-    preHead.next = nextHead;
+  let rightHead = preHead;
+  for (let i = 0; i < n - m + 1; i++) {
+    rightHead = rightHead.next;
   }
-  return newHead.next;
+
+  let leftHead = preHead.next;
+  let sufHead = rightHead.next;
+
+  preHead.next = null;
+  rightHead.next = null;
+  
+  reverseLinkedList(leftHead);
+
+  preHead.next = rightHead;
+  leftHead.next = sufHead;
+
+  return dummyHead.next;
+}
+
+function reverseLinkedList(head) {
+  let pre = null;
+  let current = head;
+
+  while (current) {
+    const next = current.next;
+    current.next = pre;
+    pre = current;
+    current = next;
+  }
 }
