@@ -1,17 +1,6 @@
 /**
- * https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/
- * 
- * 889. 根据前序和后序遍历构造二叉树
- * 
- * Medium
- * 
- * 根 左 右
- * 
- * 左 右 根
- * 
- * 104ms 89.29%
- * 
- * 36.3mb 43.75%
+ * 时间复杂度：O(n)
+ * 空间复杂度：O(n)
  * 
  */
 const constructFromPrePost = (pre, post) => {
