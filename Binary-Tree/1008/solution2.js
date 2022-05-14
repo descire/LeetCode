@@ -1,4 +1,10 @@
 
+const bstFromPreorder = (preorder) => {
+  const inorder = preorder.map(item => item).sort((a, b) => a - b);
+
+  return buildTree(preorder, inorder);
+}
+
 const buildTree = (preorder, inorder) => {
   if (preorder.length === 0) {
     return null;
