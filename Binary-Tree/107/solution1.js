@@ -1,32 +1,29 @@
 /**
- * 107. 二叉树的层次遍历 II
- * 
- * https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii/
- * 
- * 
- * Easy
- * 
- * 64ms 100%
- * 35mb 11.80%
+ * 时间复杂度：O(n)
+ * 空间复杂度：O(n)
  */
 const levelOrderBottom = root => {
-  const ans = []
   if (!root) {
-    return ans
+      return [];
   }
-  const queue = [root]
+
+  const ans = [];
+  let queue = [root];
+
   while (queue.length) {
-    const temp = []
-    const max = queue.length
-    for (let i = 0; i < max; i++) {
-      const item = queue.pop()
-      if (item) {
-        temp.push(item.val)
-        item.left && queue.unshift(item.left)
-        item.right && queue.unshift(item.right)
+      const len = queue.length;
+      const item = [];
+      const _queue = [];
+      for (let i = 0; i < len; i++) {
+      const currentRoot = queue[i];
+      item.push(currentRoot.val);
+
+      currentRoot.left && _queue.push(currentRoot.left);
+      currentRoot.right && _queue.push(currentRoot.right);
       }
-    }
-    ans.unshift(temp)
+      queue = _queue;
+      ans.push(item);
   }
-  return ans
+  ans.reverse();
+  return ans;
 }
