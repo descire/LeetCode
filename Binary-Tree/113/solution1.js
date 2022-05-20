@@ -1,26 +1,24 @@
+/**
+ * 时间复杂度：O(n)
+ * 空间复杂度：O(n)
+ */
 const pathSum = (root, sum) => {
-  
-  const ans = []
+  const ans = [];
+  dfs(root, sum, [], ans);
+
+  return ans;
+}
+
+function dfs(root, sum, path, ans) {
   if (!root) {
-    return ans
+    return;
   }
 
-  order(root, sum, String(root.val))
-
-  return ans
-
-  function order (root, sum, path) {
-    if (!root) {
-      return
-    }
-
-    if (!root.left && !root.right && sum === root.val) {
-      ans.push(path.split(','))
-      return
-    }
-
-    root.left && order(root.left, sum - root.val, path + ',' + root.left.val)
-    root.right && order(root.right, sum - root.val, path + ',' + root.right.val)
-
+  const _sum = sum - root.val;
+  if (!root.left && !root.right && _sum === 0) {
+    ans.push([...path, root.val])
   }
+
+  dfs(root.left, _sum, [...path, root.val], ans);
+  dfs(root.right, _sum, [...path, root.val], ans);
 }
