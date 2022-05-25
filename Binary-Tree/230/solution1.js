@@ -1,30 +1,25 @@
 /**
- * 230. 二叉搜索树中第K小的元素
+ * 时间复杂度：O(n)
+ * 空间复杂度：O(n)
  * 
- * https://leetcode-cn.com/problems/kth-smallest-element-in-a-bst/
- * 
- * Medium
- * 
- * 96ms 90.91%
- * 39.3mb 51.39%
  */
 const kthSmallest = (root, k) => {
-  let ans = null
-  let count = 0
-  if (!root) {
-    return ans
-  }
-  inOrder(root)
-  return ans
-  function inOrder(root) {
+  let ans = 0;
+  let count = 0;
+
+  const dfs = (root) => {
     if (!root) {
-      return
+      return;
     }
-    inOrder(root.left)
+    dfs(root.left);
     if (++count === k) {
-      ans = root.val
-      return
+      ans = root.val;
+      return;
     }
-    inOrder(root.right)
+    dfs(root.right);
   }
+
+  dfs(root);
+
+  return ans;
 }
