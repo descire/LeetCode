@@ -1,25 +1,19 @@
 /**
- * https://leetcode-cn.com/problems/insert-into-a-binary-search-tree/
- * 
- * 701. 二叉搜索树中的插入操作
- * 
- * Medium
- * 
- * 168ms 66.67%
- * 42.3mb 9.09%
+ * 时间复杂度：O(n)
+ * 空间复杂度：O(1)
  */
 const insertIntoBST = (root, val) => {
   if (!root) {
-    return new TreeNode(val)
+    return new TreeNode(val);
   }
 
   if (root.val > val) {
-    root.left = insertIntoBST(root.left, val)
+    root.left = insertIntoBST(root.left, val);
   }
 
   if (root.val < val) {
-    root.right = insertIntoBST(root.right, val)
+    root.right = insertIntoBST(root.right, val);
   }
 
-  return root
+  return root;
 }
