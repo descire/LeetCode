@@ -5,18 +5,19 @@
  */
 const sumRootToLeaf = root => {
   let sum = 0;
-  const help = (root, path) => {
+  const dfs = (root, path) => {
     if (!root) {
       return;
     }
-    const newPath = path + '' + root.val;
+    path += String(root.val);
     if (!root.left && !root.right) {
-      sum += Number.parseInt(newPath, 2);
+      sum += Number.parseInt(path, 2);
+      return;
     }
-    help(root.left, newPath);
-    help(root.right, newPath);
-  }
 
-  help(root, '');
+    dfs(root.left, path);
+    dfs(root.right, path);
+  }
+  dfs(root, '');
   return sum;
 }
